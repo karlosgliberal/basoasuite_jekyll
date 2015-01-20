@@ -1,0 +1,82 @@
+# menu principal
+es:
+	menu:
+ 		inicio: INICIO
+en:
+	menu:
+ 		inicio: HOME
+cat:
+	menu:
+ 		inicio: INICI
+eu:
+	menu:
+ 		inicio: HASIERA
+fr:
+	menu:
+ 		inicio: DEBUT
+
+es:
+	menu:
+ 		proponemos: TE PROPONEMOS
+en:
+	menu:
+ 		proponemos: WE PROPOSE
+cat:
+	menu:
+ 		proponemos: ET PROPOSEM
+eu:
+	menu:
+ 		proponemos: PROPOSATZEN DIZUGU
+fr:
+	menu:
+ 		proponemos: VOUS PROPOSONS
+
+es:
+	menu:
+ 		ofrecemos: TE OFRECEMOS
+en:
+	menu:
+ 		ofrecemos: WE PROPOSE
+cat:
+	menu:
+ 		ofrecemos: T'OFERIM
+eu:
+	menu:
+ 		ofrecemos: ESKAINTZEN DIZUGU
+fr:
+	menu:
+ 		ofrecemos: NOUS VOUS OFFRONS
+
+
+es:
+	menu:
+ 		entorno: TE OFRECEMOS
+en:
+	menu:
+ 		entorno: SURROUNDINGS
+cat:
+	menu:
+ 		entorno: ENTORN
+eu:
+	menu:
+ 		entorno: INGURUNEA
+fr:
+	menu:
+ 		entorno: ENVIRONNEMENT
+
+
+es:
+	menu:
+ 		compromisos: COMPROMISOS
+en:
+	menu:
+ 		compromisos: COMMITMENTS
+cat:
+	menu:
+ 		compromisos: COMPROMISOS
+eu:
+	menu:
+ 		compromisos: KONPROMISOAK 
+fr:
+	menu:
+ 		compromisos: COMPROMIS
