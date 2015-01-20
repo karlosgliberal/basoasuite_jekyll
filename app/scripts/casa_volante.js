@@ -12,7 +12,7 @@ $(document).ready(function(){
         MouseConstraint = Matter.MouseConstraint,
         Mouse = Matter.Mouse;
 
-    var Demo = {};
+
 
     var _engine,
         _mouseConstraint,
@@ -22,7 +22,7 @@ $(document).ready(function(){
     
     // initialise the demo
 
-    Demo.init = function() {
+    function init(){
         var container = document.getElementById('canvas-container');
 
         // some example engine options
@@ -50,22 +50,24 @@ $(document).ready(function(){
         if (window.location.hash.length !== 0) 
             _sceneName = window.location.hash.replace('#', '').replace('-inspect', '');
         // set up a scene with bodies
-        Demo[_sceneName]();
+        //Demo[_sceneName]();
+        casas();
     };
 
     // call init when the page has loaded fully
 
-    if (window.addEventListener) {
-        window.addEventListener('load', Demo.init);
-    } else if (window.attachEvent) {
-        window.attachEvent('load', Demo.init);
-    }
+    // if (window.addEventListener) {
+    //     window.addEventListener('load', Demo.init);
+    // } else if (window.attachEvent) {
+    //     window.attachEvent('load', Demo.init);
+    // }
 
+    init();
 
-    Demo.chains = function() {
+    function casas() {
       var _world = _engine.world,
       groupId = Body.nextGroupId();
-      Demo.reset();
+      reset();
       // _world.bounds.max.x = 80;
       // _world.bounds.max.y = 80
       groupId = Body.nextGroupId( );        
@@ -77,8 +79,6 @@ $(document).ready(function(){
       
           console.log(ropeB.bodies.length); 
       Composites.chain(ropeB, 0, 0, 0, 0, { stiffness: 0.4, length: 4});
-      ropeB.bodies[13].positionPrev.x = 100;
-      ropeB.bodies[13].positionPrev.y = -30;
 
       ropeB.bodies[13]['render']['sprite']['texture'] = texture; 
 
@@ -97,7 +97,7 @@ $(document).ready(function(){
       })
     };
     
-    Demo.reset = function() {
+    function reset() {
       var _world = _engine.world;
 
       World.clear(_world);

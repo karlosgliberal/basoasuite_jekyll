@@ -1,3 +1,797 @@
 {% assign i18n = include.i18n %}
 
-<h1>{{ i18n.actividad.titulo1 }}</h1>
+<!-- Empieza Home principal -->
+<div id="home" class="home">
+   <h1 class="ident">{{ i18n.actividad.titulo1 }}</h1>
+    <!-- Menu principal -->
+    <div class="menu-principal">
+      <nav id="menu-principal" class="navbar navbar-default" role="navigation">
+       <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+          </div>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                   <li>
+                     <ul class="idiomas">
+                       <li><a href="/">ESP</a></li>
+                       <li><a href="/">EUS</a></li>
+                       <li><a href="/">CAT</a></li>
+                       <li><a href="/">ENG</a></li>
+                      </ul>
+                    </li>
+                      <li class="menu-home" id="inicio-menu active"><a href="#inicio">Inicio</a></li>
+                      <li class="menu-home" id="proponemos-menu"><a href="#proponemos">Te proponemos</a></li>
+                      <li class="menu-home" id="ofrecemos-menu"><a href="#ofrecemos">Te ofrecemos</a></li>
+                      <li class="menu-home" id="entorno-menu"><a href="#entorno">El entorno</a></li>
+                      <li class="menu-home" id="nosotros-menu"><a href="#nosotros">Nosotros</a></li>
+                      <li class="menu-home" id="compromisos-menu"><a href="#compromisos">Compromisos</a></li>
+                      <li class="menu-home dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ver suites<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="meanu">
+                          <li><a href="http://basoasuites.lodgify.com/es/463038/01-suite-belea2" target="_blank">Belea</a></li>
+                          <li><a href="http://basoasuites.lodgify.com/es/463110/04-suite-bedats2" target="_blank">Bedats</a></li>
+                          <li><a href="http://basoasuites.lodgify.com/es/463037/02-suite-beigorri" target="_blank">Beigorri</a></li>
+                          <li><a href="http://basoasuites.lodgify.com/es/463084/03-suite-okolin" target="_blank">Okolin</a></li>
+                        </ul>
+                      </li>
+                      <li class="menu-home" id="compromisos-menu"><a href="http://basoasuites.lodgify.com/es/463013/propiedades" targert="_blank">Reservas</a></li>
+                      <li class="menu-home" id="actividades-menu"><a href="#actividades">Actividades</a></li>
+                    </ul>
+                  </div>
+                </div>
+        </nav>
+    </div>
+    <!--  Fin de menu principal -->
+  <!--    Secciones Home principal   -->
+  <!--   Seccion inicial -->
+  <div class="section principal" id="home-inicio">
+    <div class="texto-home-container">
+     <div class="texto-home-wrapper center ocultar">
+      <div class="divide50"></div>
+       <p class="nosotros uppercase">Nosotros ponemos el bosque</p>
+       <p class="historia uppercase">La historia la decides tú</p>
+       <div class="divide20"></div>
+       <div class="boton-play">
+        <a href="#"><img src="/images/player.png"></a>
+        <p class="mt10"><a class="link-video" href="/">Ver vídeo</a></p>
+       </div>
+     </div>
+    </div>
+
+    <!-- Video -->
+    <div class="texto-video-wrapper center video-basoa">
+      <div class="divide100"></div>
+      <div class="cerrar"><a href="#"><span class="glyphicon glyphicon-remove white"></span></a></div>
+        <div class="video-player"></div>
+      <div class="divide100"></div>
+    </div>
+    <!-- Fin de Video -->
+
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-down scroll-down scroll-first"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+  </div>
+  <!-- Fin de Seccion inicial -->
+
+  <!-- Seccion te proponemos -->
+  <div class="section proponemos" id="home-te-proponemos">
+   <div class="texto-home-container proponemos-container">
+     <div class="texto-home-wrapper">
+         <p class="title-seccion-home">Te proponemos</p>
+         <p class="texto-secciones">Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente. Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. 
+        <br>Nosotros ponemos el bosque, la historia la decides tú.
+        </p>
+     </div>
+    </div>
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up"></i>
+        <i class="glyphicon glyphicon-chevron-down scroll-down"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+  </div>
+ <!-- Fin Seccion te proponemos -->
+  <!-- Seccion te ofrecemos -->
+  <div class="section ofrecemos" id="home-te-ofrecemos">
+   <div class="texto-home-container ofrecemos-container">
+     <div class="texto-home-wrapper">
+         <p class="title-seccion-home">Te ofrecemos</p>
+         <p class="texto-secciones">Cuatro preciosas Suites dobles construidas a gran altura sobre los troncos de robles centenarios. Cada suite cuenta con terraza, baño seco, calefacción y todas las comodidades necesarias para tu estancia. Te serviremos el desayuno en una cesta que tú mismo subirás a la suite por medio de una polea y las cenas serán en el edificio de servicios Casa Amati. Desayunos y cenas están elaborados con productos naturales de la zona y puedes además configurar tu estancia a tu gusto: unas copas, un buen vino, una botella de cava...
+          <br>
+          La historia la decides tú..
+        </p>
+     </div>
+    </div>
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up"></i>
+        <i class="glyphicon glyphicon-chevron-down scroll-down"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+  </div>
+  <!-- Fin Seccion te ofrecemos -->
+  <!-- Seccion entorno -->
+  <div class="section entorno" id="home-entorno">
+   <div class="texto-home-container entorno-container">
+     <div class="texto-home-wrapper">
+      <div class="img-estamos"><a href="https://www.google.es/maps/place/31797+Larraintzar/@42.9823051,-1.6870911,16z/data=!4m2!3m1!1s0xd50f04808c80a01:0x5f6f58693ab544d6" target="_blank"><img class="right" src="/images/mapa.png" alt="mapa-basoa"></a></div>
+      <div class="center"><img class="floritura-mini" src="images/flori.png"></div>
+         <p class="texto-secciones">
+          El Robledal de Amati es una pequeña joya ecológica y un entorno protegido de especial interés arbóreo y ornitológico. Se trata de
+          un tipo de robledal de humedal de llanura que es exclusivo de algunas zonas concretas de Álava y Navarra.
+        </p>
+        <divide class="60"></divide>
+        <p class="texto-secciones">Se encuentra en en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía...</p>
+        <p class="texto-secciones center"><a href="https://www.google.es/maps/place/31797+Larraintzar/@42.9823051,-1.6870911,16z/data=!4m2!3m1!1s0xd50f04808c80a01:0x5f6f58693ab544d6" target="_blank">Ver mapa</a></p>
+     </div>
+    </div>
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up"></i>
+        <i class="glyphicon glyphicon-chevron-down scroll-down"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll</p> 
+    </div>
+  </div>
+  <!-- Fin Seccion entorno -->
+    <!-- Seccion nosotros -->
+    <div class="section nosotros-s" id="home-nosotros">
+     <div class="texto-home-container estamos-container">
+       <div class="texto-home-wrapper">
+           <p class="title-seccion-home">Nosotros</p>
+           <p class="texto-secciones">Nos gusta trabajar y vivir en la naturaleza y aunque tenemos los pies en la tierra, nos gusta subirnos a los árboles. En el año 2003 creamos una empresa pionera de construcción de parques de aventura en árboles. Desde entonces hemos construido diversos parques de aventura además de recorridos naturales en árboles, así como adaptados a personas discapacitadas. Pronto surgió la idea de ir más allá y nos preguntamos por la posibilidad de dormir en lo alto de en un árbol ¿Cómo sería la experiencia de estar completamente inmersos en el bosque? Así comenzó a gestarse Basoa Suites.
+          </p>
+       </div>
+     </div>
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up"></i>
+        <i class="glyphicon glyphicon-chevron-down scroll-down"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+  </div>
+  <!-- Fin Seccion nosotros -->
+  <!-- Seccion compromisos -->
+  <div class="section compromisos" id="home-compromisos">
+   <div class="texto-home-container compromisos-container">
+     <div class="texto-home-wrapper">
+         <p class="title-seccion-home">Compromisos</p>
+         <p class="texto-secciones">En Basoa Suites creemos en un turismo diferente y por ello promovemos un turismo sostenible y respetuoso. Elegimos materiales y técnicas de construcción que causen el mínimo impacto en el árbol y el entorno. Nuestras construcciones en árboles están supervisadas por ingenieros forestales especialistas en árboles que nos orientan sobre el tipo de anclajes, cargas admisibles y sistemas de colocación con el fin de no dañar los ejemplares utilizados ni la masa arbórea.
+          <br>
+          Nuestras Suites cuentan con un sistema de baño seco, así evitamos la instalación de tuberías y desagües en el interior del bosque. Además hemos construido pasarelas de madera elevadas para evitar la compactación del suelo, dirigir la circulación a los caminos y garantizar que el suelo y la flora no sufran el impacto de nuestra presencia. Por último, promovemos la observación del bosque bajo el convencimiento que cuanto más sepamos sobre los bosques mejor los cuidaremos.
+        </p>
+     </div>
+    </div>
+    <div class="scroll-container">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up"></i>
+        <i class="glyphicon glyphicon-chevron-down scroll-down"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+  </div>
+  <!-- Fin Seccion compromisos -->
+  <!-- Seccion actividades -->
+  <div class="section actividades" id="home-actividades">
+   <div class="texto-home-container actividades-container">
+     <div class="texto-home-wrapper">
+      <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb20">
+        <p>Aqui puedes encontrar algunos enlaces de los recursos gatronómicos, naturales, turisticos...en la zona.</p>
+        <p class="border-actividad">ACTIVIDADES</p>
+        <div class="center">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <a href="http://www.parquemicologico.com/" target="_blank">
+              <img src="/images/a-ultzama.png" alt="Parque micologico">
+              <p>Parque micológico</p>
+            </a>
+          </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <a href="http://www.bosque-orgi.com/" target="_blank">
+              <img src="/images/a-orgi.png" alt="Bosque de orgi">
+              <p>bosque de Orgi</p>
+            </a>
+          </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <a href="http://www.hipicaulzama.es/" target="_blank">
+              <img src="/images/a-hipica.png" alt="Centro de hípica">
+              <p>Centro de hípica</p>
+             </a>
+          </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <a href="http://www.golfulzama.com/" target="_blank">
+              <img src="/images/a-golf.png" alt="Campo de golf">
+              <p>Campo de golf</p>
+            </a>
+          </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <a href="http://www.lizasogolf.com/" target="_blank">
+              <img src="/images/a-golf2.png" alt="Centro de golf">
+              <p>Centro de golf</p>
+             </a>
+          </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+             <a href="http://www.valledeultzama.com/turismo-en-la-zona/museo-de-la-miel/" target="_blank">
+              <img src="/images/a-miel.png" alt="Museo de la miel">
+              <p>Museo de la miel</p>
+            </a>
+          </div>
+         </div>
+        </div>  
+  
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <p class="border-actividad">RESTAURACIÓN</p>
+            <div class="center">
+            <a href="http://www.orgirestaurante.com/" target="_blank">
+              <img src="/images/a-restaurante.png" alt="Restaurante Bar">
+              <p>Restaurante Bar</p>
+            </a>
+            </div>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <p class="border-actividad">INFORMACIÓN DE TURISMO</p>
+            <div class="center">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <a href="http://www.valledeultzama.com/" target="_blank">
+                <img src="/images/a-valle.png" alt="Web del valle">
+                <p>Portal web del valle</p>
+              </a>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+              <a href="http://www.turismo.navarra.es/esp/home/" target="_blank">
+                <img src="/images/a-reino.png" alt="Turismo de Navarra">
+                <p>Turismo de Navarra</p>
+              </a>
+            </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <p class="border-actividad">COLABORADORES</p>
+            <div class="center">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+               <a href="https://www.facebook.com/pages/Carpinter%C3%ADa-Sotokua-trabajos-y-decoraci%C3%B3n-en-madera/167843316584318?sk=timeline" target="_blank">
+                <img src="/images/a-sotokua.png" alt="Carpinteria Sotokua">
+                <p>Carpintería Sotokua</p>
+              </a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <a href="http://www.iribarren.es/home.php" target="_blank">
+                <img src="/images/a-iribarren.png" alt="Decoración y Textil">
+                <p>Decoración y Textil</p>
+              </a>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <a href="http://www.funtsak.com" target="_blank">
+                <img src="/images/a-funtsak.png" alt="Funtsak">
+                <p>Fun.tsak Comunicación</p>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+<div class="scroll-container ultima">
+      <div class="scroll-rounded">
+        <i class="glyphicon glyphicon-chevron-up scroll-up scroll-last"></i>
+      </div>
+      <p class="texto-scroll uppercase white">Scroll </p> 
+    </div>
+    <div class="logos center">
+      <img class="logos-t" src="/images/logos.png" alt="Logos">
+    </div>
+  </div>
+  <!-- Fin Seccion actividades -->
+</div>
+<!-- Fin de Home principal -->
+<!-- Home de Casas -->
+<div class="home-casas">
+  <!-- Menu lateral Basoa -->
+ <div class="basoa-menu">
+    <div class="logo-footer">
+      <div id="canvas-container"></div>
+      <img src="images/logo-texto.png" alt="Basoa suites">
+    </div>
+
+    <div class=" mt10 texto-footer uppercase">
+      ¿Una suite en lo alto de un árbol?
+    </div>
+    <div class="botones-wrapper">
+         <div class="wrapper-reservar">
+          <a id="boton-casas" class="basoa-btn basoaSlide-control right uppercase boton-casas green" href="#">Descubre las suites</a> 
+         </div>
+         <div class="wrapper-reservar"> 
+          <a id="boton-reservar" class="basoa-btn basoaSlide-control right uppercase orange boton-reservar" href="http://basoasuites.lodgify.com/es/463013/propiedades">Reservar</a> 
+        </div>
+         <div class="wrapper-reservar"> 
+          <a id="boton-regalar" class="basoa-btn basoaSlide-control right uppercase blue boton-regalar" data-toggle="modal" data-target="#form-regalar" href="#">Regalar</a>
+
+        </div>
+       <div>
+         <a  id="boton-volver" class="boton-opacity boton-volver basoa-btn basoa-btn-close basoaSlide-control right uppercase orange" href="#">Volver</a>
+       </div>
+    </div>
+    <div class="elementos-menu">
+       <div class="iconos-footer">
+          <ul class="localizacion">
+            <li class="mail"><a class="ico-footer" href="mailto:info@basoasuites.com" target="_blank"><i class="iconos-footer-item icon-mail"></i></a></li>
+            <li class="face"><a href="https://es-es.facebook.com/BasoaSuites" target="_blank"><i class="iconos-footer-item icon-facebook"></i></a></li>
+            <li class="pinterest"><a href="http://www.pinterest.com/basoasuites/" target="_blank"><i class="iconos-footer-item icon-pinterest-circled"></i></a></li>
+            <li class="instagram"><a href="http://www.instagram.com/basoasuites" target="_blank"><i class="iconos-footer-item icon-instagramm"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-push-1 col-md-10">
+        <div class="texto-footer-final">
+          <p> BASOA SUITES, Lizaso, Navarra. </p>
+          <img class="pull-right" src="/images/mapa-icon.png">
+          <p>+34 659 040 079<br>+34 608 300 249</p>
+        </div>
+        <div class="newsletter-wrapper">
+            <div id="mail-enb">
+              <span class="uppercase label-news">Recibir Newsletter</span>
+                  <form action="//basoasuites.us8.list-manage.com/subscribe/post?u=a7eb671d3f59135759c468fe2&amp;id=a583d4a1bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate="">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required="">
+                         <div style="position: absolute; left: -5000px;">
+                              <input type="text" name="b_f3f0a1cfd66c6c9b86f06a1f0_1db0888558" tabindex="-1" value="">
+                          </div>
+                      </div>
+                    </div>
+                    <input type="submit" value="Enviar" name="suscribe" id="mc-embedded-subscribe" class="btn btn-news pull-rigth">
+                  </form>                  
+            </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <!-- Modal form -->
+<div class="modal modal-basoa-one fade" id="form-regalar" tabindex="-1" role="dialog" aria-labelledby="Regalar" aria-hidden="true">
+  <div class="modal-dialog modal-basoa">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="col-md-push-1 col-md-10">
+          <form class="form-horizontal">
+            <fieldset>
+        
+                <h3>Tarjeta Regalo</h3>
+                <p>Regalar Basoa Suites es regalar una experiencia única. Aquí personalizaremos tu regalo. Seguro que aciertas. Vamos allá.</p>
+                <div class="divide10"></div>
+                <!-- Suites -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="checkboxes">Elige una de nuestras suites</label>
+                  <div class="col-md-8">
+                    <div class="checkbox">
+                      <label for="checkboxes-suite-0">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-0" value="1">
+                        Suite Belea (120€)
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label for="checkboxes-suite-1">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-1" value="1">
+                        Suite Beigorri (110€)
+                      </label>
+                    </div>
+                      <div class="checkbox">
+                      <label for="checkboxes-suite-2">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-2" value="1">
+                        Suite Okolin (130€)
+                      </label>
+                    </div>
+                      <div class="checkbox">
+                     <label for="checkboxes-suite-3">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-3" value="1">
+                        Suite Bedats (130€)
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- Noches suite-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="textinput">¿Cuantas noches quieres regalar?</label> 
+                  <div class="col-md-8">
+                  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                  </div>
+                </div>
+                <!-- Extras -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="checkboxes">¿Quieres algun extra?</label>
+                  <div class="col-md-8">
+                  <div class="checkbox">
+                    <label for="checkboxes-extras-0">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-0" value="1">
+                      Cena romántica en casa Amati (25 € / persona)
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label for="checkboxes-extras-1">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-1" value="2">
+                      Cena informal en la suite (15€ / persona)
+                    </label>
+                  </div>
+                    <div class="checkbox">
+                    <label for="checkboxes-extras-2">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-2" value="2">
+                      Botella de cava en la suite (15€)
+                    </label>
+                  </div>
+                    <div class="checkbox">
+                    <label for="checkboxes-extras-3">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
+                     Ramo de flores (25€)
+                    </label>
+                  </div>
+                    <div class="checkbox">
+                    <label for="checkboxes-extras-4">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-4" value="2">
+                      ¿Algun detalle original?
+                    </label>
+                    <textarea class="form-control mt10" id="textarea" name="textarea" placeholder="Cuéntanos"></textarea>
+                  </div>
+                  <div class="checkbox">
+                    <label for="checkboxes-1">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
+                      No quiero extras, gracias)
+                    </label>
+                  </div>
+                  </div>
+                </div>
+
+                <!-- Recibir tarjeta regalo -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="checkboxes">¿Como quieres recibir tu tarjeta regalo?</label>
+                  <div class="col-md-8">
+                  <div class="checkbox">
+                    <label for="checkboxes-0">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                      Enviar un pdf por e-mail
+                    </label>
+                      <!-- Text input-->
+                      <div class="form-group mt10">
+                        <label class="col-md-4 control-label" for="textinput">Mi nombre</label>  
+                        <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                      </div>
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Mi e-mail</label>  
+                        <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                      </div>
+                  </div>
+                  <div class="checkbox">
+                    <label for="checkboxes-1">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                     Enviadme una tarjeta de regalo impresa
+                    </label>
+                      <!-- Text input-->
+                      <div class="form-group mt10">
+                        <label class="col-md-4 control-label" for="textinput">Mi nombre</label>  
+                        <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                      </div>
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Mi e-mail</label>  
+                        <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                      </div>
+                      <!-- Text input-->
+                      <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput">Mi dirección postal</label>  
+                        <div class="col-md-8">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+            </fieldset>
+          </form>
+      </div>
+    </div><!-- fin de col -->
+      <div class="modal-footer">
+        <!-- Button -->
+        <div class="form-group">
+          <div class="col-md-push-8 col-md-3">
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-regalo">Enviar solicitud</button>
+          </div>
+        </div>
+        <div class="divide50"></div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-- Fin de Menu lateral Basoa -->
+  <div class="home-casas-content">
+    <!-- Empieza Menu de Casas -->
+    <div class="menu-casas">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <ul class="idiomas">
+                  <li><a href="/">ESP</a></li>
+                  <li><a href="/">EUS</a></li>
+                  <li><a href="/">CAT</a></li>
+                  <li><a href="/">ENG</a></li>
+                  <li><a href="/">FR</a></li>
+              </ul>
+              </li>
+              <li class="menu-casa"><a id="belea"     href="#belea" class="casas">Suite Belea</a></li>
+              <li class="menu-casa"><a id="beigorri"  href="#beigorri" class="casas">Suite Beigorri</a></li>
+              <li class="menu-casa"><a id="okolin"    href="#okolin"    class="casas">Suite Okolin</a></li>
+              <li class="menu-casa"><a id="bedats"    href="#bedats"    class="casas">Suite Bedats</a></li>
+              <li class="menu-casa"><a id="recepcion" href="#recepcion" class="casas">Recepción</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+    <!-- Fin de Menu de casas -->
+
+    <!-- Empieza Carrusel de Belea -->
+    <div id="belea-carrusel-wrapper" class="belea home-casas-wrapper carrusel-off active">
+      <div class="fill">
+        <div id="belea-carrusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+              <div class="fill" style="background-image: url('/images/belea1.jpg');">
+                <div class="texto-casas-container">
+                  <div class="texto-casas-wrapper">
+                    <h3 class="titular-casas">Suite Belea</h3>
+                    <p class="texto-casas">
+                      Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños.
+                    </p>
+                  </div>
+                  <div class="iconos-wrapper">
+                    <img class="casas-iconos" src="/images/belea-iconos.png">
+                  </div>
+                  <div class="boton-reservas-wrapper center mt20">
+                    <a class="disponibilidad-reservas-btn uppercase" href="http://basoasuites.lodgify.com/es/463038/belea-suite" target="_blank">Disponibilidad y reservas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/belea2.jpg');">
+          
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/belea3.jpg');">
+
+              </div>
+            </div>
+              <div class="item">
+              <div class="fill" style="background-image: url('/images/belea4.jpg');">
+
+              </div>
+            </div>
+          </div>
+          <div class="pull-center controles">
+            <a id="belea-izquierda" class="carousel-control left boton-carrusel-off" href="#belea-carrusel" data-slide="prev">‹</a>
+            <a id="belea-derecha" class="carousel-control right camera" href="#belea-carrusel" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin de carrusel de Belea -->
+
+    <!--Comienza Carusel de Beigorri -->
+    <div id="beigorri-carrusel-wrapper" class="beigorri home-casas-wrapper carrusel-off">
+      <div class="fill">
+        <div id="beigorri-carrusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+              <div class="fill" style="background-image: url('/images/beigorri1.jpg');">
+                <div class="texto-casas-container">
+                  <div class="texto-casas-wrapper">
+                    <h3 class="titular-casas">Suite Beigorri</h3>
+                    <p class="texto-casas">
+                      Es un cálido y agradable nido construido a 5,5 metros del suelo, perfecto para huir de la monotonía y refugiarse durante los fríos días de invierno. Se accede por una escalera con trampilla y cuenta con una pequeña terraza para disfrutar todo el año.
+                    </p>
+                  </div>
+                  <div class="iconos-wrapper">
+                    <img class="casas-iconos" src="/images/beigorri-iconos.png">
+                  </div>
+                  <div class="boton-reservas-wrapper center mt20">
+                    <a class="disponibilidad-reservas-btn uppercase" href="http://basoasuites.lodgify.com/es/463037/beigorri" target="_blank">Disponibilidad y reservas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/beigorri2.jpg');">
+    
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/beigorri3.jpg');">
+   
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/beigorri4.jpg');">
+  
+              </div>
+            </div>
+          </div>
+          <div class="pull-center controles">
+            <a id="beigorri-izquierda" class="carousel-control left boton-carrusel-off" href="#beigorri-carrusel" data-slide="prev">‹</a>
+            <a id="beigorri-derecha" class="carousel-control right camera" href="#beigorri-carrusel" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de Carrusel de Beigorri -->
+
+    <!--Comienza Carusel de Okolin -->
+    <div id="okolin-carrusel-wrapper" class="okolin home-casas-wrapper carrusel-off">
+      <div class="fill">
+        <div id="okolin-carrusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+              <div class="fill" style="background-image: url('/images/okolin1.jpg');">
+                <div class="texto-casas-container">
+                  <div class="texto-casas-wrapper">
+                    <h3 class="titular-casas">Suite Okolin</h3>
+                    <p class="texto-casas">
+                      Cuenta con una amplia terraza que bordea la habitación por tres de sus flancos. Un pequeño porche nos permite disfrutar del exterior también con lluvia. Los robles que sustentan la Suite se cuelan por su terraza y nos permiten admirarlos de cerca. Tiene grandes ventanas que permiten observar el bosque también desde el interior. Se distingue por su forma triangular que nos recuerda al cercano pico Okolin.
+                    </p>
+                  </div>
+                  <div class="iconos-wrapper">
+                    <img class="casas-iconos" src="/images/okolin-iconos.png">
+                  </div>
+                  <div class="boton-reservas-wrapper center mt20">
+                    <a class="disponibilidad-reservas-btn uppercase" href="http://basoasuites.lodgify.com/es/463084/okolin" target="_blank">Disponibilidad y reservas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/okolin2.jpg');">
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/okolin3.jpg');">
+              </div>
+            </div>
+             <div class="item">
+              <div class="fill" style="background-image: url('/images/okolin4.jpg');">
+              </div>
+            </div>
+           <div class="item">
+              <div class="fill" style="background-image: url('/images/okolin5.jpg');">
+              </div>
+            </div>
+          </div>
+          <div class="pull-center controles">
+            <a id="okolin-izquierda" class="carousel-control left boton-carrusel-off" href="#okolin-carrusel" data-slide="prev">‹</a>
+            <a id="okolin-derecha" class="carousel-control right camera" href="#okolin-carrusel" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de Carrusel de okolin -->
+
+    <!--Comienza Carusel de bedats -->
+    <div id="bedats-carrusel-wrapper" class="bedats home-casas-wrapper carrusel-off">
+      <div class="fill">
+        <div id="bedats-carrusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+              <div class="fill" style="background-image: url('/images/bedats1.jpg');">
+                <div class="texto-casas-container">
+                  <div class="texto-casas-wrapper">
+                    <h3 class="titular-casas">Suite Bedats</h3>
+                    <p class="texto-casas">
+                      Con un original acabado en el techo y una decoración muy cuidada esta habitación en forma de hexágono es nuestra Suite más Suite. Las amplias ventanas que cubren todas las paredes la llenan de luminosidad. Su principal característica es que se encuentra totalmente integrada en la zona más salvaje del bosque que podremos disfrutar y observar desde su amplia terraza.
+                    </p>
+                  </div>
+                  <div class="iconos-wrapper">
+                    <img class="casas-iconos" src="/images/bedats-iconos.png">
+                  </div>
+                  <div class="boton-reservas-wrapper center mt20">
+                    <a class="disponibilidad-reservas-btn uppercase" href="http://basoasuites.lodgify.com/es/463110/bedats" target="_blank">Disponibilidad y reservas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/bedats2.jpg');">
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/bedats3.jpg');">
+              </div>
+            </div>
+             <div class="item">
+              <div class="fill" style="background-image: url('/images/bedats4.jpg');">
+              </div>
+            </div>
+          </div>
+          <div class="pull-center controles">
+            <a id="bedats-izquierda" class="carousel-control left boton-carrusel-off" href="#bedats-carrusel" data-slide="prev">‹</a>
+            <a id="bedats-derecha" class="carousel-control right camera" href="#bedats-carrusel" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de Carrusel de bedats -->
+    
+    <!--Comienza Carusel de recepcion -->
+    <div id="recepcion-carrusel-wrapper" class="recepcion home-casas-wrapper carrusel-off">
+      <div class="fill">
+        <div id="recepcion-carrusel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+              <div class="fill" style="background-image: url('/images/amati1.jpg');">
+                <div class="texto-casas-container">
+                  <div class="texto-casas-wrapper">
+                    <h3 class="titular-casas">Casa Amati</h3>
+                    <p class="texto-casas">
+                      Al llegar a Basoa Suites te recibiremos en el <strong>edificio de servicios</strong> Casa Amati. Se encuentra próximo a las suites y dispone de duchas, sala de estar y comedor. Es aquí donde te daremos las indicaciones para llegar a tu Suite. Previa reserva, además, podrás disfrutar de una cena especial. La historia la decides tú.
+                    </p>
+                  </div>
+                  <div class="iconos-wrapper">
+                    <img class="casas-iconos" src="/images/amati-iconos.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/amati2.jpg');">
+              </div>
+            </div>
+            <div class="item">
+              <div class="fill" style="background-image: url('/images/amati3.jpg');">
+              </div>
+            </div>
+          </div>
+          <div class="pull-center controles">
+            <a id="recepcion-izquierda" class="carousel-control left boton-carrusel-off" href="#recepcion-carrusel" data-slide="prev">‹</a>
+            <a id="recepcion-derecha" class="carousel-control right camera" href="#recepcion-carrusel" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de Carrusel de recepcion -->
+
+ </div>
+</div>
+<!-- Fin de Home de Casas -->

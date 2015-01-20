@@ -1,5 +1,47 @@
 
 $(document).ready(function() {
+
+  if(!$.browser){
+    $.browser={
+      chrome:false,
+      mozilla:false,
+      opera:false,
+      msie:false,
+      safari:false
+    };
+    var ua=navigator.userAgent;
+        $.each($.browser,function(c,a){
+        $.browser[c]=((new RegExp(c,'i').test(ua)))?true:false;
+            if($.browser.mozilla && c =='mozilla'){$.browser.mozilla=((new RegExp('firefox','i').test(ua)))?true:false;};
+            if($.browser.chrome && c =='safari'){$.browser.safari=false;};
+        });
+  };
+
+  $('.video-player').append('<iframe src="//player.vimeo.com/video/115274012?title=0&amp;byline=0&amp;portrait=0" width="800" height="335" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+  var iframe = $("iframe").get(0);
+  var player = $f(iframe);
+  player.addEvent('ready', function(){ 
+    if($.browser.mozilla){
+      player.api('play');
+    }
+  });
+
+  $('.boton-play').click(function(e){
+    console.log('hhh');
+    e.preventDefault();
+    $('.ocultar').hide('slow');
+    $('.video-basoa').fadeIn('slow');
+    player.api('play');
+    return false;
+  });
+
+  $('.cerrar').click(function(e){
+    e.preventDefault();
+    player.api('pause');
+    $('.video-basoa').hide('slow');
+    $('.ocultar').fadeIn('slow');
+  })
+
   //Sistema de left dinamico para el slide de casas
   var left = '80%';
   if ($(this).width() >= 1280) {
@@ -20,7 +62,7 @@ $(document).ready(function() {
 
   //Sistema de onepage de portada con el modulo Fullpaje.js
   $('.home').fullpage({
-    anchors: ['inicio', 'proponemos', 'ofrecemos', 'bosque', 'estamos', 'nosotros', 'compromisos'],
+    anchors: ['inicio', 'proponemos', 'ofrecemos', 'entorno', 'nosotros', 'compromisos', 'actividades'],
     resize: false,
     slidesColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
     // css3: true ,
@@ -40,11 +82,15 @@ $(document).ready(function() {
   $('#boton-casas').click(function(e){
     $('.home-casas').transition({ left: 0 }, 800, 'ease');
     $('#boton-casas').transition({opacity:0}, 800, 'ease');
+    $('#boton-reservar').transition({opacity:0}, 800, 'ease');
+    $('#boton-regalar').transition({opacity:0}, 800, 'ease');
     $('#home').transition({opacity:0}, 2000, 'ease');
     setTimeout(function() {
       $('#boton-volver').transition({opacity:1}, 'ease');
       $('#boton-volver').removeClass('boton-opacity');
       $('#boton-casas').addClass('boton-opacity');
+      $('#boton-regalar').addClass('boton-opacity');
+      $('#boton-reservar').addClass('boton-opacity');
     }, 900);
   });
 
@@ -56,11 +102,15 @@ $(document).ready(function() {
     setTimeout(function() {
       $('#boton-casas').transition({opacity:1}, 'ease');
       $('#boton-casas').removeClass('boton-opacity');
+      $('#boton-reservar').transition({opacity:1}, 'ease');
+      $('#boton-reservar').removeClass('boton-opacity');
+      $('#boton-regalar').transition({opacity:1}, 'ease');
+      $('#boton-regalar').removeClass('boton-opacity');
       $('#boton-volver').addClass('boton-opacity');
     }, 900);
   });
 
-  //Acceso a las casas mediante el menú
+//Acceso a las casas mediante el menú
   $('.casas').click(function(e){
     e.preventDefault();
     $('.carrusel-off').each(function(index){
