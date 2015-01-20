@@ -1,0 +1,227 @@
+// basoaSlide
+// ------------------------
+
+
+@basoaSlide-control-color:                      #fff;
+@basoaSlide-control-width:                      15%;
+@basoaSlide-control-opacity:                    .5;
+@basoaSlide-control-font-size:                  20px;
+
+@basoaSlide-indicator-active-bg:                #fff;
+@basoaSlide-indicator-border-color:             #fff;
+
+@basoaSlide-caption-color:                      #fff;
+
+
+//
+// basoaSlide
+// --------------------------------------------------
+
+// Wrapper for the slide container and indicators
+.basoaSlide {
+  position: relative;
+}
+
+.basoaSlide-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  > .item {
+    display: none;
+    position: relative;
+    .transition(.6s ease-in-out left);
+
+    // Account for jankitude on images
+    > img,
+    > a > img {
+      .img-responsive();
+      line-height: 1;
+    }
+  }
+
+  > .active,
+  > .next,
+  > .prev { display: block; }
+
+  > .active {
+    left: 0;
+  }
+
+  > .next,
+  > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  > .next {
+    left: 100%;
+  }
+  > .prev {
+    left: -100%;
+  }
+  > .next.left,
+  > .prev.right {
+    left: 0;
+  }
+
+  > .active.left {
+    left: -100%;
+  }
+  > .active.right {
+    left: 100%;
+  }
+
+}
+
+// Left/right controls for nav
+// ---------------------------
+
+.basoaSlide-control {
+  font-size: @basoaSlide-control-font-size;
+  color: @basoaSlide-control-color;
+  text-align: center;
+ 
+  // Toggles
+  .icon-prev,
+  .icon-next,
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+  }
+  .icon-prev,
+  .glyphicon-chevron-left {
+    left: 50%;
+  }
+  .icon-next,
+  .glyphicon-chevron-right {
+    right: 50%;
+  }
+  .icon-prev,
+  .icon-next {
+    width:  20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    font-family: serif;
+  }
+
+  .icon-prev {
+    &:before {
+      content: '\2039';// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+    }
+  }
+  .icon-next {
+    &:before {
+      content: '\203a';// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+    }
+  }
+}
+
+
+//Efecto home
+.transicion{
+  transition: 0.8s ease-in-out all ;
+  left: 0 !important;
+}
+
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+/* keep full widget on smaller screens */
+@media (max-width: 767px) { 
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.home-casas-wrapper{
+  position: absolute;
+  top:0px;
+  width: 100%;
+  z-index: -222222222;
+}
+
+.home-casa-frente{
+  z-index: 200;
+}
+
+.beigorri{
+  z-index: -99999;
+}
+
+.container-total {
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.carrusel-off {
+  display: none;
+}
+
+
+.active {
+  display: block;
+}
+
+
+.carousel {
+  width: 80%;
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { width: 70%; }
+}
+
+
+// NUEVO MENU LATERAL
+.basoa-menu {
+width: 20%;
+top: 0;
+bottom: 0;
+position: absolute;
+background-color: @green;
+z-index: 9999;
+float: left;
+}
+
+//botones del footer lateral
+.home-casas-content {
+  margin-left: 20%;
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { margin-left: 30%; }
+  width: 100%;
+}
+
+.boton-opacity{
+  opacity: 0;
+}
+
+.boton-casas, .boton-volver{
+  float: left;
+}
+
+.boton-carrusel-off {
+  display: none;
+}
+
+// .active-menu{
+//   color: #ffffff;
+//   background-color: rgba(180, 201, 193, 0.5);
+// }
+
+

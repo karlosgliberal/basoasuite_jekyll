@@ -1,0 +1,13 @@
+---
+layout: default
+title: Test
+---
+<h1>movida</h1>
+
+<h3>Ingles</h3>
+{% for post in site.posts %}
+ {% if post.lang == 'en' %}
+  <h2 class="title-big">{{post.title}}</h2>
+  {%  endif %}
+{% endfor %}
+<h3>Adios</h3>
