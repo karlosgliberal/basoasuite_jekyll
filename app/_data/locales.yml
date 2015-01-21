@@ -1,4 +1,5 @@
-en:
-  titulo1: movida
+# MENU PRINCIPAL
 es:
-  titulo1: casa chula
+  menu:
+    inicio: INICIO
+    proponemos: TE PROPONEMOS
