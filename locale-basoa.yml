@@ -1,4 +1,5 @@
-# menu principal
+# MENU PRINCIPAL
+
 es:
 	menu:
  		inicio: INICIO
@@ -128,4 +129,634 @@ eu:
 fr:
 	menu:
  		actividades: ACTIVITES
+
+# MENU LATERAL
+
+es:
+	lateral:
+ 		texto: ¿Una suite el lo alto de un árbol?
+en:
+	lateral:
+ 		texto: a suite at the top of a tree?
+cat:
+	lateral:
+ 		texto: Cuna suite a dalt d'un arbre? 
+eu:
+	lateral:
+ 		texto: suite bat zuhaitz baten gainean?
+fr:
+	lateral:
+ 		texto: Une suite perchée sur un arbre?
+
+es:
+	lateral:
+ 		boton_descubre: Descubre las Suites 
+en:
+	lateral:
+ 		boton_desubre: Discover the suites
+cat:
+	lateral:
+ 		boton_descubre: Descobreix les Suites
+eu:
+	lateral:
+ 		boton_descubre: Ezagutu gure Suite-ak 
+fr:
+	lateral:
+ 		boton_descubre: Découvrez les Suites 
+
+es:
+	lateral:
+ 		boton_reserva: Reservar
+en:
+	lateral:
+ 		boton_reserva: Booking
+cat:
+	lateral:
+ 		boton_reserva: Booking
+eu:
+	lateral:
+ 		boton_reserva: Erreserbatu
+fr:
+	lateral:
+ 		boton_reserva: Réserver
+
+es:
+	lateral:
+ 		boton_regala: Regalar
+en:
+	lateral:
+ 		boton_regala: Gift card
+cat:
+	lateral:
+ 		boton_regala: Regalar
+eu:
+	lateral:
+ 		boton_regala: Oparitu
+fr:
+	lateral:
+ 		boton_regala: Offrir
+
+es:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+en:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+cat:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+eu:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Nafarroa" 
+fr:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarre"
+
+es:
+	lateral:
+ 		news: Recibir Newsletter
+en:
+	lateral:
+ 		news: Newsletter
+cat:
+	lateral:
+ 		news: Rebre Newsletter
+eu:
+	lateral:
+ 		news: Newsletter-a jaso
+fr:
+	lateral:
+ 		news: Recevoir la Newsletter
+
+es:
+	lateral:
+ 		boton_enviar: Enviar
+en:
+	lateral:
+ 		boton_enviar: Send
+cat:
+	lateral:
+ 		boton_enviar: Enviar
+eu:
+	lateral:
+ 		boton_enviar: Bidali
+fr:
+	lateral:
+ 		boton_enviar: Envoyer
+
+# SECCION PRINCIPAL
+es:
+	seccion:
+ 		principal: Nosotros ponemos el bosque
+en:
+	seccion:
+ 		principal: we put the forest
+cat:
+	seccion:
+ 		principal: nosaltres posem el bosc
+eu:
+	seccion:
+ 		principal: Basoa duzu zain
+fr:
+	seccion:
+ 		principal: "C’est nous qui mettons la forêt,"
+
+es:
+	seccion:
+ 		principal_dos: la historia la decides tú
+en:
+	seccion:
+ 		principal_dos: you pick the story
+cat:
+	seccion:
+ 		principal_dos: la història la decideixes tu
+eu:
+	seccion:
+ 		principal_dos: storioa zeuk aukeratu
+fr:
+	seccion:
+ 		principal_dos: c’est vous qui choisissez l’histoire 
+
+es:
+	seccion:
+ 		principal_video: Ver vídeo
+en:
+	seccion:
+ 		principal_video: watch video
+cat:
+	seccion:
+ 		principal_video: veure vídeo
+eu:
+	seccion:
+ 		principal_video: Bideoa ikusi
+fr:
+	seccion:
+ 		principal_video: regarder la vidéo
+
+
+# SECCION TE PROPONEMOS
+
+es:
+	seccion:
+ 		proponemos_titulo: te proponemos
+en:
+	seccion:
+ 		proponemos_titulo: we propose 
+cat:
+	seccion:
+ 		proponemos_titulo: et proposem
+eu:
+	seccion:
+ 		proponemos_titulo: proposatzen dizugu
+fr:
+	seccion:
+ 		proponemos_titulo: nous vous proposons
+
+es:
+	seccion:
+ 		proponemos_texto: "Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente."" Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. 
+						   				Nosotros ponemos el bosque, la historia la decides tú."
+en:
+	seccion:
+ 		proponemos_texto: "Dive in the magic and charm of the Amati oak forest."" Spending the night at the top of a majestic tree is a unique experience that will not leave you indifferent. Relax, unwind, reconnect, …maybe fall in love. Abandon yourself to the sensations and allow the presence of the forest capture you. 
+											We put the forest, the story is up to you."
+cat:
+	seccion:
+ 		proponemos_texto: "Una immersió en la màgia i l'encant de la roureda de Amati."" Passar la nit a la part alta d'un majestuós arbre és una experiència única que no et deixarà indiferent. Podràs relaxar-te, desconnectar, reconnectar, enamorar potser ... abandona't a les sensacions i deixa que la imponent presència del bosc t'atrapi. 
+											 Nosaltres posem el bosc, la història la decideixes tu."
+eu:
+	seccion:
+ 		proponemos_texto: "Amati hariztiaren magian eta xarman murgiltzea."" Zuhaitz eder baten gainean gaua igarotzea esperientzia berezia da, ez zaituena ezaxola utziko. Erlaxatu, deskonektatu, birkonektatu eta, agian, maitemindu egingo zara. Eman bide sentsazioei eta utzi oihanaren presentzia ikaragarriari harrapa zaitzan.
+											Guk basoa jartzen dugu, istorioa zuk aukeratzen duzu."
+fr:
+	seccion:
+ 		proponemos_texto: "Une immersion dans la magie et le charme de la chênaie d’Amati."" Passer la nuit sur le haut d’un majestueux arbre est une expérience unique qui ne vous laissera pas indifférent. Vous pourrez vous reposez, déconnecter, reconnecter, et qui sait, éventuellement tomber amoureux ... laisser vous emporter par les sensations et procurez que la puissante présence de la forêt vous attrape.
+											C’est nous qui mettons la forêt, c’est vous qui choisissez l’histoire. "
+
+
+# SECCION TE OFRECEMOS
+
+es:
+	seccion:
+ 		ofrecemos_titulo: te ofrecemos
+en:
+	seccion:
+ 		ofrecemos_titulo: we offer 
+cat:
+	seccion:
+ 		ofrecemos_titulo: t'oferim
+eu:
+	seccion:
+ 		ofrecemos_titulo: eskaintzen dizugu
+fr:
+	seccion:
+ 		ofrecemos_titulo: nous vous offrons 
+
+es:
+	seccion:
+ 		ofrecemos_texto: "Cuatro preciosas Suites dobles construidas a gran altura sobre los troncos de robles centenarios. Cada suite cuenta con terraza, baño seco, calefacción y todas las comodidades necesarias para tu estancia. Te serviremos el desayuno en una cesta que tú mismo subirás a la suite por medio de una polea y las cenas serán en el edificio de servicios Casa Amati. Desayunos y cenas están elaborados con productos naturales de la zona y puedes además configurar tu estancia a tu gusto: unas copas, un buen vino, una botella de cava... La historia la decides tú... "
+en:
+	seccion:
+ 		ofrecemos_texto: "Four lovely double suites built high on the branches of oak trees. Each suite has a balcony, dry bath, heating and other amenities for your stay."" Breakfast is delivered to your suite in a basket that you can pull up with a rope. Dinner is served at Amati House. Breakfasts and dinners are made ​​with locally source natural products and you may add some nice wine, a bottle of champagne, other drinks ... 
+											The story is up to you .."
+cat:
+	seccion:
+ 		ofrecemos_texto: "Quatre precioses Suites dobles construïdes a gran alçada sobre els troncs de roures centenaris. ""Cada suite té terrassa, bany sec, calefacció i totes les comoditats necessàries per a la teva estada. Et servirem l'esmorzar en una cistella que tu mateix pujaràs a la suite mitjançant una politja i els sopars seran a l'edifici de serveis Casa Amati. Els esmorzars i els sopars estan elaborats amb productes naturals de la zona i pots a més configurar la teva estada al teu gust: unes copes, un bon vi, una ampolla de cava ... 
+											La història la decideixes tu .."
+eu:
+	seccion:
+ 		ofrecemos_texto: "Mendeetako haritzen gainean, goratasun handian eraikitako lau suite bikoitz eder. Suite guztiek dute terraza, komun lehorra, berogailua eta zure egonaldirako beharrezko erosotasun guztiak. Gosaria polea baten bidez suitera igoko duzun saski batean zerbitzatuko dizugu eta afariak zerbitzu-eraikina den Amati Etxean egingo dira. Gosariak eta afariak inguruko produktu naturalez prestatuak dira eta, gainera, zure egonaldia zure gustuetara egokitu dezakezu: kopak, ardo ona, cava boteila bat... Istorioa zuk aukeratzen duzu..."
+fr:
+	seccion:
+ 		ofrecemos_texto: "Quatre magnifiques Suites doubles construites à grande hauteur sur les troncs de chaines centenaires. Chaque suite dispose d’une terrasse,"" WC sec, chauffage et tout le confort nécessaire à votre séjour. Nous vous servirons le petit déjeuner dans un panier que vous monterez vous-même à la suite grâce à une poulie et les dîners seront dans l’édifice des services la Maison Amati. Les petits déjeuners et les dîners sont préparés avec des produits naturels de la région et, de plus, vous pouvez configurer votre séjour à vos goûts : quelques coupes, un bon vin, une bouteille de cava... C’est vous qui choisissez l’histoire ...
+										 "
+
+
+# SECCION ENTORNO
+
+es:
+	seccion:
+ 		entorno_texto: "El Robledal de Amati es una pequeña joya ecológica y un entorno protegido de especial interés arbóreo y ornitológico. Se trata de un tipo de robledal de humedal de llanura que es exclusivo de algunas zonas concretas de Álava y Navarra."
+en:
+	seccion:
+ 		entorno_texto: "The Amati oak forest is a small ecological treasure and a protected environment with particular ornithological interest. This humid oak is unique to areas of Alava and Navarra, a relic of an era when such forest covered entire valleys in Ultzama and Basaburua."
+cat:
+	seccion:
+ 		entorno_texto: "La Roureda d'Amati és una petita joia ecològica i un entorn protegit d'especial interès arbori i ornitològic. Es tracta d'un tipus de roureda d'aiguamoll de plana que és exclusiu d'algunes zones concretes d'Àlaba i Navarra, vestigi d'una altra època en que aquestes rouredes cobrien la totalitat de les valls de Basaburua i Ultzama."
+eu:
+	seccion:
+ 		entorno_texto: "Amatiko Hariztia altxor ekologiko txiki bat da; zuhaitz-eremu eta ornitologiko interesgarria dituen ingurune babestua. Haritzondo-mota hori lautadetako hezeguneetakoa da, eta Araba eta Nafarroako inguru jakin batzuetan soilik aurkitzen da. "
+fr:
+	seccion:
+ 		entorno_texto: "La Chênaie d’Amati est un petit bijou écologique et un environnement protégé d’un intérêt arborescent et ornithologique spécial. Il s’agit d’un type de chênaie des zones humides des plaines qui est exclusif de quelques régions d’Alava et de Navarre."
+
+ 		es:
+	seccion:
+ 		entorno_texto_dos: "Se encuentra en en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía"
+en:
+	seccion:
+ 		entorno_texto_dos: "The Amati oak forest is in Lizaso, in the heart of Ultzama Valley in Navarre... Ultzama is a beautiful valley with a mild clime located 30 minutes from Pamplona and 50 minutes from San Sebastian. It is a valley of great beauty that combines ancient traditions and nature characterized by green meadows and dense forests. This valley is also known for its mycological and birdlife values. The area also offers many outdoor activities: sightseeing, hiking, horseback riding"
+cat:
+	seccion:
+ 		entorno_texto_dos: "La roureda d’Amati es troba a Lizaso, en ple cor de la vall navarresa d’Ultzama ... Ultzama és una bonica vall de clima suau situada a 30 minuts de Pamplona i 50 minuts de Sant Sebastià. Es tracta d'una vall de gran bellesa que combina tradicions ancestrals i una natura caracteritzada per verds prats i frondosos boscos. Aquesta vall és a més coneguda pel seu alt valor micològic i ornitològic i la zona ofereix gran varietat d'activitats a l'aire lliure: paisatges, senderisme, passejades a cavall"
+eu:
+	seccion:
+ 		entorno_texto_dos: "Lizason dago, Ultzama bailararen bihotzean, klima leuna duen bailara ederrean, Iruñeatik 30 minutura eta Donostiatik 50 minutura. Edertasun aparta duen bailara, ohitura zaharrak zelai berde eta oihan hostotsuz osatutako naturarekin uztartzen dituena. Horrez gain, bere balio mikologikoengatik eta ornitologikoengatik ere ezaguna da eta eskualdeak aire librean burutzeko jarduera asko eskaintzen ditu: paisajeak, oinezko ibilbideak, zaldizko paseoak, gastronomia"
+fr:
+	seccion:
+ 		entorno_texto_dos: "Elle se trouve à Lizaso, en plein cœur de la Vallée d’Ultzama, une très belle vallée de climat doux, situé à 30 minutes de Pampelune et 50 minutes de Saint Sébastien. Une vallée de grande beauté qui combine les traditions ancestrales et une nature caractérisée par de vertes prairies et des forêts touffues. De plus, elle est connue par sa grande valeur mycologique et ornithologique et la région offre une grande variété d’activités à l’aire libre : paysages, randonnées, promenades à cheval, gastronomie"
+
+
+es:
+	seccion:
+ 		entorno_mapa: Ver mapa
+en:
+	seccion:
+ 		entorno_mapa: See map
+cat:
+	seccion:
+ 		entorno_mapa: Veure Mapa
+eu:
+	seccion:
+ 		entorno_mapa: Ver mapa
+fr:
+	seccion:
+ 		entorno_mapa: Ver mapa
+
+
+# SECCION NOSOTROS
+
+es:
+	seccion:
+ 		nosotros_titulo: Nosotros
+en:
+	seccion:
+ 		nosotros_titulo: about us
+cat:
+	seccion:
+ 		nosotros_titulo: nosaltres
+eu:
+	seccion:
+ 		nosotros_titulo: Gu
+fr:
+	seccion:
+ 		nosotros_titulo: Nous
+
+es:
+	seccion:
+ 		nosotros_texto: "Nos gusta trabajar y vivir en la naturaleza y aunque tenemos los pies en la tierra, nos gusta subirnos a los árboles. En el año 2003 creamos una empresa pionera de construcción de parques de aventura en árboles. Desde entonces hemos construido diversos parques de aventura además de recorridos naturales en árboles, así como adaptados a personas discapacitadas. Pronto surgió la idea de ir más allá y nos preguntamos por la posibilidad de dormir en lo alto de en un árbol ¿Cómo sería la experiencia de estar completamente inmersos en el bosque? Así comenzó a gestarse Basoa Suites. "
+en:
+	seccion:
+ 		nosotros_texto: "We love to work and live in nature. Although we have our feet on the ground, we also like to climb trees. In 2003 we created a pioneering company in construction of adventure parks on trees. Since then we have built several adventure parks as well as natural wooden paths on trees. Soon the idea of ​​going further came up and we asked ourselves for the possibility of sleeping on top of a tree. How would be the experience of being completely immersed in the woods? Thus Basoa Suites began to take shape."
+cat:
+	seccion:
+ 		nosotros_texto: "Ens agrada treballar i viure a la natura i encara que tenim els peus a terra,"" ens agrada pujar-nos als arbres. L'any 2003 vam crear una empresa pionera de construcció de parcs d'aventura en arbres. Des de llavors hem construït diversos parcs d'aventura a més de recorreguts naturals en arbres, així com adaptats a persones discapacitades. Aviat va sorgir la idea d'anar més enllà i ens preguntem per la possibilitat de dormir a la part alta d'un arbre Com seria l'experiència d'estar completament immersos en el bosc? Així va començar a gestar-se Basoa Suites.
+"
+eu:
+	seccion:
+ 		nosotros_texto: "Naturan lan egin eta bizitzea gustatzen zaigu, eta nahiz oinak lurrean izan, zuhaitzetara igotzea gustatzen zaigu. 2003an, abenturazko zuhaitz parkeak eraikitzeko enpresa aitzindaria sortu genuen. Ordutik, hainbat abentura-parke sortu dugu, baita zuhaitzen gainean ibiltzeko ibilbideak eta pertsona ezinduei egokitutakoak ere. Laster urrunago joateko ideia otu zitzaigun eta zuhaitz baten gainean lo egiteko aukeraz pentsatzen hasi ginen. Nolakoa litzateke basoan guztiz barneratua egotearen esperientzia? Horrela hasi zen garatzen Basoa Suites."
+fr:
+	seccion:
+ 		nosotros_texto: "Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites."
+
+
+# SECCION COMPROMISOS
+
+es:
+	seccion:
+ 		compromisos_titulo: compromisos
+en:
+	seccion:
+ 		compromisos_titulo: commitments
+cat:
+	seccion:
+ 		compromisos_titulo: compromisos
+eu:
+	seccion:
+ 		compromisos_titulo: konpromisoak
+fr:
+	seccion:
+ 		compromisos_titulo: compromis 
+
+es:
+	seccion:
+ 		compromisos_texto: "En Basoa Suites creemos en un turismo diferente y por ello promovemos un turismo sostenible y respetuoso. Elegimos materiales y técnicas de construcción que causen el mínimo impacto en el árbol y el entorno. Nuestras construcciones en árboles están supervisadas por ingenieros forestales especialistas en árboles que nos orientan sobre el tipo de anclajes, cargas admisibles y sistemas de colocación con el fin de no dañar los ejemplares utilizados ni la masa arbórea. Nuestras Suites cuentan con un sistema de baño seco, así evitamos la instalación de tuberías y desagües en el interior del bosque. Además hemos construido pasarelas de madera elevadas para evitar la compactación del suelo, dirigir la circulación a los caminos y garantizar que el suelo y la flora no sufran el impacto de nuestra presencia. Por último, promovemos la observación del bosque bajo el convencimiento que cuanto más sepamos sobre los bosques mejor los cuidaremos. "
+en:
+	seccion:
+ 		compromisos_texto: "At Basoa Suites we believe in a different kind of tourism and thus promote sustainable and respectful tourism. We chose materials and construction techniques that cause minimal impact on the tree and the environment. Our constructions in trees are supervised by specialists that guide us about the type of anchors,"" allowable loads and the election of the trees we use to sustain our structures in order not to damage them. 
+Our suites have a dry toilet system to avoid the installation of pipes and drains into the forest. We have also built elevated wooden walkways to prevent soil compaction, direct the traffic of people to the paths and ensure that the soil and plants do not suffer the impact of our presence. Finally, we promote the observation of forest under the belief that the more we know about the forests better we take care of them.
+"
+cat:
+	seccion:
+ 		compromisos_texto: "A Basoa Suites creiem en un turisme diferent i per això promovem un turisme sostenible i respectuós. Triem materials i tècniques de construcció que causin el mínim impacte en l'arbre i l'entorn. Les nostres construccions en arbres estan supervisades per enginyers forestals especialistes en arbres que ens orienten sobre el tipus d'ancoratges,"" càrregues admissibles i sistemes de col · locació per tal de no malmetre els exemplars utilitzats ni la massa arbòria. 
+Les nostres Suites compten amb un sistema de bany sec, així evitem la instal·lació de canonades i desguassos a l'interior del bosc. A més hem construït passeres de fusta elevades per evitar la compactació del sòl, dirigir la circulació als camins i garantir que el sòl i la flora no pateixin l'impacte de la nostra presència. Finalment, promovem l'observació del bosc sota el convenciment que com més sapiguem sobre els boscos millor els cuidarem."
+eu:
+	seccion:
+ 		compromisos_texto: "Basoa Suite-en turismo desberdin batean sinesten dugu, eta horregatik, turismo jasangarria eta errespetuan oinarritua sustatzen dugu. Zuhaitzean eta ingurunean ahalik eta eragin txikiena duten materialak eta teknikak aukeratzen ditugu. Zuhaitzetan dauden gure eraikinak zuhaitzetan espezializatuta dauden oihan-ingeniariek gainbegiratuak dira eta ainguraketa-motei, gehiegizko kargei eta kolokazio-sistemei buruzko aholkuak ematen dizkigute zuhaitzak eta oihana ez hondatzeko. Gure Suite-ak komun lehorrez ornituak daude, hartara, oihanean barna hoditeria eta isurbiderik ez instalatzeko. Gainera, egurrezko pasarelak eraiki ditugu lurra ez trinkotzeko, zirkulazioa bideetara zuzentzeko eta lurrak eta florak gure presentziaren ondoriorik jasan ez dezaten. Azkenik, oihana behatzea sustatzen dugu, basoak zenbat eta gehiago ezagutu orduan eta hobeto zainduko ditugunaren ustea baitugu."
+fr:
+	seccion:
+ 		compromisos_texto: "A Basoa Suites nous croyons dans un tourisme différent, c’est pourquoi, nous promouvons un tourisme soutenable et respectueux. Nous choisissons les matériaux et les techniques de construction qui causent le minimum d’impact sur l’arbre et l’environnement. Nos constructions sur les arbres sont surveillées par des ingénieurs forestiers spécialistes des arbres. Ils nous orientent sur les types d’ancrages, les charges admissibles et les systèmes d’emplacement afin de ne pas abîmer les exemplaires utilisés et la masse d’arbres. Nos Suites disposent d’un système de WC sec, ce qui nous permet d’éviter l’installation des tuyauteries à l’intérieur de la forêt. De plus, nous avons construit des passerelles en bois élevés pour éviter le compactage du sol, diriger la circulation vers les chemins et garantir que le sol et la flore ne souffrent l’impact de notre présence. Enfin, nous promouvons l’observation de la forêt sous la conviction que plus nous connaissons les forêts, mieux nous les protégerons."
+
+
+
+# SECCION ACTIVIDADES 
+
+es:
+	seccion:
+ 		actividades_texto: "Aquí puedes encontrar algunos enlaces de interés de los recursos gastronómicos, naturales, turísticos...en la zona. "
+en:
+	seccion:
+ 		actividades_texto: "Here you can find some interesting links gastronomic, natural and tourist resources in the area."
+cat:
+	seccion:
+ 		actividades_texto: "Aquí pots trobar alguns enllaços d'interès dels recursos gastronòmics, naturals, turístics ... a la zona."
+eu:
+	seccion:
+ 		actividades_texto: "Hemen aurki ditzakezu inguruko eskaintza gastronomiko, natural eta turistikoetako zenbait lotura interesgarri."
+fr:
+	seccion:
+ 		actividades_texto: "Vous pouvez trouver ici quelques liens d’intérêts des ressources gastronomiques, naturels, touristiques … de la région."
+
+es:
+	seccion:
+ 		actividades_actividades: Actividades
+en:
+	seccion:
+ 		actividades_actividades: Activities
+cat:
+	seccion:
+ 		actividades_actividades: Activitats
+eu:
+	seccion:
+ 		actividades_actividades: Jarduerak
+fr:
+	seccion:
+ 		actividades_actividades: Activités
+
+es:
+	seccion:
+ 		actividades_restauracion: Restauración 
+en:
+	seccion:
+ 		actividades_restauracion: Restoration
+cat:
+	seccion:
+ 		actividades_restauracion: Restauració
+eu:
+	seccion:
+ 		actividades_restauracion: Jatetxeak
+fr:
+	seccion:
+ 		actividades_restauracion: Restauration
+
+es:
+	seccion:
+ 		actividades_turismo: Información de Turismo 
+en:
+	seccion:
+ 		actividades_turismo: Tourism office
+cat:
+	seccion:
+ 		actividades_turismo: Informació de Turisme
+eu:
+	seccion:
+ 		actividades_turismo: Turismo-informazioa
+fr:
+	seccion:
+ 		actividades_turismo: Information de Tourisme
+
+
+es:
+	seccion:
+ 		actividades_colaboradores: Colaboradores
+en:
+	seccion:
+ 		actividades_colaboradores: Collaborator
+cat:
+	seccion:
+ 		actividades_colaboradores: Colaboradors
+eu:
+	seccion:
+ 		actividades_colaboradores: Kolaboratzaileak
+fr:
+	seccion:
+ 		actividades_colaboradores: Collaborateurs
+
+
+
+# SUITE BELEA
+
+es:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+en:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+cat:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+eu:
+	seccion:
+ 		suitebelea_titulo: Belea Suite-a
+fr:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+es:
+	seccion:
+ 		suitebelea_texto: "Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños. "
+en:
+	seccion:
+ 		suitebelea_texto: "This beautiful suite is decorated with many wooden details. It is bright with windows on all walls to observe the majestic oaks that surround the room and features a pagoda-shaped roof. It has the most spacious interior of all suites and is the only one where we can stay with children."
+cat:
+	seccion:
+ 		suitebelea_texto: "Preciosa suite plena de curosos detalls en el seu interior. Molt lluminosa, amb finestres a totes les parets per poder observar els majestuosos roures que envolten aquesta habitació. Es distingeix per la seva teulada amb forma de pagoda. Té l'interior més ampli de totes les Suites i és l'única on podem allotjar-nos amb nens."
+eu:
+	seccion:
+ 		suitebelea_texto: "Oso suite polita da, detaile zainduz betea. Argitasun handikoa, horma guztietan ditu leihoak bertatik gela inguratzen duten haritz dotoreak behatu ahal izateko. Pagoda-formako teilatua da bere bereizgarria. Hau da barrualde zabalena duen Suite-a eta haurrekin lo egin ahal izango dugun bakarra."
+fr:
+	seccion:
+ 		suitebelea_texto: "Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants."
+
+# SUITE BEIGORRI
+
+es:
+	seccion:
+ 		suitebeigorri_titulo: Suite beigorri
+en:
+	seccion:
+ 		suitebeigorri_titulo: Suite beigorri
+cat:
+	seccion:
+ 		suitebeigorri_titulo: Suite beigorri
+eu:
+	seccion:
+ 		suitebeigorri_titulo: Beigorri suite-a
+fr:
+	seccion:
+ 		suitebeigorri_titulo: Suite beigorri
+
+
+es:
+	seccion:
+ 		suitebeigorri_texto: "Es un cálido y agradable nido construido a 5,5 metros del suelo, perfecto para huir de la monotonía y refugiarse durante los fríos días de invierno. Se accede por una escalera con trampilla y cuenta con una pequeña terraza para disfrutar todo el año."
+en:
+	seccion:
+ 		suitebeigorri_texto: "This is a warm and cozy nest built 5.5 meters above the ground, perfect to escape the monotony and shelter during the cold winter days. It is accessed by a ladder with hatch and has a small terrace to enjoy all year."
+cat:
+	seccion:
+ 		suitebeigorri_texto: "És un càlid i agradable niu construït a 5,5 metres del terra, perfecte per fugir de la monotonia i refugiar-se durant els freds dies d'hivern. S'accedeix per una escala amb trapa i compta amb una petita terrassa per gaudir tot l'any"
+eu:
+	seccion:
+ 		suitebeigorri_texto: "Lurretik 5,5 metrora eraikitako kabi bero eta goxoa da, monotoniatik ihes egin eta neguko egun hotzetan babesteko ezinhobea. Tranpa batera heltzen den zulubi batetik igotzen da bertara, eta urte osoan zehar baliatzeko terraza txiki bat ere badu."
+fr:
+	seccion:
+ 		suitebeigorri_texto: "Il s’agit d’un chaleureux et agréable nid construit à 5,5 mètres du sol, parfait pour fuir de la monotonie et se réfugier pendant les froides journées d’hiver. On y accède par un escalier avec trappe et dispose d’une petite terrasse pour profiter tout au long de l’année. "
+
+
+# SUITE OKOLIN
+
+es:
+	seccion:
+ 		suiteokolin_titulo: Suite Okolin
+	seccion:
+en:
+ 		suiteokolin_titulo: Suite Okolin
+cat:
+	seccion:
+ 		suiteokolin_titulo: Suite Okolin
+eu:
+	seccion:
+ 		suiteokolin_titulo: Okolin suite-a
+fr:
+	seccion:
+ 		suiteokolin_titulo: Suite Okolin
+
+es:
+	seccion:
+ 		suiteokolin_texto: "Cuenta con una amplia terraza que bordea la habitación por tres de sus flancos. Un pequeño porche nos permite disfrutar del exterior también con lluvia. Los robles que sustentan la Suite se cuelan por su terraza y nos permiten admirarlos de cerca. Tiene grandes ventanas que permiten observar el bosque también desde el interior. Se distingue por su forma triangular que nos recuerda al cercano pico Okolin. "
+en:
+	seccion:
+ 		suiteokolin_texto: "It has a wide balcony that wraps around the room in three sides. A small porch allows to enjoy the outdoor even in rainy days. Two great oaks pierce the balcony floor and allow us to admire them up close. It has large windows with breathtaking views of the forest. It has a triangular floor plan, resembling the nearby Okolin peak."
+cat:
+	seccion:
+ 		suiteokolin_texto: "Compta amb una àmplia terrassa que voreja l'habitació per tres dels seus flancs. Un petit porxo ens permet gaudir de l'exterior també amb pluja. Els roures que sustenten la Suite es colen per la seva terrassa i ens permeten admirar-los de prop. Té grans finestres que permeten observar el bosc també des de l'interior. Es distingeix per la seva forma triangular que ens recorda al proper pic Okolin."
+eu:
+	seccion:
+ 		suiteokolin_texto: "Gela bere hiru aldeetatik inguratzen duen terraza zabala du. Portxe txiki bati esker kanpoaz gozatu ahal izango dugu euria egin arren. Suite-a eusten duten haritzondoak terrazan barna sartzen dira eta hurbiletik mirestu ahal izango ditugu. Leiho zabalei esker oihana barrutik ere behatu ahal izango dugu. Hiruki-formak egiten du berezi eta forma horrek inguruko Okolin tontorra gogoratzen digu.
+fr:
+	seccion:
+ 		suiteokolin_texto: "Elle dispose d’une large terrasse qui longe la chambre depuis les trois flancs. Un petit porche nous permet de profiter de l’extérieur même par temps de pluie. Les chênaies qui supportent la Suite se faufilent par la terrasse et nous permettent de les admirer de près. Elle dispose de grandes fenêtres qui permettent d’observer la forêt y compris de l’intérieur. Elle se distingue par sa forme triangulaire qui nous rappelle le proche pic Okolin.  "
+
+
+# SUITE BEDATS
+
+es:
+	seccion:
+ 		suitebedats_titulo: Suite bedats
+en:
+	seccion:
+ 		suitebedats_titulo: Suite bedats
+cat:
+	seccion:
+ 		suitebedats_titulo: Suite bedats
+eu:
+	seccion:
+ 		suitebedats_titulo: bedats suite-a
+fr:
+	seccion:
+ 		suitebedats_titulo: Suite bedats
+
+es:
+	seccion:
+ 		suitebedats_texto: "Con un original acabado en el techo y una decoración muy cuidada esta habitación en forma de hexágono es nuestra Suite más Suite. Las amplias ventanas que cubren todas las paredes la llenan de luminosidad. Su principal característica es que se encuentra totalmente integrada en la zona más salvaje del bosque que podremos disfrutar y observar desde su amplia terraza. "
+en:
+	seccion:
+ 		suitebedats_texto:  "With an original finish on the ceiling this exquisitely decorated room is our most luxurious Suite. The large windows that cover all walls fill the room with light. It is fully integrated with the wildest part of the forest to enjoy and watch from its large terrace."
+cat:
+	seccion:
+ 		suitebedats_texto: "Amb un original acabat al sostre i una decoració molt acurada aquesta habitació en forma d'hexàgon és la nostra suite més Suite. Les àmplies finestres que cobreixen totes les parets l'omplen de lluminositat. La seva principal característica és que es troba totalment integrada en la zona més salvatge del bosc que podrem gaudir i observar des de la gran terrassa."
+eu:
+	seccion:
+ 		suitebedats_texto: "Sabaiko akabera originalarekin eta apainketa oso zainduarekin, hexagono-fomako gela hau gure suite-ik suite-ena da. Pareta guztietan dauden leiho zabalek argitasun handia ematen diote gelari. Oihanaren gunerik basatienean guztiz integratua egotea da bere ezaugarri nagusia. Bere terraza zabaletik naturaz gozatu eta berau behatu ahal izango duzu. "
+fr:
+	seccion:
+ 		suitebedats_texto: "Avec un original finition du plafond et une décoration très soignée, cette chambre en forme d’hexagone est la plus Suite de nos Suites Les larges fenêtres qui couvrent tous les murs la remplissent de luminosité.""Sa principale caractéristique est qu’elle se trouve totalement intégrée dans la zone la plus sauvage de la forêt que nous pourrons profiter et observer depuis sa large terrasse."
+
+
+# SUITE AMATI
+
+es:
+	seccion:
+ 		suiteamati_titulo: Casa amati
+en:
+	seccion:
+ 		suiteamati_titulo: amati house
+cat:
+	seccion:
+ 		suiteamati_titulo: Can amati
+eu:
+	seccion:
+ 		suiteamati_titulo: amati suite-a
+fr:
+	seccion:
+ 		suiteamati_titulo: Casa amati
+
+es:
+	seccion:
+ 		suiteamati_texto: "Al llegar a Basoa Suites te recibiremos en el edificio de servicios Casa Amati. Se encuentra próximo a las suites y dispone de duchas, sala de estar y comedor. Es aquí donde te daremos las indicaciones para llegar a tu Suite. Previa reserva, además, podrás disfrutar de una cena especial. La historia la decides tú. "
+en:
+	seccion:
+ 		suiteamati_texto: "Reaching Basoa Suites we will receive you in the Amati House services building. It is located next to the suites and has showers, living room and dining room. Here you will get directions to your suite and you can also enjoy a special dinner. The story is up to you."
+cat:
+	seccion:
+ 		suiteamati_texto: "En arribar a Basoa Suites et rebrem a l’edifici de serveis Casa Amati. Es troba pròxim a les suites i disposa de dutxes, sala d'estar i menjador. És aquí on et donarem les indicacions per arribar a la teva Suite. Prèvia reserva, a més, podràs gaudir d'un sopar especial. La història la decideixes tu. ""
+"
+eu:
+	seccion:
+ 		suiteamati_texto: "Basoa Suites-era heltzean, Amati Etxearen zerbitzu-eraikidean egingo dizugu harrera. Suites-etatik gertu dago eta dutxak, egongela eta jangela ditu. Bertan emango dizkizugu zure suite-era heltzeko argibideak. Aldez aurretik erreserbatuz gero, afari bereziaz ere gozatu ahal izango duzu. Istorioa zuk aukeratzen duzu."
+fr:
+	seccion:
+ 		suiteamati_texto: "En arrivant à Basoa Suites nous vous recevrons dans l’édifice des services Casa Amati. Elle se trouve près des suites et dispose des douches une salle de détente et salle à manger. C’est ici que nous vous donnerons les indications pour arriver à votre Suite. En réservant à l’avance vous pourrez aussi profiter d’un dîner spécial. C’est vous qui choisissez l’histoire.
+"
+
 
