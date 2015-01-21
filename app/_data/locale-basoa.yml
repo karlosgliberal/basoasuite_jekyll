@@ -80,3 +80,52 @@ eu:
 fr:
 	menu:
  		compromisos: COMPROMIS
+
+es:
+	menu:
+ 		suites: VER SUITES
+en:
+	menu:
+ 		suites: LOOK AT SUITES
+cat:
+	menu:
+ 		suites: VEURE SUITES
+eu:
+	menu:
+ 		suites: SUITE-AK IKUSI
+fr:
+	menu:
+ 		suites: VOIR LES SUITES
+
+es:
+	menu:
+ 		reservas: RESERVAS
+en:
+	menu:
+ 		reservas: BOOKING
+cat:
+	menu:
+ 		reservas: BOOKING
+eu:
+	menu:
+ 		reservas: ERRESERBAK
+fr:
+	menu:
+ 		reservas: RESERVATIONS
+
+es:
+	menu:
+ 		actividades: ACTIVIDADES
+en:
+	menu:
+ 		actividades: ACTIVITIES
+cat:
+	menu:
+ 		actividades: ACTIVITATS
+eu:
+	menu:
+ 		actividades: JARDUERAK
+fr:
+	menu:
+ 		actividades: ACTIVITES
+
