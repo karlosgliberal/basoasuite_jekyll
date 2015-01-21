@@ -566,4 +566,54 @@ fr:
  		actividades_turismo: Information de Tourisme
 
 
- 		
+es:
+	seccion:
+ 		actividades_colaboradores: Colaboradores
+en:
+	seccion:
+ 		actividades_colaboradores: Collaborator
+cat:
+	seccion:
+ 		actividades_colaboradores: Colaboradors
+eu:
+	seccion:
+ 		actividades_colaboradores: Kolaboratzaileak
+fr:
+	seccion:
+ 		actividades_colaboradores: Collaborateurs
+
+
+
+# SUITE BELEA
+
+es:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+en:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+cat:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+eu:
+	seccion:
+ 		suitebelea_titulo: Belea Suite-a
+fr:
+	seccion:
+ 		suitebelea_titulo: Suite Belea
+es:
+	seccion:
+ 		suitebelea_texto: "Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños. "
+en:
+	seccion:
+ 		suitebelea_texto: "This beautiful suite is decorated with many wooden details. It is bright with windows on all walls to observe the majestic oaks that surround the room and features a pagoda-shaped roof. It has the most spacious interior of all suites and is the only one where we can stay with children."
+cat:
+	seccion:
+ 		suitebelea_texto: "Preciosa suite plena de curosos detalls en el seu interior. Molt lluminosa, amb finestres a totes les parets per poder observar els majestuosos roures que envolten aquesta habitació. Es distingeix per la seva teulada amb forma de pagoda. Té l'interior més ampli de totes les Suites i és l'única on podem allotjar-nos amb nens."
+eu:
+	seccion:
+ 		suitebelea_texto: "Oso suite polita da, detaile zainduz betea. Argitasun handikoa, horma guztietan ditu leihoak bertatik gela inguratzen duten haritz dotoreak behatu ahal izateko. Pagoda-formako teilatua da bere bereizgarria. Hau da barrualde zabalena duen Suite-a eta haurrekin lo egin ahal izango dugun bakarra. "
+fr:
+	seccion:
+ 		suitebelea_texto: "Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.  "
+
