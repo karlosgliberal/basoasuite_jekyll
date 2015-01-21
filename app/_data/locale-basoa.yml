@@ -460,12 +460,110 @@ fr:
  		nosotros_texto: "Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites."
 
 
+# SECCION COMPROMISOS
+
+es:
+	seccion:
+ 		compromisos_titulo: compromisos
+en:
+	seccion:
+ 		compromisos_titulo: commitments
+cat:
+	seccion:
+ 		compromisos_titulo: compromisos
+eu:
+	seccion:
+ 		compromisos_titulo: konpromisoak
+fr:
+	seccion:
+ 		compromisos_titulo: compromis 
+
+es:
+	seccion:
+ 		compromisos_texto: "En Basoa Suites creemos en un turismo diferente y por ello promovemos un turismo sostenible y respetuoso. Elegimos materiales y técnicas de construcción que causen el mínimo impacto en el árbol y el entorno. Nuestras construcciones en árboles están supervisadas por ingenieros forestales especialistas en árboles que nos orientan sobre el tipo de anclajes, cargas admisibles y sistemas de colocación con el fin de no dañar los ejemplares utilizados ni la masa arbórea. Nuestras Suites cuentan con un sistema de baño seco, así evitamos la instalación de tuberías y desagües en el interior del bosque. Además hemos construido pasarelas de madera elevadas para evitar la compactación del suelo, dirigir la circulación a los caminos y garantizar que el suelo y la flora no sufran el impacto de nuestra presencia. Por último, promovemos la observación del bosque bajo el convencimiento que cuanto más sepamos sobre los bosques mejor los cuidaremos. "
+en:
+	seccion:
+ 		compromisos_texto: "At Basoa Suites we believe in a different kind of tourism and thus promote sustainable and respectful tourism. We chose materials and construction techniques that cause minimal impact on the tree and the environment. Our constructions in trees are supervised by specialists that guide us about the type of anchors,"" allowable loads and the election of the trees we use to sustain our structures in order not to damage them. 
+Our suites have a dry toilet system to avoid the installation of pipes and drains into the forest. We have also built elevated wooden walkways to prevent soil compaction, direct the traffic of people to the paths and ensure that the soil and plants do not suffer the impact of our presence. Finally, we promote the observation of forest under the belief that the more we know about the forests better we take care of them.
+"
+cat:
+	seccion:
+ 		compromisos_texto: "A Basoa Suites creiem en un turisme diferent i per això promovem un turisme sostenible i respectuós. Triem materials i tècniques de construcció que causin el mínim impacte en l'arbre i l'entorn. Les nostres construccions en arbres estan supervisades per enginyers forestals especialistes en arbres que ens orienten sobre el tipus d'ancoratges,"" càrregues admissibles i sistemes de col · locació per tal de no malmetre els exemplars utilitzats ni la massa arbòria. 
+Les nostres Suites compten amb un sistema de bany sec, així evitem la instal·lació de canonades i desguassos a l'interior del bosc. A més hem construït passeres de fusta elevades per evitar la compactació del sòl, dirigir la circulació als camins i garantir que el sòl i la flora no pateixin l'impacte de la nostra presència. Finalment, promovem l'observació del bosc sota el convenciment que com més sapiguem sobre els boscos millor els cuidarem."
+eu:
+	seccion:
+ 		compromisos_texto: "Basoa Suite-en turismo desberdin batean sinesten dugu, eta horregatik, turismo jasangarria eta errespetuan oinarritua sustatzen dugu. Zuhaitzean eta ingurunean ahalik eta eragin txikiena duten materialak eta teknikak aukeratzen ditugu. Zuhaitzetan dauden gure eraikinak zuhaitzetan espezializatuta dauden oihan-ingeniariek gainbegiratuak dira eta ainguraketa-motei, gehiegizko kargei eta kolokazio-sistemei buruzko aholkuak ematen dizkigute zuhaitzak eta oihana ez hondatzeko. Gure Suite-ak komun lehorrez ornituak daude, hartara, oihanean barna hoditeria eta isurbiderik ez instalatzeko. Gainera, egurrezko pasarelak eraiki ditugu lurra ez trinkotzeko, zirkulazioa bideetara zuzentzeko eta lurrak eta florak gure presentziaren ondoriorik jasan ez dezaten. Azkenik, oihana behatzea sustatzen dugu, basoak zenbat eta gehiago ezagutu orduan eta hobeto zainduko ditugunaren ustea baitugu."
+fr:
+	seccion:
+ 		compromisos_texto: "A Basoa Suites nous croyons dans un tourisme différent, c’est pourquoi, nous promouvons un tourisme soutenable et respectueux. Nous choisissons les matériaux et les techniques de construction qui causent le minimum d’impact sur l’arbre et l’environnement. Nos constructions sur les arbres sont surveillées par des ingénieurs forestiers spécialistes des arbres. Ils nous orientent sur les types d’ancrages, les charges admissibles et les systèmes d’emplacement afin de ne pas abîmer les exemplaires utilisés et la masse d’arbres. Nos Suites disposent d’un système de WC sec, ce qui nous permet d’éviter l’installation des tuyauteries à l’intérieur de la forêt. De plus, nous avons construit des passerelles en bois élevés pour éviter le compactage du sol, diriger la circulation vers les chemins et garantir que le sol et la flore ne souffrent l’impact de notre présence. Enfin, nous promouvons l’observation de la forêt sous la conviction que plus nous connaissons les forêts, mieux nous les protégerons."
 
 
 
+# SECCION ACTIVIDADES 
+
+es:
+	seccion:
+ 		actividades_texto: "Aquí puedes encontrar algunos enlaces de interés de los recursos gastronómicos, naturales, turísticos...en la zona. "
+en:
+	seccion:
+ 		actividades_texto: "Here you can find some interesting links gastronomic, natural and tourist resources in the area."
+cat:
+	seccion:
+ 		actividades_texto: "Aquí pots trobar alguns enllaços d'interès dels recursos gastronòmics, naturals, turístics ... a la zona."
+eu:
+	seccion:
+ 		actividades_texto: "Hemen aurki ditzakezu inguruko eskaintza gastronomiko, natural eta turistikoetako zenbait lotura interesgarri."
+fr:
+	seccion:
+ 		actividades_texto: "Vous pouvez trouver ici quelques liens d’intérêts des ressources gastronomiques, naturels, touristiques … de la région."
+
+es:
+	seccion:
+ 		actividades_actividades: Actividades
+en:
+	seccion:
+ 		actividades_actividades: Activities
+cat:
+	seccion:
+ 		actividades_actividades: Activitats
+eu:
+	seccion:
+ 		actividades_actividades: Jarduerak
+fr:
+	seccion:
+ 		actividades_actividades: Activités
+
+es:
+	seccion:
+ 		actividades_restauracion: Restauración 
+en:
+	seccion:
+ 		actividades_restauracion: Restoration
+cat:
+	seccion:
+ 		actividades_restauracion: Restauració
+eu:
+	seccion:
+ 		actividades_restauracion: Jatetxeak
+fr:
+	seccion:
+ 		actividades_restauracion: Restauration
+
+es:
+	seccion:
+ 		actividades_turismo: Información de Turismo 
+en:
+	seccion:
+ 		actividades_turismo: Tourism office
+cat:
+	seccion:
+ 		actividades_turismo: Informació de Turisme
+eu:
+	seccion:
+ 		actividades_turismo: Turismo-informazioa
+fr:
+	seccion:
+ 		actividades_turismo: Information de Tourisme
 
 
-
-
-
-
+ 		
