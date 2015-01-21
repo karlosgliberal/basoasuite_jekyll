@@ -334,6 +334,42 @@ fr:
 											C’est nous qui mettons la forêt, c’est vous qui choisissez l’histoire. "
 
 
+# SECCION TE OFRECEMOS
+
+es:
+	seccion:
+ 		ofrecemos_titulo: te ofrecemos
+en:
+	seccion:
+ 		ofrecemos_titulo: we offer 
+cat:
+	seccion:
+ 		ofrecemos_titulo: t'oferim
+eu:
+	seccion:
+ 		ofrecemos_titulo: eskaintzen dizugu
+fr:
+	seccion:
+ 		ofrecemos_titulo: nous vous offrons 
+
+es:
+	seccion:
+ 		ofrecemos_texto: "Cuatro preciosas Suites dobles construidas a gran altura sobre los troncos de robles centenarios. Cada suite cuenta con terraza, baño seco, calefacción y todas las comodidades necesarias para tu estancia. Te serviremos el desayuno en una cesta que tú mismo subirás a la suite por medio de una polea y las cenas serán en el edificio de servicios Casa Amati. Desayunos y cenas están elaborados con productos naturales de la zona y puedes además configurar tu estancia a tu gusto: unas copas, un buen vino, una botella de cava... La historia la decides tú... "
+en:
+	seccion:
+ 		ofrecemos_texto: "Four lovely double suites built high on the branches of oak trees. Each suite has a balcony, dry bath, heating and other amenities for your stay."" Breakfast is delivered to your suite in a basket that you can pull up with a rope. Dinner is served at Amati House. Breakfasts and dinners are made ​​with locally source natural products and you may add some nice wine, a bottle of champagne, other drinks ... 
+											The story is up to you .."
+cat:
+	seccion:
+ 		ofrecemos_texto: "Quatre precioses Suites dobles construïdes a gran alçada sobre els troncs de roures centenaris. ""Cada suite té terrassa, bany sec, calefacció i totes les comoditats necessàries per a la teva estada. Et servirem l'esmorzar en una cistella que tu mateix pujaràs a la suite mitjançant una politja i els sopars seran a l'edifici de serveis Casa Amati. Els esmorzars i els sopars estan elaborats amb productes naturals de la zona i pots a més configurar la teva estada al teu gust: unes copes, un bon vi, una ampolla de cava ... 
+											La història la decideixes tu .."
+eu:
+	seccion:
+ 		ofrecemos_texto: "Mendeetako haritzen gainean, goratasun handian eraikitako lau suite bikoitz eder. Suite guztiek dute terraza, komun lehorra, berogailua eta zure egonaldirako beharrezko erosotasun guztiak. Gosaria polea baten bidez suitera igoko duzun saski batean zerbitzatuko dizugu eta afariak zerbitzu-eraikina den Amati Etxean egingo dira. Gosariak eta afariak inguruko produktu naturalez prestatuak dira eta, gainera, zure egonaldia zure gustuetara egokitu dezakezu: kopak, ardo ona, cava boteila bat... Istorioa zuk aukeratzen duzu..."
+fr:
+	seccion:
+ 		ofrecemos_texto: "Quatre magnifiques Suites doubles construites à grande hauteur sur les troncs de chaines centenaires. Chaque suite dispose d’une terrasse,"" WC sec, chauffage et tout le confort nécessaire à votre séjour. Nous vous servirons le petit déjeuner dans un panier que vous monterez vous-même à la suite grâce à une poulie et les dîners seront dans l’édifice des services la Maison Amati. Les petits déjeuners et les dîners sont préparés avec des produits naturels de la région et, de plus, vous pouvez configurer votre séjour à vos goûts : quelques coupes, un bon vin, une bouteille de cava... C’est vous qui choisissez l’histoire ...
+										 "
 
 
 
