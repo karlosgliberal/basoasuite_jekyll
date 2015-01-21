@@ -1,4 +1,5 @@
-# menu principal
+# MENU PRINCIPAL
+
 es:
 	menu:
  		inicio: INICIO
@@ -128,4 +129,118 @@ eu:
 fr:
 	menu:
  		actividades: ACTIVITES
+
+# MENU LATERAL
+
+es:
+	lateral:
+ 		texto: ¿Una suite el lo alto de un árbol?
+en:
+	lateral:
+ 		texto: a suite at the top of a tree?
+cat:
+	lateral:
+ 		texto: Cuna suite a dalt d'un arbre? 
+eu:
+	lateral:
+ 		texto: suite bat zuhaitz baten gainean?
+fr:
+	lateral:
+ 		texto: Une suite perchée sur un arbre?
+
+es:
+	lateral:
+ 		boton_descubre: Descubre las Suites 
+en:
+	lateral:
+ 		boton_desubre: Discover the suites
+cat:
+	lateral:
+ 		boton_descubre: Descobreix les Suites
+eu:
+	lateral:
+ 		boton_descubre: Ezagutu gure Suite-ak 
+fr:
+	lateral:
+ 		boton_descubre: Découvrez les Suites 
+
+es:
+	lateral:
+ 		boton_reserva: Reservar
+en:
+	lateral:
+ 		boton_reserva: Booking
+cat:
+	lateral:
+ 		boton_reserva: Booking
+eu:
+	lateral:
+ 		boton_reserva: Erreserbatu
+fr:
+	lateral:
+ 		boton_reserva: Réserver
+
+es:
+	lateral:
+ 		boton_regala: Regalar
+en:
+	lateral:
+ 		boton_regala: Gift card
+cat:
+	lateral:
+ 		boton_regala: Regalar
+eu:
+	lateral:
+ 		boton_regala: Oparitu
+fr:
+	lateral:
+ 		boton_regala: Offrir
+
+es:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+en:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+cat:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarra"
+eu:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Nafarroa" 
+fr:
+	lateral:
+ 		direccion: "Basoa Suites, Lizaso, Navarre"
+
+es:
+	lateral:
+ 		news: Recibir Newsletter
+en:
+	lateral:
+ 		news: Newsletter
+cat:
+	lateral:
+ 		news: Rebre Newsletter
+eu:
+	lateral:
+ 		news: Newsletter-a jaso
+fr:
+	lateral:
+ 		news: Recevoir la Newsletter
+
+es:
+	lateral:
+ 		boton_enviar: Enviar
+en:
+	lateral:
+ 		boton_enviar: Send
+cat:
+	lateral:
+ 		boton_enviar: Enviar
+eu:
+	lateral:
+ 		boton_enviar: Bidali
+fr:
+	lateral:
+ 		boton_enviar: Envoyer
 
