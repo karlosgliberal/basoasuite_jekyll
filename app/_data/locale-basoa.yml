@@ -372,9 +372,92 @@ fr:
 										 "
 
 
+# SECCION ENTORNO
+
+es:
+	seccion:
+ 		entorno_texto: "El Robledal de Amati es una pequeña joya ecológica y un entorno protegido de especial interés arbóreo y ornitológico. Se trata de un tipo de robledal de humedal de llanura que es exclusivo de algunas zonas concretas de Álava y Navarra."
+en:
+	seccion:
+ 		entorno_texto: "The Amati oak forest is a small ecological treasure and a protected environment with particular ornithological interest. This humid oak is unique to areas of Alava and Navarra, a relic of an era when such forest covered entire valleys in Ultzama and Basaburua."
+cat:
+	seccion:
+ 		entorno_texto: "La Roureda d'Amati és una petita joia ecològica i un entorn protegit d'especial interès arbori i ornitològic. Es tracta d'un tipus de roureda d'aiguamoll de plana que és exclusiu d'algunes zones concretes d'Àlaba i Navarra, vestigi d'una altra època en que aquestes rouredes cobrien la totalitat de les valls de Basaburua i Ultzama."
+eu:
+	seccion:
+ 		entorno_texto: "Amatiko Hariztia altxor ekologiko txiki bat da; zuhaitz-eremu eta ornitologiko interesgarria dituen ingurune babestua. Haritzondo-mota hori lautadetako hezeguneetakoa da, eta Araba eta Nafarroako inguru jakin batzuetan soilik aurkitzen da. "
+fr:
+	seccion:
+ 		entorno_texto: "La Chênaie d’Amati est un petit bijou écologique et un environnement protégé d’un intérêt arborescent et ornithologique spécial. Il s’agit d’un type de chênaie des zones humides des plaines qui est exclusif de quelques régions d’Alava et de Navarre."
+
+ 		es:
+	seccion:
+ 		entorno_texto_dos: "Se encuentra en en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía"
+en:
+	seccion:
+ 		entorno_texto_dos: "The Amati oak forest is in Lizaso, in the heart of Ultzama Valley in Navarre... Ultzama is a beautiful valley with a mild clime located 30 minutes from Pamplona and 50 minutes from San Sebastian. It is a valley of great beauty that combines ancient traditions and nature characterized by green meadows and dense forests. This valley is also known for its mycological and birdlife values. The area also offers many outdoor activities: sightseeing, hiking, horseback riding"
+cat:
+	seccion:
+ 		entorno_texto_dos: "La roureda d’Amati es troba a Lizaso, en ple cor de la vall navarresa d’Ultzama ... Ultzama és una bonica vall de clima suau situada a 30 minuts de Pamplona i 50 minuts de Sant Sebastià. Es tracta d'una vall de gran bellesa que combina tradicions ancestrals i una natura caracteritzada per verds prats i frondosos boscos. Aquesta vall és a més coneguda pel seu alt valor micològic i ornitològic i la zona ofereix gran varietat d'activitats a l'aire lliure: paisatges, senderisme, passejades a cavall"
+eu:
+	seccion:
+ 		entorno_texto_dos: "Lizason dago, Ultzama bailararen bihotzean, klima leuna duen bailara ederrean, Iruñeatik 30 minutura eta Donostiatik 50 minutura. Edertasun aparta duen bailara, ohitura zaharrak zelai berde eta oihan hostotsuz osatutako naturarekin uztartzen dituena. Horrez gain, bere balio mikologikoengatik eta ornitologikoengatik ere ezaguna da eta eskualdeak aire librean burutzeko jarduera asko eskaintzen ditu: paisajeak, oinezko ibilbideak, zaldizko paseoak, gastronomia"
+fr:
+	seccion:
+ 		entorno_texto_dos: "Elle se trouve à Lizaso, en plein cœur de la Vallée d’Ultzama, une très belle vallée de climat doux, situé à 30 minutes de Pampelune et 50 minutes de Saint Sébastien. Une vallée de grande beauté qui combine les traditions ancestrales et une nature caractérisée par de vertes prairies et des forêts touffues. De plus, elle est connue par sa grande valeur mycologique et ornithologique et la région offre une grande variété d’activités à l’aire libre : paysages, randonnées, promenades à cheval, gastronomie"
 
 
+es:
+	seccion:
+ 		entorno_mapa: Ver mapa
+en:
+	seccion:
+ 		entorno_mapa: See map
+cat:
+	seccion:
+ 		entorno_mapa: Veure Mapa
+eu:
+	seccion:
+ 		entorno_mapa: Ver mapa
+fr:
+	seccion:
+ 		entorno_mapa: Ver mapa
 
+
+# SECCION NOSOTROS
+
+es:
+	seccion:
+ 		nosotros_titulo: Nosotros
+en:
+	seccion:
+ 		nosotros_titulo: about us
+cat:
+	seccion:
+ 		nosotros_titulo: nosaltres
+eu:
+	seccion:
+ 		nosotros_titulo: Gu
+fr:
+	seccion:
+ 		nosotros_titulo: Nous
+
+es:
+	seccion:
+ 		nosotros_texto: "Nos gusta trabajar y vivir en la naturaleza y aunque tenemos los pies en la tierra, nos gusta subirnos a los árboles. En el año 2003 creamos una empresa pionera de construcción de parques de aventura en árboles. Desde entonces hemos construido diversos parques de aventura además de recorridos naturales en árboles, así como adaptados a personas discapacitadas. Pronto surgió la idea de ir más allá y nos preguntamos por la posibilidad de dormir en lo alto de en un árbol ¿Cómo sería la experiencia de estar completamente inmersos en el bosque? Así comenzó a gestarse Basoa Suites. "
+en:
+	seccion:
+ 		nosotros_texto: "We love to work and live in nature. Although we have our feet on the ground, we also like to climb trees. In 2003 we created a pioneering company in construction of adventure parks on trees. Since then we have built several adventure parks as well as natural wooden paths on trees. Soon the idea of ​​going further came up and we asked ourselves for the possibility of sleeping on top of a tree. How would be the experience of being completely immersed in the woods? Thus Basoa Suites began to take shape."
+cat:
+	seccion:
+ 		nosotros_texto: "Ens agrada treballar i viure a la natura i encara que tenim els peus a terra,"" ens agrada pujar-nos als arbres. L'any 2003 vam crear una empresa pionera de construcció de parcs d'aventura en arbres. Des de llavors hem construït diversos parcs d'aventura a més de recorreguts naturals en arbres, així com adaptats a persones discapacitades. Aviat va sorgir la idea d'anar més enllà i ens preguntem per la possibilitat de dormir a la part alta d'un arbre Com seria l'experiència d'estar completament immersos en el bosc? Així va començar a gestar-se Basoa Suites.
+"
+eu:
+	seccion:
+ 		nosotros_texto: "Naturan lan egin eta bizitzea gustatzen zaigu, eta nahiz oinak lurrean izan, zuhaitzetara igotzea gustatzen zaigu. 2003an, abenturazko zuhaitz parkeak eraikitzeko enpresa aitzindaria sortu genuen. Ordutik, hainbat abentura-parke sortu dugu, baita zuhaitzen gainean ibiltzeko ibilbideak eta pertsona ezinduei egokitutakoak ere. Laster urrunago joateko ideia otu zitzaigun eta zuhaitz baten gainean lo egiteko aukeraz pentsatzen hasi ginen. Nolakoa litzateke basoan guztiz barneratua egotearen esperientzia? Horrela hasi zen garatzen Basoa Suites."
+fr:
+	seccion:
+ 		nosotros_texto: "Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites."
 
 
 
