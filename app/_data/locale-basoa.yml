@@ -244,3 +244,109 @@ fr:
 	lateral:
  		boton_enviar: Envoyer
 
+# SECCION PRINCIPAL
+es:
+	seccion:
+ 		principal: Nosotros ponemos el bosque
+en:
+	seccion:
+ 		principal: we put the forest
+cat:
+	seccion:
+ 		principal: nosaltres posem el bosc
+eu:
+	seccion:
+ 		principal: Basoa duzu zain
+fr:
+	seccion:
+ 		principal: "C’est nous qui mettons la forêt,"
+
+es:
+	seccion:
+ 		principal_dos: la historia la decides tú
+en:
+	seccion:
+ 		principal_dos: you pick the story
+cat:
+	seccion:
+ 		principal_dos: la història la decideixes tu
+eu:
+	seccion:
+ 		principal_dos: storioa zeuk aukeratu
+fr:
+	seccion:
+ 		principal_dos: c’est vous qui choisissez l’histoire 
+
+es:
+	seccion:
+ 		principal_video: Ver vídeo
+en:
+	seccion:
+ 		principal_video: watch video
+cat:
+	seccion:
+ 		principal_video: veure vídeo
+eu:
+	seccion:
+ 		principal_video: Bideoa ikusi
+fr:
+	seccion:
+ 		principal_video: regarder la vidéo
+
+
+# SECCION TE PROPONEMOS
+
+es:
+	seccion:
+ 		proponemos_titulo: te proponemos
+en:
+	seccion:
+ 		proponemos_titulo: we propose 
+cat:
+	seccion:
+ 		proponemos_titulo: et proposem
+eu:
+	seccion:
+ 		proponemos_titulo: proposatzen dizugu
+fr:
+	seccion:
+ 		proponemos_titulo: nous vous proposons
+
+es:
+	seccion:
+ 		proponemos_texto: "Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente."" Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. 
+						   				Nosotros ponemos el bosque, la historia la decides tú."
+en:
+	seccion:
+ 		proponemos_texto: "Dive in the magic and charm of the Amati oak forest."" Spending the night at the top of a majestic tree is a unique experience that will not leave you indifferent. Relax, unwind, reconnect, …maybe fall in love. Abandon yourself to the sensations and allow the presence of the forest capture you. 
+											We put the forest, the story is up to you."
+cat:
+	seccion:
+ 		proponemos_texto: "Una immersió en la màgia i l'encant de la roureda de Amati."" Passar la nit a la part alta d'un majestuós arbre és una experiència única que no et deixarà indiferent. Podràs relaxar-te, desconnectar, reconnectar, enamorar potser ... abandona't a les sensacions i deixa que la imponent presència del bosc t'atrapi. 
+											 Nosaltres posem el bosc, la història la decideixes tu."
+eu:
+	seccion:
+ 		proponemos_texto: "Amati hariztiaren magian eta xarman murgiltzea."" Zuhaitz eder baten gainean gaua igarotzea esperientzia berezia da, ez zaituena ezaxola utziko. Erlaxatu, deskonektatu, birkonektatu eta, agian, maitemindu egingo zara. Eman bide sentsazioei eta utzi oihanaren presentzia ikaragarriari harrapa zaitzan.
+											Guk basoa jartzen dugu, istorioa zuk aukeratzen duzu."
+fr:
+	seccion:
+ 		proponemos_texto: "Une immersion dans la magie et le charme de la chênaie d’Amati."" Passer la nuit sur le haut d’un majestueux arbre est une expérience unique qui ne vous laissera pas indifférent. Vous pourrez vous reposez, déconnecter, reconnecter, et qui sait, éventuellement tomber amoureux ... laisser vous emporter par les sensations et procurez que la puissante présence de la forêt vous attrape.
+											C’est nous qui mettons la forêt, c’est vous qui choisissez l’histoire. "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
