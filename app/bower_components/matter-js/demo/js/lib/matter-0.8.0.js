@@ -1,5 +1,5 @@
 /**
-* matter.js 0.8.0-edge 2014-05-04
+* matter-0.8.0.js 0.8.0-alpha 2014-05-04
 * http://brm.io/matter-js/
 * License: MIT
 */
@@ -5071,8 +5071,8 @@ var Render = {};
             element: null,
             canvas: null,
             options: {
-                width: 170,
-                height: 200,
+                width: 800,
+                height: 600,
                 background: '#fafafa',
                 wireframeBackground: '#222',
                 hasBounds: false,

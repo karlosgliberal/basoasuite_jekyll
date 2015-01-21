@@ -72,12 +72,11 @@ $(document).ready(function(){
       // _world.bounds.max.y = 80
       groupId = Body.nextGroupId( );        
 
-      var texture = 'images/1.png';
+      var texture = './1.png';
       var ropeB = Composites.stack(60, 0, 14, 1, 80, 80, function(x, y, column, row) {
         return Bodies.rectangle(100, 20, 10, 10, { groupId: groupId, render: { fillStyle: '#b4c9c1', strokeStyle: '#b4c9c1' } });
       });
       
-          console.log(ropeB.bodies.length); 
       Composites.chain(ropeB, 0, 0, 0, 0, { stiffness: 0.4, length: 4});
 
       ropeB.bodies[13]['render']['sprite']['texture'] = texture; 
