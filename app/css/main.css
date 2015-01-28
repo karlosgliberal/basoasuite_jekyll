@@ -6553,7 +6553,7 @@ i.scroll-down:hover {
 }
 .compromisos-container {
   height: 64%;
-  width: 65%;
+  width: 45%;
 }
 .entorno-container {
   top: -410px;
@@ -6818,6 +6818,18 @@ a.mapa {
 }
 .iconos-footer {
   clear: both;
+}
+.bn-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+}
+.bn-img:hover {
+  -webkit-filter: grayscale(1%);
+  filter: grayscale(1%);
 }
 .botones-wrapper {
   position: relative;
