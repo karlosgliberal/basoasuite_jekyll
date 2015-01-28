@@ -2,4 +2,31 @@
 es:
   menu:
     inicio: INICIO
-    proponemos: TE PROPONEMOS
+
+
+en:
+  menu:
+    inicio: HOME
+
+
+
+cat:
+  menu:
+    inicio: INICI
+
+
+eu:
+  menu:
+    inicio: HASIERA
+
+
+
+fr:
+  menu:
+    inicio: DEBUT
+
+
+po:
+  menu:
+    inicio: GROÑI QUE GROÑA
+
