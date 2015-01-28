@@ -1,32 +1,84 @@
-# MENU PRINCIPAL
+# ES
+
 es:
   menu:
     inicio: INICIO
+    proponemos: TE PROPONEMOS
+    ofrecemos: TE OFRECEMOS
+    entorno: EL ENTORNO
+    nosotros: NOSOTROS
+    compromisos: COMPROMISOS
+    suites: VER SUITES
+    reservas: RESERVAS
+    actividades: ACTIVIDADES
+  lateral:
+    texto: ¿Una suite el lo alto de un árbol?
 
+# EN
 
 en:
   menu:
     inicio: HOME
+    proponemos: WE PROPOSE
+    ofrecemos: WE OFFER
+    entorno: SURROUNDINGS
+    nosotros: WE
+    compromisos: COMMITMENTS
+    suites: LOOK AT SUITES
+    reservas: BOOKING
+    actividades: ACTIVITIES
+  lateral:
+    texto: a suite at the top of a tree?
 
 
+# CAT
 
 cat:
   menu:
     inicio: INICI
+    proponemos: WE PROPOSE
+    ofrecemos: T'OFERIM
+    entorno: ENTORN
+    nosotros: NOSALTRES
+    compromisos: COMPROMISOS
+    suites: VEURE SUITES
+    reservas: BOOKING
+    actividades: ACTIVITATS
+  lateral:
+    texto: Cuna suite a dalt d'un arbre?
 
+# EU
 
 eu:
   menu:
     inicio: HASIERA
+    proponemos: PROPOSATZEN DIZUGU
+    ofrecemos: ESKAINTZEN DIZUGU
+    entorno: INGURUNEA
+    nosotros: NOSALTRES
+    compromisos: KONPROMISOAK
+    suites: SUITE-AK IKUSI
+    reservas: ERRESERBAK
+    actividades: JARDUERAK
+  lateral:
+    texto: suite bat zuhaitz baten gainean?
 
 
 
+# FR
 fr:
   menu:
     inicio: DEBUT
+    proponemos: VOUS PROPOSONS
+    ofrecemos: NOUS VOUS OFFRONS
+    entorno: ENVIRONNEMENT
+    nosotros: NOUS
+    compromisos: COMPROMIS
+    suites: VOIR LES SUITES
+    reservas: RESERVATIONS
+    actividades: ACTIVITES
+  lateral:
+    texto: Une suite perchée sur un arbre?
 
 
-po:
-  menu:
-    inicio: GROÑI QUE GROÑA
 

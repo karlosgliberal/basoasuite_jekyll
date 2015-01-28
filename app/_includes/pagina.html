@@ -23,20 +23,21 @@
                    <li>
                      <ul class="idiomas">
                        <li><a href="/es">ES</a></li>
-                       <li><a href="/eus">EUS</a></li>
+                       <li><a href="/eu">EUS</a></li>
                        <li><a href="/cat">CAT</a></li>
-                       <li><a href="/eng">ENG</a></li>
+                       <li><a href="/en">ENG</a></li>
+                       <li><a href="/fr">FR</a></li>
                       </ul>
                     </li>
                       <li class="menu-home" id="inicio-menu active"><a href="#inicio">
                         {{ i18n.menu.inicio }}</a></li>
-                      <li class="menu-home" id="proponemos-menu"><a href="#proponemos">Te proponemos</a></li>
-                      <li class="menu-home" id="ofrecemos-menu"><a href="#ofrecemos">Te ofrecemos</a></li>
-                      <li class="menu-home" id="entorno-menu"><a href="#entorno">El entorno</a></li>
-                      <li class="menu-home" id="nosotros-menu"><a href="#nosotros">Nosotros</a></li>
-                      <li class="menu-home" id="compromisos-menu"><a href="#compromisos">Compromisos</a></li>
+                      <li class="menu-home" id="proponemos-menu"><a href="#proponemos">{{ i18n.menu.proponemos }}</a></li>
+                      <li class="menu-home" id="ofrecemos-menu"><a href="#ofrecemos">{{ i18n.menu.ofrecemos }}</a></li>
+                      <li class="menu-home" id="entorno-menu"><a href="#entorno">{{ i18n.menu.entorno }}</a></li>
+                      <li class="menu-home" id="nosotros-menu"><a href="#nosotros">{{ i18n.menu.nosotros }}</a></li>
+                      <li class="menu-home" id="compromisos-menu"><a href="#compromisos">{{ i18n.menu.compromisos }}</a></li>
                       <li class="menu-home dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ver suites<span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ i18n.menu.suites }}<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="meanu">
                           <li><a href="http://basoasuites.lodgify.com/es/463038/01-suite-belea2" target="_blank">Belea</a></li>
                           <li><a href="http://basoasuites.lodgify.com/es/463110/04-suite-bedats2" target="_blank">Bedats</a></li>
@@ -44,8 +45,8 @@
                           <li><a href="http://basoasuites.lodgify.com/es/463084/03-suite-okolin" target="_blank">Okolin</a></li>
                         </ul>
                       </li>
-                      <li class="menu-home" id="compromisos-menu"><a href="http://basoasuites.lodgify.com/es/463013/propiedades" target="_blank">Reservas</a></li>
-                      <li class="menu-home" id="actividades-menu"><a href="#actividades">Actividades</a></li>
+                      <li class="menu-home" id="compromisos-menu"><a href="http://basoasuites.lodgify.com/es/463013/propiedades" target="_blank">{{ i18n.menu.reservas }}</a></li>
+                      <li class="menu-home" id="actividades-menu"><a href="#actividades">{{ i18n.menu.actividades }}</a></li>
                     </ul>
                   </div>
                 </div>
@@ -312,7 +313,7 @@
     </div>
 
     <div class=" mt10 texto-footer uppercase">
-      ¿Una suite en lo alto de un árbol?
+     {{ i18n.lateral.texto}}
     </div>
     <div class="botones-wrapper">
          <div class="wrapper-reservar">
