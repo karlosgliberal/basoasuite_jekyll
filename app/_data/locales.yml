@@ -37,8 +37,19 @@ es:
     nosotros_titulo: Nosotros
     nosotros_texto: | 
         Nos gusta trabajar y vivir en la naturaleza y aunque tenemos los pies en la tierra, nos gusta subirnos a los árboles. En el año 2003 creamos una empresa pionera de construcción de parques de aventura en árboles. Desde entonces hemos construido diversos parques de aventura además de recorridos naturales en árboles, así como adaptados a personas discapacitadas. Pronto surgió la idea de ir más allá y nos preguntamos por la posibilidad de dormir en lo alto de en un árbol ¿Cómo sería la experiencia de estar completamente inmersos en el bosque? Así comenzó a gestarse Basoa Suites.
-
-
+    compromisos_titulo: compromisos
+    compromisos_texto: | 
+        En Basoa Suites creemos en un turismo diferente y por ello promovemos un turismo sostenible y respetuoso. Elegimos materiales y técnicas de construcción que causen el mínimo impacto en el árbol y el entorno. Nuestras construcciones en árboles están supervisadas por ingenieros forestales especialistas en árboles que nos orientan sobre el tipo de anclajes, cargas admisibles y sistemas de colocación con el fin de no dañar los ejemplares utilizados ni la masa arbórea. Nuestras Suites cuentan con un sistema de baño seco, así evitamos la instalación de tuberías y desagües en el interior del bosque. Además hemos construido pasarelas de madera elevadas para evitar la compactación del suelo, dirigir la circulación a los caminos y garantizar que el suelo y la flora no sufran el impacto de nuestra presencia. Por último, promovemos la observación del bosque bajo el convencimiento que cuanto más sepamos sobre los bosques mejor los cuidaremos.
+    actividades_texto: | 
+        Aquí puedes encontrar algunos enlaces de interés de los recursos gastronómicos, naturales, turísticos...en la zona.
+    actividades_actividades: Actividades
+    actividades_restauracion: Restauración 
+    actividades_turismo: Información de Turismo
+  suites:
+    suitebelea_titulo: Suite Belea
+    suitebelea_texto: |
+       Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños.
+    suitebeigorri_titulo: Suite beigorri
 
 
 # EN
@@ -82,6 +93,19 @@ en:
     nosotros_titulo: about us
     nosotros_texto: | 
         We love to work and live in nature. Although we have our feet on the ground, we also like to climb trees. In 2003 we created a pioneering company in construction of adventure parks on trees. Since then we have built several adventure parks as well as natural wooden paths on trees. Soon the idea of ​​going further came up and we asked ourselves for the possibility of sleeping on top of a tree. How would be the experience of being completely immersed in the woods? Thus Basoa Suites began to take shape.
+    compromisos_titulo: commitments
+    compromisos_texto: | 
+        At Basoa Suites we believe in a different kind of tourism and thus promote sustainable and respectful tourism. We chose materials and construction techniques that cause minimal impact on the tree and the environment. Our constructions in trees are supervised by specialists that guide us about the type of anchors, allowable loads and the election of the trees we use to sustain our structures in order not to damage them. 
+        Our suites have a dry toilet system to avoid the installation of pipes and drains into the forest. We have also built elevated wooden walkways to prevent soil compaction, direct the traffic of people to the paths and ensure that the soil and plants do not suffer the impact of our presence. Finally, we promote the observation of forest under the belief that the more we know about the forests better we take care of them.
+    actividades_texto: | 
+        Here you can find some interesting links gastronomic, natural and tourist resources in the area.
+    actividades_actividades: Activities
+    actividades_restauracion: Restoration
+    actividades_turismo: Tourism office
+  suites:
+    suitebelea_titulo: Suite Belea
+    suitebelea_texto: | 
+       This beautiful suite is decorated with many wooden details. It is bright with windows on all walls to observe the majestic oaks that surround the room and features a pagoda-shaped roof. It has the most spacious interior of all suites and is the only one where we can stay with children.
 
 
 # CAT
@@ -124,7 +148,21 @@ cat:
     entorno_mapa: Veure Mapa
     nosotros_titulo: nosaltres
     nosotros_texto: | 
-        "Ens agrada treballar i viure a la natura i encara que tenim els peus a terra,"" ens agrada pujar-nos als arbres. L'any 2003 vam crear una empresa pionera de construcció de parcs d'aventura en arbres. Des de llavors hem construït diversos parcs d'aventura a més de recorreguts naturals en arbres, així com adaptats a persones discapacitades. Aviat va sorgir la idea d'anar més enllà i ens preguntem per la possibilitat de dormir a la part alta d'un arbre Com seria l'experiència d'estar completament immersos en el bosc? Així va començar a gestar-se Basoa Suites.
+        Ens agrada treballar i viure a la natura i encara que tenim els peus a terra, ens agrada pujar-nos als arbres. L'any 2003 vam crear una empresa pionera de construcció de parcs d'aventura en arbres. Des de llavors hem construït diversos parcs d'aventura a més de recorreguts naturals en arbres, així com adaptats a persones discapacitades. Aviat va sorgir la idea d'anar més enllà i ens preguntem per la possibilitat de dormir a la part alta d'un arbre Com seria l'experiència d'estar completament immersos en el bosc? Així va començar a gestar-se Basoa Suites.
+    compromisos_titulo: compromisos
+    compromisos_texto: | 
+        A Basoa Suites creiem en un turisme diferent i per això promovem un turisme sostenible i respectuós. Triem materials i tècniques de construcció que causin el mínim impacte en l'arbre i l'entorn. Les nostres construccions en arbres estan supervisades per enginyers forestals especialistes en arbres que ens orienten sobre el tipus d'ancoratges, càrregues admissibles i sistemes de col locació per tal de no malmetre els exemplars utilitzats ni la massa arbòria. 
+        Les nostres Suites compten amb un sistema de bany sec, així evitem la instal·lació de canonades i desguassos a l'interior del bosc. A més hem construït passeres de fusta elevades per evitar la compactació del sòl, dirigir la circulació als camins i garantir que el sòl i la flora no pateixin l'impacte de la nostra presència. Finalment, promovem l'observació del bosc sota el convenciment que com més sapiguem sobre els boscos millor els cuidarem.
+    actividades_texto: | 
+        Aquí pots trobar alguns enllaços d'interès dels recursos gastronòmics, naturals, turístics ... a la zona.
+    actividades_actividades: Activitats
+    actividades_turismo: Informació de Turisme
+    actividades_colaboradores: Colaboradors
+    actividades_restauracion: Restauració
+  suites:
+    suitebelea_titulo: Suite Belea
+    suitebelea_texto: | 
+       Preciosa suite plena de curosos detalls en el seu interior. Molt lluminosa, amb finestres a totes les parets per poder observar els majestuosos roures que envolten aquesta habitació. Es distingeix per la seva teulada amb forma de pagoda. Té l'interior més ampli de totes les Suites i és l'única on podem allotjar-nos amb nens.
 
 
 # EU
@@ -167,6 +205,21 @@ eu:
     nosotros_titulo: Gu
     nosotros_texto: | 
         Naturan lan egin eta bizitzea gustatzen zaigu, eta nahiz oinak lurrean izan, zuhaitzetara igotzea gustatzen zaigu. 2003an, abenturazko zuhaitz parkeak eraikitzeko enpresa aitzindaria sortu genuen. Ordutik, hainbat abentura-parke sortu dugu, baita zuhaitzen gainean ibiltzeko ibilbideak eta pertsona ezinduei egokitutakoak ere. Laster urrunago joateko ideia otu zitzaigun eta zuhaitz baten gainean lo egiteko aukeraz pentsatzen hasi ginen. Nolakoa litzateke basoan guztiz barneratua egotearen esperientzia? Horrela hasi zen garatzen Basoa Suites.
+    compromisos_titulo: konpromisoak
+    compromisos_texto: | 
+        Basoa Suite-en turismo desberdin batean sinesten dugu, eta horregatik, turismo jasangarria eta errespetuan oinarritua sustatzen dugu. Zuhaitzean eta ingurunean ahalik eta eragin txikiena duten materialak eta teknikak aukeratzen ditugu. Zuhaitzetan dauden gure eraikinak zuhaitzetan espezializatuta dauden oihan-ingeniariek gainbegiratuak dira eta ainguraketa-motei, gehiegizko kargei eta kolokazio-sistemei buruzko aholkuak ematen dizkigute zuhaitzak eta oihana ez hondatzeko. Gure Suite-ak komun lehorrez ornituak daude, hartara, oihanean barna hoditeria eta isurbiderik ez instalatzeko. Gainera, egurrezko pasarelak eraiki ditugu lurra ez trinkotzeko, zirkulazioa bideetara zuzentzeko eta lurrak eta florak gure presentziaren ondoriorik jasan ez dezaten. Azkenik, oihana behatzea sustatzen dugu, basoak zenbat eta gehiago ezagutu orduan eta hobeto zainduko ditugunaren ustea baitugu.
+    actividades_texto: | 
+        Hemen aurki ditzakezu inguruko eskaintza gastronomiko, natural eta turistikoetako zenbait lotura interesgarri.
+    actividades_actividades: Jarduerak
+    actividades_restauracion: Jatetxeak
+    actividades_turismo: Turismo-informazioa
+    actividades_colaboradores: Kolaboratzaileak
+  suites:
+    suitebelea_titulo: Belea Suite-a
+    suitebelea_texto: | 
+       Oso suite polita da, detaile zainduz betea. Argitasun handikoa, horma guztietan ditu leihoak bertatik gela inguratzen duten haritz dotoreak behatu ahal izateko. Pagoda-formako teilatua da bere bereizgarria. Hau da barrualde zabalena duen Suite-a eta haurrekin lo egin ahal izango dugun bakarra.
+
+
 
 
 # FR
@@ -207,7 +260,21 @@ fr:
     entorno_mapa: Ver mapa
     nosotros_titulo: Nous
     nosotros_texto: | 
-        "Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites."
+        Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites.
+    compromisos_titulo: compromis
+    compromisos_texto: | 
+        A Basoa Suites nous croyons dans un tourisme différent, c’est pourquoi, nous promouvons un tourisme soutenable et respectueux. Nous choisissons les matériaux et les techniques de construction qui causent le minimum d’impact sur l’arbre et l’environnement. Nos constructions sur les arbres sont surveillées par des ingénieurs forestiers spécialistes des arbres. Ils nous orientent sur les types d’ancrages, les charges admissibles et les systèmes d’emplacement afin de ne pas abîmer les exemplaires utilisés et la masse d’arbres. Nos Suites disposent d’un système de WC sec, ce qui nous permet d’éviter l’installation des tuyauteries à l’intérieur de la forêt. De plus, nous avons construit des passerelles en bois élevés pour éviter le compactage du sol, diriger la circulation vers les chemins et garantir que le sol et la flore ne souffrent l’impact de notre présence. Enfin, nous promouvons l’observation de la forêt sous la conviction que plus nous connaissons les forêts, mieux nous les protégerons.
+    actividades_texto: | 
+        Vous pouvez trouver ici quelques liens d’intérêts des ressources gastronomiques, naturels, touristiques de la région.
+    actividades_actividades: Activités
+    actividades_restauracion: Restauration
+    actividades_turismo: Information de Tourisme
+    actividades_colaboradores: Collaborateurs
+  suites:
+    suitebelea_titulo: Suite Belea
+    suitebelea_texto: | 
+       Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.
+
 
 
 
