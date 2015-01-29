@@ -13,6 +13,19 @@ es:
     actividades: ACTIVIDADES
   lateral:
     texto: ¿Una suite el lo alto de un árbol?
+    boton_descubre: Descubre las Suites
+    boton_reserva: Reservar
+    boton_regala: Regalar
+    direccion: "Basoa Suites, Lizaso, Navarra"
+    news: Recibir Newsletter
+    boton_enviar: Enviar
+  seccion:
+    principal: Nosotros ponemos el bosque
+    principal_dos: la historia la decides tú
+    principal_video: Ver vídeo
+    proponemos_titulo: te proponemos
+    proponemos_texto: |
+      "Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente. Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. <br>Nosotros ponemos el bosque, la historia la decides tú.."
 
 # EN
 
@@ -29,6 +42,21 @@ en:
     actividades: ACTIVITIES
   lateral:
     texto: a suite at the top of a tree?
+    boton_descubre: Discover the suites
+    boton_reserva: Booking
+    boton_regala: Gift card
+    direccion: "Basoa Suites, Lizaso, Navarra"
+    news: Newsletter
+    boton_enviar: Send
+  seccion:
+    principal: we put the forest
+    principal_dos: you pick the story
+    principal_video: watch video
+    proponemos_titulo: we propose
+    proponemos_texto: | 
+           "Dive in the magic and charm of the Amati oak forest. Spending the night at the top of a majestic tree is a unique experience that will not leave you indifferent. Relax, unwind, reconnect, …maybe fall in love. Abandon yourself to the sensations and allow the presence of the forest capture you. 
+            <br> We put the forest, the story is up to you."
+
 
 
 # CAT
@@ -46,6 +74,21 @@ cat:
     actividades: ACTIVITATS
   lateral:
     texto: Cuna suite a dalt d'un arbre?
+    boton_descubre: Descobreix les Suites
+    boton_reserva: Booking
+    boton_regala: Regalar
+    direccion: "Basoa Suites, Lizaso, Navarra"
+    news: Rebre Newsletter
+    boton_enviar: Enviar
+  seccion:
+    principal: nosaltres posem el bosc
+    principal_dos: la història la decideixes tu
+    principal_video: veure vídeo
+    proponemos_titulo: et proposem
+    proponemos_texto:| 
+                "Una immersió en la màgia i l'encant de la roureda de Amati. Passar la nit a la part alta d'un majestuós arbre és una experiència única que no et deixarà indiferent. Podràs relaxar-te, desconnectar, reconnectar, enamorar potser ... abandona't a les sensacions i deixa que la imponent presència del bosc t'atrapi. 
+                <br>Nosaltres posem el bosc, la història la decideixes tu."
+
 
 # EU
 
@@ -62,10 +105,25 @@ eu:
     actividades: JARDUERAK
   lateral:
     texto: suite bat zuhaitz baten gainean?
+    boton_descubre: Ezagutu gure Suite-ak
+    boton_reserva: Erreserbatu
+    boton_regala: Oparitu
+    direccion: "Basoa Suites, Lizaso, Navarra"
+    news: Newsletter-a jaso
+    boton_enviar: Bidali
+  seccion:
+    principal: Basoa duzu zain
+    principal_dos: storioa zeuk aukeratu
+    principal_video: Bideoa ikusi
+    proponemos_titulo: proposatzen dizugu
+
+
+
 
 
 
 # FR
+
 fr:
   menu:
     inicio: DEBUT
@@ -79,6 +137,19 @@ fr:
     actividades: ACTIVITES
   lateral:
     texto: Une suite perchée sur un arbre?
+    boton_descubre: Découvrez les Suites
+    boton_reserva: Réserver
+    boton_regala: Offrir
+    direccion: "Basoa Suites, Lizaso, Navarre"
+    news: Recevoir la Newsletter
+    boton_enviar: Envoyer
+  seccion:
+    principal: "C’est nous qui mettons la forêt,"
+    principal_dos: c’est vous qui choisissez l’histoire
+    principal_video: regarder la vidéo
+    proponemos_titulo: nous vous proposons
+
+
 
 
 

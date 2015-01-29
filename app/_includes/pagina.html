@@ -59,12 +59,12 @@
     <div class="texto-home-container">
      <div class="texto-home-wrapper center ocultar">
       <div class="divide50"></div>
-       <p class="nosotros uppercase">Nosotros ponemos el bosque</p>
-       <p class="historia uppercase">La historia la decides tú</p>
+       <p class="nosotros uppercase">{{ i18n.seccion.principal }}</p>
+       <p class="historia uppercase">{{ i18n.seccion.principal_dos }}</p>
        <div class="divide20"></div>
        <div class="boton-play">
         <a href="#"><img src="/images/player.png"></a>
-        <p class="mt10"><a class="link-video" href="/">Ver vídeo</a></p>
+        <p class="mt10"><a class="link-video" href="/">{{ i18n.seccion.principal_video }}</a></p>
        </div>
      </div>
     </div>
@@ -91,9 +91,8 @@
   <div class="section proponemos" id="home-te-proponemos">
    <div class="texto-home-container proponemos-container">
      <div class="texto-home-wrapper">
-         <p class="title-seccion-home">Te proponemos</p>
-         <p class="texto-secciones">Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente. Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. 
-        <br>Nosotros ponemos el bosque, la historia la decides tú.
+         <p class="title-seccion-home">{{ i18n.seccion.proponemos_titulo }}</p>
+         <p class="texto-secciones">{{ i18n.seccion.proponemos_texto }}
         </p>
      </div>
     </div>
@@ -317,13 +316,14 @@
     </div>
     <div class="botones-wrapper">
          <div class="wrapper-reservar">
-          <a id="boton-casas" class="basoa-btn basoaSlide-control right uppercase boton-casas green" href="#">Descubre las suites</a> 
+          <a id="boton-casas" class="basoa-btn basoaSlide-control right uppercase boton-casas green" href="#">{{ i18n.lateral.boton_descubre}}</a> 
          </div>
          <div class="wrapper-reservar"> 
-          <a id="boton-reservar" class="basoa-btn basoaSlide-control right uppercase orange boton-reservar" href="http://basoasuites.lodgify.com/es/463013/propiedades" target="_blank">Reservar</a> 
+          <a id="boton-reservar" class="basoa-btn basoaSlide-control right uppercase orange boton-reservar" href="http://basoasuites.lodgify.com/es/463013/propiedades" target="_blank">
+            {{ i18n.lateral.boton_reserva}}</a> 
         </div>
          <div class="wrapper-reservar"> 
-          <a id="boton-regalar" class="basoa-btn basoaSlide-control right uppercase blue boton-regalar" data-toggle="modal" data-target="#form-regalar" href="#">Regalar</a>
+          <a id="boton-regalar" class="basoa-btn basoaSlide-control right uppercase blue boton-regalar" data-toggle="modal" data-target="#form-regalar" href="#">{{ i18n.lateral.boton_regala}}</a>
 
         </div>
        <div>
@@ -341,13 +341,13 @@
         </div>
         <div class="col-md-push-1 col-md-10">
         <div class="texto-footer-final">
-          <p> BASOA SUITES, Lizaso, Navarra. </p>
+          <p> {{ i18n.lateral.direccion}}</p>
           <a href="https://www.google.es/maps/place/31797+Larraintzar/@42.9823051,-1.6870911,16z/data=!4m2!3m1!1s0xd50f04808c80a01:0x5f6f58693ab544d6" target="_blank"><img class="pull-right" src="/images/mapa-icon.png"></a>
           <p>+34 659 040 079<br>+34 608 300 249</p>
         </div>
         <div class="newsletter-wrapper">
             <div id="mail-enb">
-              <span class="uppercase label-news">Recibir Newsletter</span>
+              <span class="uppercase label-news">{{ i18n.lateral.news}}</span>
                   <form action="//basoasuites.us8.list-manage.com/subscribe/post?u=a7eb671d3f59135759c468fe2&amp;id=a583d4a1bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate="">
                     <div class="form-group">
                       <div class="input-group">
@@ -357,7 +357,7 @@
                           </div>
                       </div>
                     </div>
-                    <input type="submit" value="Enviar" name="suscribe" id="mc-embedded-subscribe" class="btn btn-news pull-rigth">
+                    <input type="submit" value="{{ i18n.lateral.boton_enviar}}" name="suscribe" id="mc-embedded-subscribe" class="btn btn-news pull-rigth">
                   </form>                  
             </div>
         </div>
