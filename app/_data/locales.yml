@@ -49,7 +49,19 @@ es:
     suitebelea_titulo: Suite Belea
     suitebelea_texto: |
        Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños.
-    suitebeigorri_titulo: Suite beigorri
+    suitebeigorri_titulo: Suite Beigorri
+    suitebeigorri_texto: | 
+       Es un cálido y agradable nido construido a 5,5 metros del suelo, perfecto para huir de la monotonía y refugiarse durante los fríos días de invierno. Se accede por una escalera con trampilla y cuenta con una pequeña terraza para disfrutar todo el año.
+    suiteokolin_titulo: Suite Okolin
+    suiteokolin_texto: | 
+       Cuenta con una amplia terraza que bordea la habitación por tres de sus flancos. Un pequeño porche nos permite disfrutar del exterior también con lluvia. Los robles que sustentan la Suite se cuelan por su terraza y nos permiten admirarlos de cerca. Tiene grandes ventanas que permiten observar el bosque también desde el interior. Se distingue por su forma triangular que nos recuerda al cercano pico Okolin.
+    suitebedats_titulo: Suite bedats
+    suitebedats_texto: | 
+       Con un original acabado en el techo y una decoración muy cuidada esta habitación en forma de hexágono es nuestra Suite más Suite. Las amplias ventanas que cubren todas las paredes la llenan de luminosidad. Su principal característica es que se encuentra totalmente integrada en la zona más salvaje del bosque que podremos disfrutar y observar desde su amplia terraza.
+    suiteamati_titulo: Casa amati
+    suiteamati_texto: | 
+       Al llegar a Basoa Suites te recibiremos en el edificio de servicios Casa Amati. Se encuentra próximo a las suites y dispone de duchas, sala de estar y comedor. Es aquí donde te daremos las indicaciones para llegar a tu Suite. Previa reserva, además, podrás disfrutar de una cena especial. La historia la decides tú.
+
 
 
 # EN
@@ -106,6 +118,18 @@ en:
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        This beautiful suite is decorated with many wooden details. It is bright with windows on all walls to observe the majestic oaks that surround the room and features a pagoda-shaped roof. It has the most spacious interior of all suites and is the only one where we can stay with children.
+    suitebeigorri_titulo: Suite Beigorri
+    suitebeigorri_texto: | 
+       This is a warm and cozy nest built 5.5 meters above the ground, perfect to escape the monotony and shelter during the cold winter days. It is accessed by a ladder with hatch and has a small terrace to enjoy all year.
+    suiteokolin_titulo: Suite Okolin
+    suiteokolin_texto: | 
+       It has a wide balcony that wraps around the room in three sides. A small porch allows to enjoy the outdoor even in rainy days. Two great oaks pierce the balcony floor and allow us to admire them up close. It has large windows with breathtaking views of the forest. It has a triangular floor plan, resembling the nearby Okolin peak.
+    suitebedats_titulo: Suite bedats
+    suitebedats_texto: |  
+       With an original finish on the ceiling this exquisitely decorated room is our most luxurious Suite. The large windows that cover all walls fill the room with light. It is fully integrated with the wildest part of the forest to enjoy and watch from its large terrace.
+    suiteamati_titulo: amati house
+    suiteamati_texto: |
+       Reaching Basoa Suites we will receive you in the Amati House services building. It is located next to the suites and has showers, living room and dining room. Here you will get directions to your suite and you can also enjoy a special dinner. The story is up to you.
 
 
 # CAT
@@ -163,6 +187,18 @@ cat:
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Preciosa suite plena de curosos detalls en el seu interior. Molt lluminosa, amb finestres a totes les parets per poder observar els majestuosos roures que envolten aquesta habitació. Es distingeix per la seva teulada amb forma de pagoda. Té l'interior més ampli de totes les Suites i és l'única on podem allotjar-nos amb nens.
+    suitebeigorri_titulo: Suite Beigorri
+    suitebeigorri_texto: |
+      És un càlid i agradable niu construït a 5,5 metres del terra, perfecte per fugir de la monotonia i refugiar-se durant els freds dies d'hivern. S'accedeix per una escala amb trapa i compta amb una petita terrassa per gaudir tot l'any"
+    suiteokolin_titulo: Suite Okolin
+    suiteokolin_texto: | 
+       Compta amb una àmplia terrassa que voreja l'habitació per tres dels seus flancs. Un petit porxo ens permet gaudir de l'exterior també amb pluja. Els roures que sustenten la Suite es colen per la seva terrassa i ens permeten admirar-los de prop. Té grans finestres que permeten observar el bosc també des de l'interior. Es distingeix per la seva forma triangular que ens recorda al proper pic Okolin.
+    suitebedats_titulo: Suite bedats
+    suitebedats_texto: | 
+       Amb un original acabat al sostre i una decoració molt acurada aquesta habitació en forma d'hexàgon és la nostra suite més Suite. Les àmplies finestres que cobreixen totes les parets l'omplen de lluminositat. La seva principal característica és que es troba totalment integrada en la zona més salvatge del bosc que podrem gaudir i observar des de la gran terrassa.
+    suiteamati_titulo: Can amati
+    suiteamati_texto: | 
+       En arribar a Basoa Suites et rebrem a l’edifici de serveis Casa Amati. Es troba pròxim a les suites i disposa de dutxes, sala d'estar i menjador. És aquí on et donarem les indicacions per arribar a la teva Suite. Prèvia reserva, a més, podràs gaudir d'un sopar especial. La història la decideixes tu.
 
 
 # EU
@@ -218,6 +254,18 @@ eu:
     suitebelea_titulo: Belea Suite-a
     suitebelea_texto: | 
        Oso suite polita da, detaile zainduz betea. Argitasun handikoa, horma guztietan ditu leihoak bertatik gela inguratzen duten haritz dotoreak behatu ahal izateko. Pagoda-formako teilatua da bere bereizgarria. Hau da barrualde zabalena duen Suite-a eta haurrekin lo egin ahal izango dugun bakarra.
+    suitebeigorri_titulo: Beigorri suite-a
+    suitebeigorri_texto: | 
+       Lurretik 5,5 metrora eraikitako kabi bero eta goxoa da, monotoniatik ihes egin eta neguko egun hotzetan babesteko ezinhobea. Tranpa batera heltzen den zulubi batetik igotzen da bertara, eta urte osoan zehar baliatzeko terraza txiki bat ere badu.
+    suiteokolin_titulo: Okolin Suite-a
+    suiteokolin_texto: | 
+       Gela bere hiru aldeetatik inguratzen duen terraza zabala du. Portxe txiki bati esker kanpoaz gozatu ahal izango dugu euria egin arren. Suite-a eusten duten haritzondoak terrazan barna sartzen dira eta hurbiletik mirestu ahal izango ditugu. Leiho zabalei esker oihana barrutik ere behatu ahal izango dugu. Hiruki-formak egiten du berezi eta forma horrek inguruko Okolin tontorra gogoratzen digu.
+    suitebedats_titulo: Bedats Suite-a
+    suitebedats_texto: | 
+       Sabaiko akabera originalarekin eta apainketa oso zainduarekin, hexagono-fomako gela hau gure suite-ik suite-ena da. Pareta guztietan dauden leiho zabalek argitasun handia ematen diote gelari. Oihanaren gunerik basatienean guztiz integratua egotea da bere ezaugarri nagusia. Bere terraza zabaletik naturaz gozatu eta berau behatu ahal izango duzu.
+    suiteamati_titulo: amati suite-a
+    suiteamati_texto: | 
+       Basoa Suites-era heltzean, Amati Etxearen zerbitzu-eraikidean egingo dizugu harrera. Suites-etatik gertu dago eta dutxak, egongela eta jangela ditu. Bertan emango dizkizugu zure suite-era heltzeko argibideak. Aldez aurretik erreserbatuz gero, afari bereziaz ere gozatu ahal izango duzu. Istorioa zuk aukeratzen duzu.
 
 
 
@@ -274,6 +322,19 @@ fr:
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.
+    suitebeigorri_titulo: Suite beigorri
+    suitebeigorri_texto: | 
+      Il s’agit d’un chaleureux et agréable nid construit à 5,5 mètres du sol, parfait pour fuir de la monotonie et se réfugier pendant les froides journées d’hiver. On y accède par un escalier avec trappe et dispose d’une petite terrasse pour profiter tout au long de l’année.
+    suiteokolin_titulo: Suite Okolin
+    suiteokolin_texto: | 
+      Elle dispose d’une large terrasse qui longe la chambre depuis les trois flancs. Un petit porche nous permet de profiter de l’extérieur même par temps de pluie. Les chênaies qui supportent la Suite se faufilent par la terrasse et nous permettent de les admirer de près. Elle dispose de grandes fenêtres qui permettent d’observer la forêt y compris de l’intérieur. Elle se distingue par sa forme triangulaire qui nous rappelle le proche pic Okolin. 
+    suitebedats_titulo: Suite bedats
+    suitebedats_texto: | 
+      Avec un original finition du plafond et une décoration très soignée, cette chambre en forme d’hexagone est la plus Suite de nos Suites Les larges fenêtres qui couvrent tous les murs la remplissent de luminosité.""Sa principale caractéristique est qu’elle se trouve totalement intégrée dans la zone la plus sauvage de la forêt que nous pourrons profiter et observer depuis sa large terrasse.
+    suiteamati_titulo: Casa amati
+    suiteamati_texto: | 
+       En arrivant à Basoa Suites nous vous recevrons dans l’édifice des services Casa Amati. Elle se trouve près des suites et dispose des douches une salle de détente et salle à manger. C’est ici que nous vous donnerons les indications pour arriver à votre Suite. En réservant à l’avance vous pourrez aussi profiter d’un dîner spécial. C’est vous qui choisissez l’histoire.
+
 
 
 
