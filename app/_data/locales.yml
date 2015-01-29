@@ -25,8 +25,21 @@ es:
     principal_video: Ver vídeo
     proponemos_titulo: te proponemos
     proponemos_texto: |
-      "Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente. Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. <br>Nosotros ponemos el bosque, la historia la decides tú.."
-    ofrecemos_titulo: te ofrecemos 
+        Una inmersión en la magia y el encanto del robledal de Amati. Pasar la noche en lo alto de un majestuoso árbol es una experiencia única que no te dejará indiferente. Podrás relajarte, desconectar, reconectar, enamorarte quizás... abandónate a las sensaciones y deja que la imponente presencia del bosque te atrape. <br>Nosotros ponemos el bosque, <br>la historia la decides tú...
+    ofrecemos_titulo: te ofrecemos
+    ofrecemos_texto: |
+        Cuatro preciosas Suites dobles construidas a gran altura sobre los troncos de robles centenarios. Cada suite cuenta con terraza, baño seco, calefacción y todas las comodidades necesarias para tu estancia. Te serviremos el desayuno en una cesta que tú mismo subirás a la suite por medio de una polea y las cenas serán en el edificio de servicios Casa Amati. Desayunos y cenas están elaborados con productos naturales de la zona y puedes además configurar tu estancia a tu gusto: unas copas, un buen vino, una botella de cava... La historia la decides tú...
+    entorno_texto: |
+        El Robledal de Amati es una pequeña joya ecológica y un entorno protegido de especial interés arbóreo y ornitológico. Se trata de un tipo de robledal de humedal de llanura que es exclusivo de algunas zonas concretas de Álava y Navarra.
+    entorno_texto_dos: | 
+        Se encuentra en en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía
+    entorno_mapa: Ver mapa
+    nosotros_titulo: Nosotros
+    nosotros_texto: | 
+        Nos gusta trabajar y vivir en la naturaleza y aunque tenemos los pies en la tierra, nos gusta subirnos a los árboles. En el año 2003 creamos una empresa pionera de construcción de parques de aventura en árboles. Desde entonces hemos construido diversos parques de aventura además de recorridos naturales en árboles, así como adaptados a personas discapacitadas. Pronto surgió la idea de ir más allá y nos preguntamos por la posibilidad de dormir en lo alto de en un árbol ¿Cómo sería la experiencia de estar completamente inmersos en el bosque? Así comenzó a gestarse Basoa Suites.
+
+
+
 
 # EN
 
@@ -58,7 +71,17 @@ en:
         Dive in the magic and charm of the Amati oak forest. Spending the night at the top of a majestic tree is a unique experience that will not leave you indifferent. Relax, unwind, reconnect, …maybe fall in love. Abandon yourself to the sensations and allow the presence of the forest capture you. 
         <br> We put the forest, the story is up to you.
     ofrecemos_titulo: we offer 
-
+    ofrecemos_texto: |
+        Four lovely double suites built high on the branches of oak trees. Each suite has a balcony, dry bath, heating and other amenities for your stay."" Breakfast is delivered to your suite in a basket that you can pull up with a rope. Dinner is served at Amati House. Breakfasts and dinners are made ​​with locally source natural products and you may add some nice wine, a bottle of champagne, other drinks ... 
+        <br> The story is up to you ...
+    entorno_texto: |
+        The Amati oak forest is a small ecological treasure and a protected environment with particular ornithological interest. This humid oak is unique to areas of Alava and Navarra, a relic of an era when such forest covered entire valleys in Ultzama and Basaburua.
+    entorno_texto_dos: | 
+        The Amati oak forest is in Lizaso, in the heart of Ultzama Valley in Navarre... Ultzama is a beautiful valley with a mild clime located 30 minutes from Pamplona and 50 minutes from San Sebastian. It is a valley of great beauty that combines ancient traditions and nature characterized by green meadows and dense forests. This valley is also known for its mycological and birdlife values. The area also offers many outdoor activities: sightseeing, hiking, horseback riding
+    entorno_mapa: See map
+    nosotros_titulo: about us
+    nosotros_texto: | 
+        We love to work and live in nature. Although we have our feet on the ground, we also like to climb trees. In 2003 we created a pioneering company in construction of adventure parks on trees. Since then we have built several adventure parks as well as natural wooden paths on trees. Soon the idea of ​​going further came up and we asked ourselves for the possibility of sleeping on top of a tree. How would be the experience of being completely immersed in the woods? Thus Basoa Suites began to take shape.
 
 
 # CAT
@@ -91,7 +114,17 @@ cat:
           Una immersió en la màgia i l'encant de la roureda de Amati. Passar la nit a la part alta d'un majestuós arbre és una experiència única que no et deixarà indiferent. Podràs relaxar-te, desconnectar, reconnectar, enamorar potser ... abandona't a les sensacions i deixa que la imponent presència del bosc t'atrapi. 
           <br>Nosaltres posem el bosc, la història la decideixes tu.
     ofrecemos_titulo: t'oferim
-
+    ofrecemos_texto: |
+        Quatre precioses Suites dobles construïdes a gran alçada sobre els troncs de roures centenaris. ""Cada suite té terrassa, bany sec, calefacció i totes les comoditats necessàries per a la teva estada. Et servirem l'esmorzar en una cistella que tu mateix pujaràs a la suite mitjançant una politja i els sopars seran a l'edifici de serveis Casa Amati. Els esmorzars i els sopars estan elaborats amb productes naturals de la zona i pots a més configurar la teva estada al teu gust: unes copes, un bon vi, una ampolla de cava ... 
+        <br>La història la decideixes tu ...
+    entorno_texto: |
+        La Roureda d'Amati és una petita joia ecològica i un entorn protegit d'especial interès arbori i ornitològic. Es tracta d'un tipus de roureda d'aiguamoll de plana que és exclusiu d'algunes zones concretes d'Àlaba i Navarra, vestigi d'una altra època en que aquestes rouredes cobrien la totalitat de les valls de Basaburua i Ultzama.
+    entorno_texto_dos: |
+        La roureda d’Amati es troba a Lizaso, en ple cor de la vall navarresa d’Ultzama ... Ultzama és una bonica vall de clima suau situada a 30 minuts de Pamplona i 50 minuts de Sant Sebastià. Es tracta d'una vall de gran bellesa que combina tradicions ancestrals i una natura caracteritzada per verds prats i frondosos boscos. Aquesta vall és a més coneguda pel seu alt valor micològic i ornitològic i la zona ofereix gran varietat d'activitats a l'aire lliure: paisatges, senderisme, passejades a cavall
+    entorno_mapa: Veure Mapa
+    nosotros_titulo: nosaltres
+    nosotros_texto: | 
+        "Ens agrada treballar i viure a la natura i encara que tenim els peus a terra,"" ens agrada pujar-nos als arbres. L'any 2003 vam crear una empresa pionera de construcció de parcs d'aventura en arbres. Des de llavors hem construït diversos parcs d'aventura a més de recorreguts naturals en arbres, així com adaptats a persones discapacitades. Aviat va sorgir la idea d'anar més enllà i ens preguntem per la possibilitat de dormir a la part alta d'un arbre Com seria l'experiència d'estar completament immersos en el bosc? Així va començar a gestar-se Basoa Suites.
 
 
 # EU
@@ -102,7 +135,7 @@ eu:
     proponemos: PROPOSATZEN DIZUGU
     ofrecemos: ESKAINTZEN DIZUGU
     entorno: INGURUNEA
-    nosotros: NOSALTRES
+    nosotros: GU
     compromisos: KONPROMISOAK
     suites: SUITE-AK IKUSI
     reservas: ERRESERBAK
@@ -124,6 +157,16 @@ eu:
         Amati hariztiaren magian eta xarman murgiltzea. Zuhaitz eder baten gainean gaua igarotzea esperientzia berezia da, ez zaituena ezaxola utziko. Erlaxatu, deskonektatu, birkonektatu eta, agian, maitemindu egingo zara. Eman bide sentsazioei eta utzi oihanaren presentzia ikaragarriari harrapa zaitzan.
         <br>Guk basoa jartzen dugu, istorioa zuk aukeratzen duzu.
     ofrecemos_titulo: eskaintzen dizugu
+    ofrecemos_texto: |
+        Mendeetako haritzen gainean, goratasun handian eraikitako lau suite bikoitz eder. Suite guztiek dute terraza, komun lehorra, berogailua eta zure egonaldirako beharrezko erosotasun guztiak. Gosaria polea baten bidez suitera igoko duzun saski batean zerbitzatuko dizugu eta afariak zerbitzu-eraikina den Amati Etxean egingo dira. Gosariak eta afariak inguruko produktu naturalez prestatuak dira eta, gainera, zure egonaldia zure gustuetara egokitu dezakezu: kopak, ardo ona, cava boteila bat... Istorioa zuk aukeratzen duzu...
+    entorno_texto: |
+        Amatiko Hariztia altxor ekologiko txiki bat da; zuhaitz-eremu eta ornitologiko interesgarria dituen ingurune babestua. Haritzondo-mota hori lautadetako hezeguneetakoa da, eta Araba eta Nafarroako inguru jakin batzuetan soilik aurkitzen da.
+    entorno_texto_dos: | 
+        Lizason dago, Ultzama bailararen bihotzean, klima leuna duen bailara ederrean, Iruñeatik 30 minutura eta Donostiatik 50 minutura. Edertasun aparta duen bailara, ohitura zaharrak zelai berde eta oihan hostotsuz osatutako naturarekin uztartzen dituena. Horrez gain, bere balio mikologikoengatik eta ornitologikoengatik ere ezaguna da eta eskualdeak aire librean burutzeko jarduera asko eskaintzen ditu: paisajeak, oinezko ibilbideak, zaldizko paseoak, gastronomia.
+    entorno_mapa: Ver mapa
+    nosotros_titulo: Gu
+    nosotros_texto: | 
+        Naturan lan egin eta bizitzea gustatzen zaigu, eta nahiz oinak lurrean izan, zuhaitzetara igotzea gustatzen zaigu. 2003an, abenturazko zuhaitz parkeak eraikitzeko enpresa aitzindaria sortu genuen. Ordutik, hainbat abentura-parke sortu dugu, baita zuhaitzen gainean ibiltzeko ibilbideak eta pertsona ezinduei egokitutakoak ere. Laster urrunago joateko ideia otu zitzaigun eta zuhaitz baten gainean lo egiteko aukeraz pentsatzen hasi ginen. Nolakoa litzateke basoan guztiz barneratua egotearen esperientzia? Horrela hasi zen garatzen Basoa Suites.
 
 
 # FR
@@ -155,7 +198,16 @@ fr:
     proponemos_texto: |
         Une immersion dans la magie et le charme de la chênaie d’Amati. Passer la nuit sur le haut d’un majestueux arbre est une expérience unique qui ne vous laissera pas indifférent. Vous pourrez vous reposez, déconnecter, reconnecter, et qui sait, éventuellement tomber amoureux ... laisser vous emporter par les sensations et procurez que la puissante présence de la forêt vous attrape.
         <br> C’est nous qui mettons la forêt, c’est vous qui choisissez l’histoire.
-    ofrecemos_titulo: nous vous offrons 
+    ofrecemos_titulo: nous vous offrons
+    ofrecemos_texto: |
+        Quatre magnifiques Suites doubles construites à grande hauteur sur les troncs de chaines centenaires. Chaque suite dispose d’une terrasse,"" WC sec, chauffage et tout le confort nécessaire à votre séjour. Nous vous servirons le petit déjeuner dans un panier que vous monterez vous-même à la suite grâce à une poulie et les dîners seront dans l’édifice des services la Maison Amati. Les petits déjeuners et les dîners sont préparés avec des produits naturels de la région et, de plus, vous pouvez configurer votre séjour à vos goûts : quelques coupes, un bon vin, une bouteille de cava... <br>C’est vous qui choisissez l’histoire ...
+    entorno_texto: La Chênaie d’Amati est un petit bijou écologique et un environnement protégé d’un intérêt arborescent et ornithologique spécial. Il s’agit d’un type de chênaie des zones humides des plaines qui est exclusif de quelques régions d’Alava et de Navarre.
+    entorno_texto_dos: | 
+        Elle se trouve à Lizaso, en plein cœur de la Vallée d’Ultzama, une très belle vallée de climat doux, situé à 30 minutes de Pampelune et 50 minutes de Saint Sébastien. Une vallée de grande beauté qui combine les traditions ancestrales et une nature caractérisée par de vertes prairies et des forêts touffues. De plus, elle est connue par sa grande valeur mycologique et ornithologique et la région offre une grande variété d’activités à l’aire libre : paysages, randonnées, promenades à cheval, gastronomie
+    entorno_mapa: Ver mapa
+    nosotros_titulo: Nous
+    nosotros_texto: | 
+        "Nous aimons travailler et vivre dans la nature et, même si nous avons les pieds sur terre, nous aimons grimper sur les arbres. En 2003, nous avons créé une entreprise pionnière de construction de parcs d’aventure sur les arbres. Depuis, nous avons construit plusieurs parcs d’aventure et des itinéraires sur des arbres, ainsi que des itinéraires adaptés aux handicapés. Nous avons vite eut l’idée d’aller au-delà et nous nous interrogeâmes sur la possibilité de dormir sur un arbre. Comment serait l’expérience de se trouver complètement immergé dans la forêt ? C’est ainsi que commença à naître Basoa Suites."
 
 
 
