@@ -46,6 +46,11 @@ es:
     actividades_restauracion: Restauración 
     actividades_turismo: Información de Turismo
   suites:
+    suites_iconos_belea: belea-iconos-es.png
+    suites_iconos_okolin: okolin-iconos-es.png
+    suites_iconos_beigorri: beigorri-iconos-es.png
+    suites_iconos_amati: amati-iconos-es.png
+    suites_iconos_bedats: bedats-iconos-es.png
     suites_volver: volver
     suites_reservar: Disponibilidad y reservas
     suitebelea_titulo: Suite Belea
@@ -147,6 +152,11 @@ en:
     actividades_restauracion: Restoration
     actividades_turismo: Tourism office
   suites:
+    suites_iconos_belea: belea-iconos-en.png
+    suites_iconos_okolin: okolin-iconos-en.png
+    suites_iconos_beigorri: beigorri-iconos-en.png
+    suites_iconos_amati: amati-iconos-en.png
+    suites_iconos_bedats: bedats-iconos-en.png
     suites_volver: come back
     suites_reservar: Availability and booking
     suitebelea_titulo: Suite Belea
@@ -248,6 +258,11 @@ cat:
     actividades_colaboradores: Colaboradors
     actividades_restauracion: Restauració
   suites:
+    suites_iconos_belea: belea-iconos-cat.png
+    suites_iconos_okolin: okolin-iconos-cat.png
+    suites_iconos_beigorri: beigorri-iconos-cat.png
+    suites_iconos_amati: amati-iconos-cat.png
+    suites_iconos_bedats: bedats-iconos-cat.png
     suites_volver: tornar
     suites_reservar: disponibilitat i reserves
     suitebelea_titulo: Suite Belea
@@ -348,6 +363,11 @@ eu:
     actividades_turismo: Turismo-informazioa
     actividades_colaboradores: Kolaboratzaileak
   suites:
+    suites_iconos_belea: belea-iconos-eu.png
+    suites_iconos_okolin: okolin-iconos-eu.png
+    suites_iconos_beigorri: beigorri-iconos-eu.png
+    suites_iconos_amati: amati-iconos-eu.png
+    suites_iconos_bedats: bedats-iconos-eu.png
     suites_reservar: Eskuragarritasuna eta erreserba
     suites_volver: itzuli
     suitebelea_titulo: Belea Suite-a
@@ -449,6 +469,11 @@ fr:
     actividades_turismo: Information de Tourisme
     actividades_colaboradores: Collaborateurs
   suites:
+    suites_iconos_belea: belea-iconos-fr.png
+    suites_iconos_okolin: okolin-iconos-fr.png
+    suites_iconos_beigorri: beigorri-iconos-fr.png
+    suites_iconos_amati: amati-iconos-fr.png
+    suites_iconos_bedats: bedats-iconos-fr.png
     suites_reservar: Disponibilité et réservation
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
