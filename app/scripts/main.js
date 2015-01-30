@@ -1,48 +1,4 @@
 $(document).ready(function() {
-  console.log('adiosi2');
-
-  mandrill_client = new mandrill.Mandrill('jKVpYZGaJISrpyC23Uj4RQ');
-
-var message = {
-    "html": "<p>Example HTML content</p>",
-    "text": "Example text content",
-    "subject": "example subject",
-    "from_email": "message.from_email@example.com",
-    "from_name": "Example Name",
-    "to": [{
-            "email": "karlosgliberal@gmail.com",
-            "name": "Recipient Name",
-            "type": "to"
-        }],
-    "headers": {
-        "Reply-To": "karlosgliberal@gmail.com"
-    }
-};
-
-var now = new Date();
-console.log(now);
-var async = false;
-var ip_pool = "Main Pool";
-var send_at = now;
-// mandrill_client.messages.send({"message": message}, function(result) {
-//     console.log(result);
-//     [{
-//             "email": "recipient.email@example.com",
-//             "status": "sent",
-//             "reject_reason": "hard-bounce",
-//             "_id": "abc123abc123abc123abc123abc123"
-//         }]
-// }, function(e) {
-//     // Mandrill returns the error as an object with name and message keys
-//     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-//     // A mandrill error occurred: Unknown_Subaccount - No subaccount exists with the id 'customer-123'
-// });
-
-
-  $('#singlebutton').click(function(){
-    sendTheMail();
-  });
-
 
   if(!$.browser){
     $.browser={

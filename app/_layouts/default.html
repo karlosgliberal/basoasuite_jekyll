@@ -87,14 +87,66 @@
               <script>
       $(document).ready(function() {
 
-          mandrill_client = new mandrill.Mandrill('jKVpYZGaJISrpyC23Uj4RQ');
+        mandrill_client = new mandrill.Mandrill('jKVpYZGaJISrpyC23Uj4RQ');
+
+        var allVals = [];
+        function updateTextArea() {         
+            console.log('select');
+          $('#selec-suites :checked').each(function(e) {
+            allVals.push($(this).val());
+            console.log(allVals);
+          });
+        };  
+
+
+
+
+
+        $('#singlebutton').click(function(){
+          var es_html ="<p>esta es la inforamción del formulario rellenado para regalar una suite</p>";
+              es_html += "<p> Estas son las suites selecionadas:  <p>";
+              $('#selec-suites :checked').each(function(e) {
+                es_html += "<p>"+ $(this).val() + "</p>";
+              });
+              es_html += "<p>¿Cuantas noches?</p>: " + $('#cuantasnoches').val() +"</p>";
+              es_html += "<p>Estos son los extras añadidos: </p>";
+              $('#extras :checked').each(function(e) {
+                es_html += "<p>"+ $(this).val() + "</p>";
+              });
+              console.log();
+              if($('#checkboxes-extras-4').is(':checked')){
+                console.log('ffff');
+                es_html += "<p>Otros extras: "+ $("#otrosextras").val() + "</p>";
+              }
+              $('#enviarpdf').change(function(){
+                console.log('enviar');
+                $('#enviartarjeta').attr('checked', false);
+                $('#tarjetra-nombre').val('');
+                $('#tarjetra-correo').val('');
+                $('#tarjetra-direccion').val('');
+                es_html += "<p>Datos envio pdf: </p>"; 
+                es_html += "<p>Nombre: "+ $('#pdf-nombre').val();
+                es_html += "<p>Correo: "+ $('#pdf-correo').val();
+              })
+              
+              $('#enviartarjeta').change(function(){
+                console.log('tarjeta');
+                $('#enviarpdf').attr('checked', false);
+                $('#pdf-nombre').val('');
+                $('#pdf-correo').val('');
+                es_html += "<p>Datos envio postal carta regalo: </p>"; 
+                es_html += "<p>Nombre: "+ $('#tarjeta-nombre').val();
+                es_html += "<p>Correo: "+ $('#tarjeta-correo').val();
+                es_html += "<p>Dirección: "+ $('#tarjetra-direccion').val();
+              });
+
+        console.log(es_html);
 
         var message = {
-            "html": "<p>Example HTML content</p>",
-            "text": "Example text content",
-            "subject": "example subject",
-            "from_email": "message.from_email@example.com",
-            "from_name": "Example Name",
+            "html": es_html,
+            "subject": "Petición de regalo de suite",
+            "from_email": "info@basoasuites.com",
+            "from_name": "basoasuites.com",
             "to": [{
                     "email": "karlosgliberal@gmail.com",
                     "name": "Recipient Name",
@@ -104,19 +156,13 @@
                 "Reply-To": "karlosgliberal@gmail.com"
             }
         };
-
-        var now = new Date();
-        console.log(now);
-        var async = false;
-        var ip_pool = "Main Pool";
-        var send_at = now;
-        mandrill_client.messages.send({"message": message}, function(result) {
-            console.log(result);
-        }, function(e) {
-            // Mandrill returns the error as an object with name and message keys
-            console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-            // A mandrill error occurred: Unknown_Subaccount - No subaccount exists with the id 'customer-123'
+          // mandrill_client.messages.send({"message": message}, function(result) {
+          //     console.log(result);
+          // }, function(e) {
+          //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+          //});
         });
+
       });
       </script>
 

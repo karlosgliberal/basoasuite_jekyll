@@ -378,29 +378,29 @@
                 <div class="divide10"></div>
                 <!-- Suites -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.suite_texto}}</label>
-                  <div class="col-md-8">
-                    <div class="checkbox">
+                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.suite_texto }}</label>
+                  <div class="col-md-8" id="selec-suites">
+                    <div class="checkbox" >
                       <label for="checkboxes-suite-0">
-                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-0" value="1">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-0" value="{{ i18n.formulario.suite_opcion_1 }}">
                         {{ i18n.formulario.suite_opcion_1}}
                       </label>
                     </div>
                     <div class="checkbox">
                       <label for="checkboxes-suite-1">
-                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-1" value="1">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-1" value="{{ i18n.formulario.suite_opcion_2 }}">
                         {{ i18n.formulario.suite_opcion_2}}
                       </label>
                     </div>
                       <div class="checkbox">
                       <label for="checkboxes-suite-2">
-                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-2" value="1">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-2" value="{{ i18n.formulario.suite_opcion_3 }}">
                         {{ i18n.formulario.suite_opcion_3}}
                       </label>
                     </div>
                       <div class="checkbox">
                      <label for="checkboxes-suite-3">
-                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-3" value="1">
+                        <input type="checkbox" name="checkboxes" id="checkboxes-suite-3" value="{{ i18n.formulario.suite_opcion_4 }}">
                         {{ i18n.formulario.suite_opcion_4}}
                       </label>
                     </div>
@@ -410,49 +410,43 @@
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="textinput">{{ i18n.formulario.noches_texto}}</label> 
                   <div class="col-md-8">
-                  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                  <input id="cuantasnoches" name="textinput" type="text" placeholder="" class="form-control input-md" value="">
                   </div>
                 </div>
                 <!-- Extras -->
                 <div class="form-group">
                   <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.extras_texto}}</label>
-                  <div class="col-md-8">
+                  <div class="col-md-8" id="extras">
                   <div class="checkbox">
                     <label for="checkboxes-extras-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-0" value="1">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-0" value="{{ i18n.formulario.extras_opcion_1}}">
                       {{ i18n.formulario.extras_opcion_1}}
                     </label>
                   </div>
                   <div class="checkbox">
                     <label for="checkboxes-extras-1">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-1" value="2">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-1" value="{{ i18n.formulario.extras_opcion_2}}">
                       {{ i18n.formulario.extras_opcion_2}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-2">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-2" value="2">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-2" value="{{ i18n.formulario.extras_opcion_3}}">
                       {{ i18n.formulario.extras_opcion_3}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-3">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="{{ i18n.formulario.extras_opcion_4}}">
                      {{ i18n.formulario.extras_opcion_4}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-4">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-4" value="2">
+                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-4" value=" {{ i18n.formulario.extras_opcion_5}}">
                       {{ i18n.formulario.extras_opcion_5}}
                     </label>
-                    <textarea class="form-control mt10" id="textarea" name="textarea" placeholder="{{ i18n.formulario.extras_cuentanos}}"></textarea>
-                  </div>
-                  <div class="checkbox">
-                    <label for="checkboxes-1">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
-                     {{ i18n.formulario.extras_cuentanos_opcion}}
-                    </label>
+                    <textarea class="form-control mt10" id="otrosextras" name="textarea" placeholder="{{ i18n.formulario.extras_cuentanos}}"></textarea>
                   </div>
                   </div>
                 </div>
@@ -465,7 +459,7 @@
                   <div class="col-md-8">
                   <div class="checkbox">
                     <label for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+                      <input type="checkbox" name="checkboxes" id="enviarpdf" value="1">
                       {{ i18n.formulario.recibir_regalo_opcion_1}}
                     </label>
                       <!-- Text input-->
@@ -474,7 +468,7 @@
                           {{ i18n.formulario.recibir_regalo_opcion_1_nombre}}
                         </label>  
                         <div class="col-md-8">
-                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        <input id="pdf-nombre" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
@@ -483,13 +477,13 @@
                           {{ i18n.formulario.recibir_regalo_opcion_1_mail}}
                         </label>  
                         <div class="col-md-8">
-                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        <input id="pdf-email" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                   </div>
                   <div class="checkbox">
                     <label for="checkboxes-1">
-                      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+                      <input type="checkbox" name="checkboxes" id="enviartarjeta" value="2">
                         {{ i18n.formulario.recibir_regalo_opcion_2_texto}}
                       </label>
                       <!-- Text input-->
@@ -498,7 +492,7 @@
                           {{ i18n.formulario.recibir_regalo_opcion_2_nombre}}
                         </label>  
                         <div class="col-md-8">
-                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        <input id="tarjeta-nombre" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
@@ -507,7 +501,7 @@
                           {{ i18n.formulario.recibir_regalo_opcion_2_mail}}
                         </label>  
                         <div class="col-md-8">
-                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        <input id="tarjeta-correo" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
@@ -516,7 +510,7 @@
                           {{ i18n.formulario.recibir_regalo_opcion_2_direccion}}
                         </label>  
                         <div class="col-md-8">
-                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+                        <input id="tarjeta-direccion" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                   </div>
@@ -807,4 +801,6 @@
 
  </div>
 </div>
+
+
 <!-- Fin de Home de Casas -->
