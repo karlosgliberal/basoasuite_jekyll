@@ -46,6 +46,13 @@ es:
     actividades_restauracion: Restauración 
     actividades_turismo: Información de Turismo
   suites:
+    suites_iconos_belea: belea-iconos-es.png
+    suites_iconos_okolin: okolin-iconos-es.png
+    suites_iconos_beigorri: beigorri-iconos-es.png
+    suites_iconos_amati: amati-iconos-es.png
+    suites_iconos_bedats: bedats-iconos-es.png
+    suites_volver: volver
+    suites_reservar: Disponibilidad y reservas
     suitebelea_titulo: Suite Belea
     suitebelea_texto: |
        Preciosa suite llena de cuidadosos detalles en su interior. Muy luminosa, con ventanas en todas las paredes para poder observar los majestuosos robles que rodean esta habitación. Se distingue por su tejado con forma de pagoda. Tiene el interior más amplio de todas las Suites y es la única donde podemos alojarnos con niños.
@@ -145,6 +152,13 @@ en:
     actividades_restauracion: Restoration
     actividades_turismo: Tourism office
   suites:
+    suites_iconos_belea: belea-iconos-en.png
+    suites_iconos_okolin: okolin-iconos-en.png
+    suites_iconos_beigorri: beigorri-iconos-en.png
+    suites_iconos_amati: amati-iconos-en.png
+    suites_iconos_bedats: bedats-iconos-en.png
+    suites_volver: Back
+    suites_reservar: Availability and booking
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        This beautiful suite is decorated with many wooden details. It is bright with windows on all walls to observe the majestic oaks that surround the room and features a pagoda-shaped roof. It has the most spacious interior of all suites and is the only one where we can stay with children.
@@ -244,6 +258,13 @@ cat:
     actividades_colaboradores: Colaboradors
     actividades_restauracion: Restauració
   suites:
+    suites_iconos_belea: belea-iconos-cat.png
+    suites_iconos_okolin: okolin-iconos-cat.png
+    suites_iconos_beigorri: beigorri-iconos-cat.png
+    suites_iconos_amati: amati-iconos-cat.png
+    suites_iconos_bedats: bedats-iconos-cat.png
+    suites_volver: tornar
+    suites_reservar: disponibilitat i reserves
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Preciosa suite plena de curosos detalls en el seu interior. Molt lluminosa, amb finestres a totes les parets per poder observar els majestuosos roures que envolten aquesta habitació. Es distingeix per la seva teulada amb forma de pagoda. Té l'interior més ampli de totes les Suites i és l'única on podem allotjar-nos amb nens.
@@ -342,6 +363,13 @@ eu:
     actividades_turismo: Turismo-informazioa
     actividades_colaboradores: Kolaboratzaileak
   suites:
+    suites_iconos_belea: belea-iconos-eu.png
+    suites_iconos_okolin: okolin-iconos-eu.png
+    suites_iconos_beigorri: beigorri-iconos-eu.png
+    suites_iconos_amati: amati-iconos-eu.png
+    suites_iconos_bedats: bedats-iconos-eu.png
+    suites_reservar: Eskuragarritasuna eta erreserba
+    suites_volver: itzuli
     suitebelea_titulo: Belea Suite-a
     suitebelea_texto: | 
        Oso suite polita da, detaile zainduz betea. Argitasun handikoa, horma guztietan ditu leihoak bertatik gela inguratzen duten haritz dotoreak behatu ahal izateko. Pagoda-formako teilatua da bere bereizgarria. Hau da barrualde zabalena duen Suite-a eta haurrekin lo egin ahal izango dugun bakarra.
@@ -441,6 +469,12 @@ fr:
     actividades_turismo: Information de Tourisme
     actividades_colaboradores: Collaborateurs
   suites:
+    suites_iconos_belea: belea-iconos-fr.png
+    suites_iconos_okolin: okolin-iconos-fr.png
+    suites_iconos_beigorri: beigorri-iconos-fr.png
+    suites_iconos_amati: amati-iconos-fr.png
+    suites_iconos_bedats: bedats-iconos-fr.png
+    suites_reservar: Disponibilité et réservation
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.
