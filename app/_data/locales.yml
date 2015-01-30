@@ -84,14 +84,15 @@ es:
     recibir_regalo_opcion_1: Enviadme un pdf por email. 
     recibir_regalo_opcion_1_nombre: Mi nombre
     recibir_regalo_opcion_1_mail: Mi email
-    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa mi nombre
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: Mi nombre
     recibir_regalo_opcion_2_mail: Mi email
     recibir_regalo_opcion_2_direccion: Mi dirección postal para el envío
-    enviar: Enviar
+    enviar: Enviar solicitud
     confirmacion_pdf: |
        Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos el PDF imprimible con todos los detalles.
     confirmacion_postal: |
-       Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos la tarjeta regalo al correo postal que nos has indicado.
+       Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos la tarjeta regalo al correo postal que nos has indicado.
 
 # EN
 
