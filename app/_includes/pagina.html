@@ -373,85 +373,85 @@
           <form class="form-horizontal">
             <fieldset>
         
-                <h3>Tarjeta Regalo</h3>
-                <p>Regalar Basoa Suites es regalar una experiencia única. Aquí personalizaremos tu regalo. Seguro que aciertas. Vamos allá.</p>
+                <h3>{{ i18n.formulario.titulo}}</h3>
+                <p>{{ i18n.formulario.texto}}</p>
                 <div class="divide10"></div>
                 <!-- Suites -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">Elige una de nuestras suites</label>
+                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.suite_texto}}</label>
                   <div class="col-md-8">
                     <div class="checkbox">
                       <label for="checkboxes-suite-0">
                         <input type="checkbox" name="checkboxes" id="checkboxes-suite-0" value="1">
-                        Suite Belea (120€)
+                        {{ i18n.formulario.suite_opcion_1}}
                       </label>
                     </div>
                     <div class="checkbox">
                       <label for="checkboxes-suite-1">
                         <input type="checkbox" name="checkboxes" id="checkboxes-suite-1" value="1">
-                        Suite Beigorri (110€)
+                        {{ i18n.formulario.suite_opcion_2}}
                       </label>
                     </div>
                       <div class="checkbox">
                       <label for="checkboxes-suite-2">
                         <input type="checkbox" name="checkboxes" id="checkboxes-suite-2" value="1">
-                        Suite Okolin (130€)
+                        {{ i18n.formulario.suite_opcion_3}}
                       </label>
                     </div>
                       <div class="checkbox">
                      <label for="checkboxes-suite-3">
                         <input type="checkbox" name="checkboxes" id="checkboxes-suite-3" value="1">
-                        Suite Bedats (130€)
+                        {{ i18n.formulario.suite_opcion_4}}
                       </label>
                     </div>
                   </div>
                 </div>
                 <!-- Noches suite-->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="textinput">¿Cuantas noches quieres regalar?</label> 
+                  <label class="col-md-4 control-label" for="textinput">{{ i18n.formulario.noches_texto}}</label> 
                   <div class="col-md-8">
                   <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                   </div>
                 </div>
                 <!-- Extras -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">¿Quieres algun extra?</label>
+                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.extras_texto}}</label>
                   <div class="col-md-8">
                   <div class="checkbox">
                     <label for="checkboxes-extras-0">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-0" value="1">
-                      Cena romántica en casa Amati (25 € / persona)
+                      {{ i18n.formulario.extras_opcion_1}}
                     </label>
                   </div>
                   <div class="checkbox">
                     <label for="checkboxes-extras-1">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-1" value="2">
-                      Cena informal en la suite (15€ / persona)
+                      {{ i18n.formulario.extras_opcion_2}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-2">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-2" value="2">
-                      Botella de cava en la suite (15€)
+                      {{ i18n.formulario.extras_opcion_3}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-3">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
-                     Ramo de flores (25€)
+                     {{ i18n.formulario.extras_opcion_4}}
                     </label>
                   </div>
                     <div class="checkbox">
                     <label for="checkboxes-extras-4">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-4" value="2">
-                      ¿Algun detalle original?
+                      {{ i18n.formulario.extras_opcion_5}}
                     </label>
-                    <textarea class="form-control mt10" id="textarea" name="textarea" placeholder="Cuéntanos"></textarea>
+                    <textarea class="form-control mt10" id="textarea" name="textarea" placeholder="{{ i18n.formulario.extras_cuentanos}}"></textarea>
                   </div>
                   <div class="checkbox">
                     <label for="checkboxes-1">
                       <input type="checkbox" name="checkboxes" id="checkboxes-extras-3" value="2">
-                      No quiero extras, gracias)
+                     {{ i18n.formulario.extras_cuentanos_opcion}}
                     </label>
                   </div>
                   </div>
@@ -459,23 +459,29 @@
 
                 <!-- Recibir tarjeta regalo -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">¿Como quieres recibir tu tarjeta regalo?</label>
+                  <label class="col-md-4 control-label" for="checkboxes">
+                    {{ i18n.formulario.recibir_regalo_texto}}
+                  </label>
                   <div class="col-md-8">
                   <div class="checkbox">
                     <label for="checkboxes-0">
                       <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
-                      Enviar un pdf por e-mail
+                      {{ i18n.formulario.recibir_regalo_opcion_1}}
                     </label>
                       <!-- Text input-->
                       <div class="form-group mt10">
-                        <label class="col-md-4 control-label" for="textinput">Mi nombre</label>  
+                        <label class="col-md-4 control-label" for="textinput">
+                          {{ i18n.formulario.recibir_regalo_opcion_1_nombre}}
+                        </label>  
                         <div class="col-md-8">
                         <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
                       <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">Mi e-mail</label>  
+                        <label class="col-md-4 control-label" for="textinput">
+                          {{ i18n.formulario.recibir_regalo_opcion_1_mail}}
+                        </label>  
                         <div class="col-md-8">
                         <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
@@ -484,25 +490,31 @@
                   <div class="checkbox">
                     <label for="checkboxes-1">
                       <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
-                     Enviadme una tarjeta de regalo impresa
-                    </label>
+                        {{ i18n.formulario.recibir_regalo_opcion_2_texto}}
+                      </label>
                       <!-- Text input-->
                       <div class="form-group mt10">
-                        <label class="col-md-4 control-label" for="textinput">Mi nombre</label>  
+                        <label class="col-md-4 control-label" for="textinput">
+                          {{ i18n.formulario.recibir_regalo_opcion_2_nombre}}
+                        </label>  
                         <div class="col-md-8">
                         <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
                       <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">Mi e-mail</label>  
+                        <label class="col-md-4 control-label" for="textinput">
+                          {{ i18n.formulario.recibir_regalo_opcion_2_mail}}
+                        </label>  
                         <div class="col-md-8">
                         <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
                       <!-- Text input-->
                       <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">Mi dirección postal</label>  
+                        <label class="col-md-4 control-label" for="textinput">
+                          {{ i18n.formulario.recibir_regalo_opcion_2_direccion}}
+                        </label>  
                         <div class="col-md-8">
                         <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
@@ -518,7 +530,9 @@
         <!-- Button -->
         <div class="form-group">
           <div class="col-md-push-8 col-md-3">
-            <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-regalo">Enviar solicitud</button>
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-regalo">
+              {{ i18n.formulario.enviar}}
+            </button>
           </div>
         </div>
         <div class="divide50"></div>

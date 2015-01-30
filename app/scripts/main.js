@@ -43,6 +43,7 @@ var send_at = now;
     sendTheMail();
   });
 
+
   if(!$.browser){
     $.browser={
       chrome:false,

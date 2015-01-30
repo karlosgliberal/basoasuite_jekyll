@@ -61,8 +61,38 @@ es:
     suiteamati_titulo: Casa amati
     suiteamati_texto: | 
        Al llegar a Basoa Suites te recibiremos en el edificio de servicios Casa Amati. Se encuentra próximo a las suites y dispone de duchas, sala de estar y comedor. Es aquí donde te daremos las indicaciones para llegar a tu Suite. Previa reserva, además, podrás disfrutar de una cena especial. La historia la decides tú.
-
-
+  formulario:
+    titulo: Tarjeta regalo
+    texto: |
+       Regalar Basoa Suites es regalar una experiencia única. Ahora personalizaremos tu regalo. Seguro que aciertas. Vamos allá.
+    suite_texto: Elige una de nuestras Suites
+    suite_opcion_1: BELEA (120 €)
+    suite_opcion_2: BEIGORRI (110 €)
+    suite_opcion_3: OKOLIN (130 €)
+    suite_opcion_4: BEDATS (130 €)
+    noches_texto:  ¿Cuántas noches quieres regalar?
+    extras_texto:  ¿Quieres añadir algún extra?
+    extras_opcion_1: Cena romántica en casa amati (25 euros/persona)
+    extras_opcion_2: Cena informal en la suite (15 euros/persona)
+    extras_opcion_3: Botella de cava en la suite (25 euros)
+    extras_opcion_4: Ramo de flores (25 euros)
+    extras_opcion_5: ¿algún detalle original?
+    extras_cuentanos: Cuéntanos
+    extras_cuentanos_opcion: |
+        No quiero extras, gracias.
+    recibir_regalo_texto: ¿Cómo quieres recibir tu tarjeta regalo?
+    recibir_regalo_opcion_1: Enviadme un pdf por email. 
+    recibir_regalo_opcion_1_nombre: Mi nombre
+    recibir_regalo_opcion_1_mail: Mi email
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: Mi nombre
+    recibir_regalo_opcion_2_mail: Mi email
+    recibir_regalo_opcion_2_direccion: Mi dirección postal para el envío
+    enviar: Enviar solicitud
+    confirmacion_pdf: |
+       Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos el PDF imprimible con todos los detalles.
+    confirmacion_postal: |
+       Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos la tarjeta regalo al correo postal que nos has indicado.
 
 # EN
 
