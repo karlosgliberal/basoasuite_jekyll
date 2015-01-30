@@ -1,6 +1,7 @@
 //{{ i18n.menu.proponemos }}
 $(document).ready(function() {
 
+
   if(!$.browser){
     $.browser={
       chrome:false,
