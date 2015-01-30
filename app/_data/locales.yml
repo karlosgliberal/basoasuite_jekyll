@@ -66,17 +66,17 @@ es:
     texto: |
        Regalar Basoa Suites es regalar una experiencia única. Ahora personalizaremos tu regalo. Seguro que aciertas. Vamos allá.
     suite_texto: Elige una de nuestras Suites
-    suite_opcion_1: BELEA (120 €)
-    suite_opcion_2: BEIGORRI (110 €)
-    suite_opcion_3: OKOLIN (130 €)
-    suite_opcion_4: BEDATS (130 €)
+    suite_opcion_1: Belea (120 €)
+    suite_opcion_2: Beigorri (110 €)
+    suite_opcion_3: Okolin (130 €)
+    suite_opcion_4: Bedats (130 €)
     noches_texto:  ¿Cuántas noches quieres regalar?
     extras_texto:  ¿Quieres añadir algún extra?
     extras_opcion_1: Cena romántica en casa amati (25 euros/persona)
     extras_opcion_2: Cena informal en la suite (15 euros/persona)
     extras_opcion_3: Botella de cava en la suite (25 euros)
     extras_opcion_4: Ramo de flores (25 euros)
-    extras_opcion_5: ¿algún detalle original?
+    extras_opcion_5: ¿Algún detalle original?
     extras_cuentanos: Cuéntanos
     extras_cuentanos_opcion: |
         No quiero extras, gracias.
@@ -87,7 +87,7 @@ es:
     recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
     recibir_regalo_opcion_2_nombre: Mi nombre
     recibir_regalo_opcion_2_mail: Mi email
-    recibir_regalo_opcion_2_direccion: Mi dirección postal para el envío
+    recibir_regalo_opcion_2_direccion: Mi dirección postal
     enviar: Enviar solicitud
     confirmacion_pdf: |
        Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos el PDF imprimible con todos los detalles.
@@ -160,7 +160,37 @@ en:
     suiteamati_titulo: amati house
     suiteamati_texto: |
        Reaching Basoa Suites we will receive you in the Amati House services building. It is located next to the suites and has showers, living room and dining room. Here you will get directions to your suite and you can also enjoy a special dinner. The story is up to you.
-
+  formulario:
+    titulo: Gift card
+    texto: |
+        To give basoa suites is giving a unique experience. Now we personalize your gift. Here we go. Choose one of our suites:
+    suite_opcion_1: Belea (120 €)
+    suite_opcion_2: Beigorri (110 €)
+    suite_opcion_3: Okolin (130 €)
+    suite_opcion_4: Bedats (130 €)
+    noches_texto:  How many nights do you want to buy?
+    extras_texto:  Do you want to add some extra?
+    extras_opcion_1: Romantic dinner in amati house (25 euros/person)
+    extras_opcion_2: Informal dinner in the suite (15 euros/person)
+    extras_opcion_3: Champagne bottle in the suites (15 euros)
+    extras_opcion_4: Bouquet of flowers (25 euros)
+    extras_opcion_5: Any original idea?
+    extras_cuentanos: tell us
+    extras_cuentanos_opcion: |
+        I don't want any extra, thanks.
+    recibir_regalo_texto: How do you want to receive your gift card?
+    recibir_regalo_opcion_1: Send me an e-mail pdf. 
+    recibir_regalo_opcion_1_nombre: My name
+    recibir_regalo_opcion_1_mail: My email
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: My name
+    recibir_regalo_opcion_2_mail: Mi email
+    recibir_regalo_opcion_2_direccion: My postal address
+    enviar: send
+    confirmacion_pdf: |
+       Very well!<br> We have received your request. You will shortly receive instructions via email to arrange payment of your gift card. Once this is done we will send the printable pdf with full details.    
+    confirmacion_postal: |
+       Very well! <br> We have received your request.you will shortly receive instructions via email to arrange payment of your gift card. Once this is done we will send the gift card to the indicated address.
 
 # CAT
 
@@ -229,6 +259,37 @@ cat:
     suiteamati_titulo: Can amati
     suiteamati_texto: | 
        En arribar a Basoa Suites et rebrem a l’edifici de serveis Casa Amati. Es troba pròxim a les suites i disposa de dutxes, sala d'estar i menjador. És aquí on et donarem les indicacions per arribar a la teva Suite. Prèvia reserva, a més, podràs gaudir d'un sopar especial. La història la decideixes tu.
+  formulario:
+    titulo: Targeta regal
+    texto: |
+       Regalar basoa suites és regalar una experiència única. Ara personalitzarem el teu regal. Segur que encertes. som-hi!
+    suite_opcion_1: Belea (120 €)
+    suite_opcion_2: Beigorri (110 €)
+    suite_opcion_3: Okolin (130 €)
+    suite_opcion_4: Bedats (130 €)
+    noches_texto:  Quantes nits vols regalar? 
+    extras_texto:  Vols afegir algun extra?
+    extras_opcion_1: Sopar romàntic a casa amati (25 euros / persona)
+    extras_opcion_2: Sopar informal a la suite (15 euros / persona)
+    extras_opcion_3: Ampolla de cava a la suite (15 euros)
+    extras_opcion_4: Ram de flors (25 euros)
+    extras_opcion_5: ¿Algun detall original?
+    extras_cuentanos: explica'ns
+    extras_cuentanos_opcion: |
+        No vull extres, gràcies.
+    recibir_regalo_texto: Com vols rebre la teva targeta regal?
+    recibir_regalo_opcion_1: Send me an e-mail pdf. 
+    recibir_regalo_opcion_1_nombre: El meu nom
+    recibir_regalo_opcion_1_mail: El meu email
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: El meu nom
+    recibir_regalo_opcion_2_mail: El meu email
+    recibir_regalo_opcion_2_direccion: La meva adreça postal
+    enviar: Enviar
+    confirmacion_pdf: |
+       Molt bé!<br> hem rebut la teva petició. en breu rebràs al teu correu les instruccions per formalitzar el pagament de la teva targeta regal. A continuació t'enviarem el pdf imprimible amb tots els detalls.    
+    confirmacion_postal: |
+       Molt bé!<br>hem rebut la teva petició. En breu rebràs al teu correu les instruccions per formalitzar el pagament de la teva targeta regal. A continuació t'enviarem la targeta regal al correu postal que ens has indicat.
 
 
 # EU
@@ -296,6 +357,37 @@ eu:
     suiteamati_titulo: amati suite-a
     suiteamati_texto: | 
        Basoa Suites-era heltzean, Amati Etxearen zerbitzu-eraikidean egingo dizugu harrera. Suites-etatik gertu dago eta dutxak, egongela eta jangela ditu. Bertan emango dizkizugu zure suite-era heltzeko argibideak. Aldez aurretik erreserbatuz gero, afari bereziaz ere gozatu ahal izango duzu. Istorioa zuk aukeratzen duzu.
+  formulario:
+    titulo: Opari txartela 
+    texto: |
+       Basoa suites oparitzea esperientzia berezi bat oparitzea da. Orain, zure oparia pertsonalizatuko dugu. Seguru asmatuko duzula. Aurrera.     
+    suite_opcion_1: Belea (120 €)
+    suite_opcion_2: Beigorri (110 €)
+    suite_opcion_3: Okolin (130 €)
+    suite_opcion_4: Bedats (130 €)
+    noches_texto:  Zenbat gau oparitu nahi dituzu? 
+    extras_texto:  Zerbait berezia erantsi nahi duzu?
+    extras_opcion_1: Afari erromantikoa amati etxean (25 euro/persona)
+    extras_opcion_2: Afari informala suite-ean (15 euro/persona) 
+    extras_opcion_3: Cava-boteila suite-ean (25 euro) 
+    extras_opcion_4: Lore sorta (25 euros) 
+    extras_opcion_5: Beste detaile originalen bat? 
+    extras_cuentanos: esaiguzu
+    extras_cuentanos_opcion: |
+       Ez dut gehigarririk nahi, eskerrik asko
+    recibir_regalo_texto: Nola jaso nahi duzu zure opari-txartela?
+    recibir_regalo_opcion_1: Bidal iezadazue pdf bat emailez 
+    recibir_regalo_opcion_1_nombre: Nire izena
+    recibir_regalo_opcion_1_mail: Nire helbide elektronikoa
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: Nire izena
+    recibir_regalo_opcion_2_mail: Nire helbide elektronikoa
+    recibir_regalo_opcion_2_direccion: Nire helbidea
+    enviar: bidali
+    confirmacion_pdf: |
+       Oso ongi! <br> zure eskaera jaso dugu. Laster jasoko duzu mezu elektroniko bat zure opari-txartelaren ordainketa burutzeko jarraibideekin. Ordainketa eginda, inprimatzeko pdfa bidaliko dizugu xehetasun guztiekin.    
+    confirmacion_postal: |
+       Oso ongi! <br> zure eskaera jaso dugu. Laster jasoko duzu mezu elektroniko bat zure opari-txartelaren ordainketa burutzeko jarraibideekin. ordainketa eginda, helarazi diguzun helbidera bidaliko dugu opari-txartela.
 
 
 
@@ -364,10 +456,38 @@ fr:
     suiteamati_titulo: Casa amati
     suiteamati_texto: | 
        En arrivant à Basoa Suites nous vous recevrons dans l’édifice des services Casa Amati. Elle se trouve près des suites et dispose des douches une salle de détente et salle à manger. C’est ici que nous vous donnerons les indications pour arriver à votre Suite. En réservant à l’avance vous pourrez aussi profiter d’un dîner spécial. C’est vous qui choisissez l’histoire.
-
-
-
-
+  formulario:
+    titulo: Carte cadeau  
+    texto: |
+       Offrir basoa suites est offrir une expérience unique. Maintenant, nous personnaliserons votre cadeau. Vous ferez certainement le bon choix allez-y.
+    suite_texto: Choisissez une de nos suites
+    suite_opcion_1: Belea (120 €)
+    suite_opcion_2: Beigorri (110 €)
+    suite_opcion_3: Okolin (130 €)
+    suite_opcion_4: Bedats (130 €)
+    noches_texto:  Combien de nuitées voulez-vous offrir?
+    extras_texto:  Voulez-vous ajouter un extra?
+    extras_opcion_1: Dîner romantique dans la maison amati (25 euros/personne). 
+    extras_opcion_2: Dîner informel dans la suite (15 euros/personne) 
+    extras_opcion_3: Bouteille de cava dans la suite (25 euros) 
+    extras_opcion_4: Bouquet de fleurs (25 euros) 
+    extras_opcion_5: Un detail original?
+    extras_cuentanos: Acontez-nous
+    extras_cuentanos_opcion: |
+       Non je ne souhaite pas d’extras, merci
+    recibir_regalo_texto: Comment voulez-vous recevoir la carte cadeau? 
+    recibir_regalo_opcion_1: Envoyez-moi un pdf par mail.
+    recibir_regalo_opcion_1_nombre: Mon nom
+    recibir_regalo_opcion_1_mail: Mon email
+    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_nombre: Mon nom
+    recibir_regalo_opcion_2_mail: Mon email
+    recibir_regalo_opcion_2_direccion: Mon adresse
+    enviar: envoyer 
+    confirmacion_pdf: |
+        Très bien! <br> nous avons reçu votre commande. D’ici peu, vous recevrez sur votre mail les instructions pour réaliser le paiement de votre carte cadeau. Une fois le paiement effectué, nous vous enverrons un pdf imprimable avec tous les détails.    
+    confirmacion_postal: |
+        Très bien! <br> nous avons reçu votre commande. d’ici peu, vous recevrez sur votre mail les instructions pour réaliser le paiement de votre carte cadeau. Une fois le paiement effectué, nous vous enverrons la carte cadeau à l’adresse indiquée. 
 
 
 
