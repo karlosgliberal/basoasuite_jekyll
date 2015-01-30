@@ -182,7 +182,7 @@ en:
     recibir_regalo_opcion_1: Send me an e-mail pdf. 
     recibir_regalo_opcion_1_nombre: My name
     recibir_regalo_opcion_1_mail: My email
-    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_texto: Send printed gift card
     recibir_regalo_opcion_2_nombre: My name
     recibir_regalo_opcion_2_mail: Mi email
     recibir_regalo_opcion_2_direccion: My postal address
@@ -281,7 +281,7 @@ cat:
     recibir_regalo_opcion_1: Send me an e-mail pdf. 
     recibir_regalo_opcion_1_nombre: El meu nom
     recibir_regalo_opcion_1_mail: El meu email
-    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_texto: Envieu una targeta regal impresa
     recibir_regalo_opcion_2_nombre: El meu nom
     recibir_regalo_opcion_2_mail: El meu email
     recibir_regalo_opcion_2_direccion: La meva adreça postal
@@ -379,7 +379,7 @@ eu:
     recibir_regalo_opcion_1: Bidal iezadazue pdf bat emailez 
     recibir_regalo_opcion_1_nombre: Nire izena
     recibir_regalo_opcion_1_mail: Nire helbide elektronikoa
-    recibir_regalo_opcion_2_texto: Enviadme una tarjeta regalo impresa
+    recibir_regalo_opcion_2_texto: Bidal iezadazue opari-txartel inprimatua  
     recibir_regalo_opcion_2_nombre: Nire izena
     recibir_regalo_opcion_2_mail: Nire helbide elektronikoa
     recibir_regalo_opcion_2_direccion: Nire helbidea
