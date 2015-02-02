@@ -96,6 +96,8 @@ es:
     recibir_regalo_opcion_2_mail: Mi email
     recibir_regalo_opcion_2_direccion: Mi dirección postal
     enviar: Enviar solicitud
+    confirmacion: |
+       Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. 
     confirmacion_pdf: |
        Muy bien! Hemos recibido tu petición. En breve recibirás en tu correo las instrucciones para formalizar el pago de tu tarjeta regalo. Una vez hecho esto te enviaremos el PDF imprimible con todos los detalles.
     confirmacion_postal: |
@@ -201,6 +203,8 @@ en:
     recibir_regalo_opcion_2_mail: Mi email
     recibir_regalo_opcion_2_direccion: My postal address
     enviar: send
+    confirmacion: |
+       Very well!<br> We have received your request. You will shortly receive instructions via email to arrange payment of your gift card.     
     confirmacion_pdf: |
        Very well!<br> We have received your request. You will shortly receive instructions via email to arrange payment of your gift card. Once this is done we will send the printable pdf with full details.    
     confirmacion_postal: |
@@ -307,6 +311,8 @@ cat:
     recibir_regalo_opcion_2_mail: El meu email
     recibir_regalo_opcion_2_direccion: La meva adreça postal
     enviar: Enviar
+    confirmacion: |
+       Molt bé!<br> hem rebut la teva petició. en breu rebràs al teu correu les instruccions per formalitzar el pagament de la teva targeta regal. 
     confirmacion_pdf: |
        Molt bé!<br> hem rebut la teva petició. en breu rebràs al teu correu les instruccions per formalitzar el pagament de la teva targeta regal. A continuació t'enviarem el pdf imprimible amb tots els detalls.    
     confirmacion_postal: |
@@ -412,6 +418,8 @@ eu:
     recibir_regalo_opcion_2_mail: Nire helbide elektronikoa
     recibir_regalo_opcion_2_direccion: Nire helbidea
     enviar: bidali
+    confirmacion: |
+       Oso ongi! <br> zure eskaera jaso dugu. Laster jasoko duzu mezu elektroniko bat zure opari-txartelaren ordainketa burutzeko jarraibideekin.     
     confirmacion_pdf: |
        Oso ongi! <br> zure eskaera jaso dugu. Laster jasoko duzu mezu elektroniko bat zure opari-txartelaren ordainketa burutzeko jarraibideekin. Ordainketa eginda, inprimatzeko pdfa bidaliko dizugu xehetasun guztiekin.    
     confirmacion_postal: |
@@ -518,6 +526,8 @@ fr:
     recibir_regalo_opcion_2_mail: Mon email
     recibir_regalo_opcion_2_direccion: Mon adresse
     enviar: envoyer 
+    confirmacion: |
+        Très bien! <br> nous avons reçu votre commande. D’ici peu, vous recevrez sur votre mail les instructions pour réaliser le paiement de votre carte cadeau.    
     confirmacion_pdf: |
         Très bien! <br> nous avons reçu votre commande. D’ici peu, vous recevrez sur votre mail les instructions pour réaliser le paiement de votre carte cadeau. Une fois le paiement effectué, nous vous enverrons un pdf imprimable avec tous les détails.    
     confirmacion_postal: |

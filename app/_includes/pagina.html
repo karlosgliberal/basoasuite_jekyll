@@ -372,7 +372,7 @@
         <div class="col-md-push-1 col-md-10">
           <form class="form-horizontal">
             <fieldset>
-        
+                <input id="confirmacion" type="hidden" name="confirmacion" value="{{i18n.formulario.confirmacion}}">  
                 <h3>{{ i18n.formulario.titulo}}</h3>
                 <p>{{ i18n.formulario.texto}}</p>
                 <div class="divide10"></div>
@@ -491,8 +491,8 @@
                       </div>
                       <!-- Text input-->
                       
-                      <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">
+                      <div class="form-group" style="display:none" id="bloque-direccion">
+                        <label class="col-md-4 control-label" for="textinput" >
                           {{ i18n.formulario.recibir_regalo_opcion_2_direccion}}
                         </label>  
                         <div class="col-md-8">
