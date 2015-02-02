@@ -452,17 +452,25 @@
                 </div>
 
                 <!-- Recibir tarjeta regalo -->
+                <!-- Nuevos radio-buttons -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">
-                    {{ i18n.formulario.recibir_regalo_texto}}
-                  </label>
+                  <label class="col-md-4 control-label" for="radios">{{ i18n.formulario.recibir_regalo_texto}}</label>
                   <div class="col-md-8">
-                  <div class="checkbox">
-                    <label for="checkboxes-0">
-                      <input type="checkbox" name="checkboxes" id="enviarpdf" value="1">
-                      {{ i18n.formulario.recibir_regalo_opcion_1}}
+                  <div class="radio">
+                    <label for="radios-pdf">
+                      <input type="radio" name="radios" id="radios-pdf" value="1" checked="checked">
+                       {{ i18n.formulario.recibir_regalo_opcion_1}}
                     </label>
-                      <!-- Text input-->
+                  </div>
+                  <div class="radio">
+                    <label for="radios-1">
+                      <input type="radio" name="radios" id="radios-tarjeta" value="2">
+                       {{ i18n.formulario.recibir_regalo_opcion_2_texto}}
+                    </label>
+                  </div>
+                  </div>
+                </div>
+                  <!-- Text input-->
                       <div class="form-group mt10">
                         <label class="col-md-4 control-label" for="textinput">
                           {{ i18n.formulario.recibir_regalo_opcion_1_nombre}}
@@ -480,30 +488,6 @@
                         <input id="pdf-email" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
-                  </div>
-                  <div class="checkbox">
-                    <label for="checkboxes-1">
-                      <input type="checkbox" name="checkboxes" id="enviartarjeta" value="2">
-                        {{ i18n.formulario.recibir_regalo_opcion_2_texto}}
-                      </label>
-                      <!-- Text input-->
-                      <div class="form-group mt10">
-                        <label class="col-md-4 control-label" for="textinput">
-                          {{ i18n.formulario.recibir_regalo_opcion_2_nombre}}
-                        </label>  
-                        <div class="col-md-8">
-                        <input id="tarjeta-nombre" name="textinput" type="text" placeholder="" class="form-control input-md">
-                        </div>
-                      </div>
-                      <!-- Text input-->
-                      <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">
-                          {{ i18n.formulario.recibir_regalo_opcion_2_mail}}
-                        </label>  
-                        <div class="col-md-8">
-                        <input id="tarjeta-correo" name="textinput" type="text" placeholder="" class="form-control input-md">
-                        </div>
-                      </div>
                       <!-- Text input-->
                       <div class="form-group">
                         <label class="col-md-4 control-label" for="textinput">
@@ -513,9 +497,8 @@
                         <input id="tarjeta-direccion" name="textinput" type="text" placeholder="" class="form-control input-md">
                         </div>
                       </div>
-                  </div>
-                  </div>
-                </div>
+                <!-- Fin Nuevos radio-buttons -->
+
             </fieldset>
           </form>
       </div>
