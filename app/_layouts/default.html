@@ -99,46 +99,67 @@
         };  
 
 
+        var es_html ="<p>esta es la inforamción del formulario rellenado para regalar una suite</p>";
+        es_html += "<p> Estas son las suites selecionadas:  <p>";
+        $('#selec-suites :checked').each(function(e) {
+          es_html += "<p>"+ $(this).val() + "</p>";
+        });
+        es_html += "<p>¿Cuantas noches?</p>: " + $('#cuantasnoches').val() +"</p>";
+        es_html += "<p>Estos son los extras añadidos: </p>";
+        $('#extras :checked').each(function(e) {
+          es_html += "<p>"+ $(this).val() + "</p>";
+        });
 
+        if($('#checkboxes-extras-4').is(':checked')){
+          console.log('ffff');
+          es_html += "<p>Otros extras: "+ $("#otrosextras").val() + "</p>";
+        }
+        es_html += "<p>Datos de tipo de envio: </p>"; 
 
+        $('#enviarpdf').change(function(){
+          $('#enviartarjeta').attr('checked', false);
+          $('#tarjeta-nombre').val('');
+          $('#tarjeta-correo').val('');
+          $('#tarjeta-direccion').val('');
+        });
+
+        $('#pdf-nombre').focus(function(){
+          if(!$(this).val() ){
+          console.log('vacio');
+            es_html += "<p> Envio de PDF </p>";
+            es_html += "<p>Nombre pdf: "+ $('#pdf-nombre').val() +"</p>";
+          }
+        });
+        $('#pdf-email').focus(function(){
+          if(!$(this).val() ){
+            es_html += "<p>Correo prf: "+ $('#pdf-email').val() +"</p>";
+          }
+        });
+        
+        $('#enviartarjeta').change(function(){
+          $('#enviarpdf').attr('checked', false);
+          $('#pdf-nombre').val('');
+          $('#pdf-email').val('');
+        });
+
+        $('#pdf-nombre').focus(function(){
+          es_html += "<p> Envio de tarjeta postal </p>";
+          if(!$(this).val() ){
+            es_html += "<p>Nombre T: "+ $('#tarjeta-nombre').val() +"</p>";
+          }
+        });
+        $('#pdf-nombre').focus(function(){
+          if(!$(this).val() ){
+            es_html += "<p>Correo T: "+ $('#tarjeta-correo').val() +"</p>";
+          }
+        });
+        $('#pdf-nombre').focus(function(){
+          if(!$(this).val() ){
+            es_html += "<p>Dirección T: "+ $('#tarjetra-direccion').val() +"</p>";
+          }
+        });
 
         $('#singlebutton').click(function(){
-          var es_html ="<p>esta es la inforamción del formulario rellenado para regalar una suite</p>";
-              es_html += "<p> Estas son las suites selecionadas:  <p>";
-              $('#selec-suites :checked').each(function(e) {
-                es_html += "<p>"+ $(this).val() + "</p>";
-              });
-              es_html += "<p>¿Cuantas noches?</p>: " + $('#cuantasnoches').val() +"</p>";
-              es_html += "<p>Estos son los extras añadidos: </p>";
-              $('#extras :checked').each(function(e) {
-                es_html += "<p>"+ $(this).val() + "</p>";
-              });
-              console.log();
-              if($('#checkboxes-extras-4').is(':checked')){
-                console.log('ffff');
-                es_html += "<p>Otros extras: "+ $("#otrosextras").val() + "</p>";
-              }
-              $('#enviarpdf').change(function(){
-                console.log('enviar');
-                $('#enviartarjeta').attr('checked', false);
-                $('#tarjetra-nombre').val('');
-                $('#tarjetra-correo').val('');
-                $('#tarjetra-direccion').val('');
-                es_html += "<p>Datos envio pdf: </p>"; 
-                es_html += "<p>Nombre: "+ $('#pdf-nombre').val();
-                es_html += "<p>Correo: "+ $('#pdf-correo').val();
-              })
-              
-              $('#enviartarjeta').change(function(){
-                console.log('tarjeta');
-                $('#enviarpdf').attr('checked', false);
-                $('#pdf-nombre').val('');
-                $('#pdf-correo').val('');
-                es_html += "<p>Datos envio postal carta regalo: </p>"; 
-                es_html += "<p>Nombre: "+ $('#tarjeta-nombre').val();
-                es_html += "<p>Correo: "+ $('#tarjeta-correo').val();
-                es_html += "<p>Dirección: "+ $('#tarjetra-direccion').val();
-              });
 
         console.log(es_html);
 
