@@ -1103,4 +1103,20 @@ input#mce-EMAIL
 	border-color: fade(@brown, 90%);
 }
 
+.mandatory:after {
+	content: "*";
+	font-size: 20px;
+	color: @orange;
+	position: relative;
+	top: -20px;
+	left: 18px;
+}
 
+.mandatory-single:after {
+	content: "*";
+	font-size: 20px;
+	color: @orange;
+	position: relative;
+	top: -4px;
+	left: 18px;
+}
