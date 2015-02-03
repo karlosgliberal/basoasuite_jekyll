@@ -380,7 +380,7 @@
                 <div class="divide10"></div>
                 <!-- Suites -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.suite_texto }}</label>
+                  <label class="col-md-4 control-label mandatory" for="checkboxes">{{ i18n.formulario.suite_texto }}</label>
                   <div class="col-md-8" id="selec-suites">
                     <div class="checkbox" >
                       <label for="checkboxes-suite-0">
@@ -410,7 +410,7 @@
                 </div>
                 <!-- Noches suite-->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="textinput">{{ i18n.formulario.noches_texto}}</label> 
+                  <label class="col-md-4 control-label mandatory" for="textinput">{{ i18n.formulario.noches_texto}}</label> 
                   <div class="col-md-8">
                   <input id="cuantasnoches" name="textinput" type="text" placeholder="" class="form-control input-md" data-error="Required" value="" required >
                   <div class="help-block with-errors"></div>
@@ -418,7 +418,7 @@
                 </div>
                 <!-- Extras -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="checkboxes">{{ i18n.formulario.extras_texto}}</label>
+                  <label class="col-md-4 control-label mandatory" for="checkboxes">{{ i18n.formulario.extras_texto}}</label>
                   <div class="col-md-8" id="extras">
                   <div class="checkbox">
                     <label for="checkboxes-extras-0">
@@ -458,7 +458,7 @@
 
                 <!-- Nuevos radio-buttons -->
                 <div class="form-group">
-                  <label class="col-md-4 control-label" for="radios">{{ i18n.formulario.recibir_regalo_texto}}</label>
+                  <label class="col-md-4 control-label mandatory" for="radios">{{ i18n.formulario.recibir_regalo_texto}}</label>
                   <div class="col-md-8">
                   <div class="radio">
                     <label for="radios-pdf">
@@ -476,7 +476,7 @@
                 </div>
                   <!-- Text input-->
                       <div class="form-group mt10">
-                        <label class="col-md-4 control-label" for="textinput">
+                        <label class="col-md-4 control-label mandatory-single" for="textinput">
                           {{ i18n.formulario.recibir_regalo_opcion_1_nombre}}
                         </label>  
                         <div class="col-md-8">
@@ -486,7 +486,7 @@
                       </div>
                       <!-- Text input-->
                       <div class="form-group">
-                        <label class="col-md-4 control-label" for="textinput">
+                        <label class="col-md-4 control-label mandatory-single" for="textinput">
                           {{ i18n.formulario.recibir_regalo_opcion_1_mail}}
                         </label>  
                         <div class="col-md-8">
@@ -497,7 +497,7 @@
                       <!-- Text input-->
                       
                       <div class="form-group" style="display:none" id="bloque-direccion">
-                        <label class="col-md-4 control-label" for="textinput" >
+                        <label class="col-md-4 control-label mandatory-single" for="textinput" >
                           {{ i18n.formulario.recibir_regalo_opcion_2_direccion}}
                         </label>  
                         <div class="col-md-8">

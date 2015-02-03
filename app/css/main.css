@@ -7054,3 +7054,19 @@ input#mce-EMAIL {
   background-color: rgba(106, 91, 77, 0.9);
   border-color: rgba(106, 91, 77, 0.9);
 }
+.mandatory:after {
+  content: "*";
+  font-size: 20px;
+  color: #ef625b;
+  position: relative;
+  top: -20px;
+  left: 18px;
+}
+.mandatory-single:after {
+  content: "*";
+  font-size: 20px;
+  color: #ef625b;
+  position: relative;
+  top: -4px;
+  left: 18px;
+}
