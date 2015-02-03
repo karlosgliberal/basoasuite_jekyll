@@ -53,7 +53,6 @@
 
       </script>
 
-       <!-- build:js scripts/bower/main.js -->
         <script src="/bower_components/jQuery/jquery.js"></script>
         <script src="/bower_components/jquery.easing/js/jquery.easing.js"></script>
         <script src="/bower_components/page/index.js"></script>
@@ -66,9 +65,7 @@
         <script src="/scripts/froogaloop.js"></script>
         <script src="/scripts/casa_volante.js"></script>
         <script src="/scripts/main.js"></script>
-        <!-- endbuild -->
 
-        <!-- build:js scripts/vendor/bootstrap.js -->
         <script src="/bower_components/bootstrap/js/affix.js"></script>
         <script src="/bower_components/bootstrap/js/alert.js"></script>
         <script src="/bower_components/bootstrap/js/dropdown.js"></script>
@@ -81,118 +78,9 @@
         <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
         <script src="/bower_components/bootstrap/js/collapse.js"></script>
         <script src="/bower_components/bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
 
        <!-- build:js scripts/main.js -->
        <!-- endbuild -->
-              <script>
-      $(document).ready(function() {
-
-        mandrill_client = new mandrill.Mandrill('jKVpYZGaJISrpyC23Uj4RQ');
-        $( "#singlebutton" ).prop( "disabled", true );
-
-        var allVals = [];
-        function updateTextArea() {         
-            console.log('select');
-          $('#selec-suites :checked').each(function(e) {
-            allVals.push($(this).val());
-            console.log(allVals);
-          });
-        };  
-    
-        var tipo_regalo;
-        $('#radios-tarjeta').click(function(){
-          $('#bloque-direccion').show();
-        });
-
-        $('#radios-pdf').click(function(){
-          $('#bloque-direccion').hide();
-          $('#tarjeta-direccion').val('')
-        });
-
-        $('#pdf-email').focus(function(){
-          $('#formulario-regalo').validator('validate');
-          $( "#singlebutton" ).prop( "disabled", false );
-        });
-
-
-        $('#singlebutton').click(function(){
-          var es_html ="<p>Esta es la inforamción del formulario rellenado para regalar una suite</p>";
-          es_html += "<p> Estas son las suites selecionadas:  <p>";
-          $('#selec-suites :checked').each(function(e) {
-            es_html += "<p>"+ $(this).val() + "</p>";
-          });
-          es_html += "<p>¿Cuantas noches?</p>: " + $('#cuantasnoches').val() +"</p>";
-          es_html += "<p>Estos son los extras añadidos: </p>";
-          $('#extras :checked').each(function(e) {
-            es_html += "<p>"+ $(this).val() + "</p>";
-          });
-
-          if($('#checkboxes-extras-4').is(':checked')){
-            es_html += "<p>Otros extras: "+ $("#otrosextras").val() + "</p>";
-          }
-
-          if($('#radios-pdf').is(':checked')){
-            tipo_regalo = '<p> El tipo de regalo es una <strong>tarjeta</strong> </p>'
-          }else{
-            tipo_regalo = '<p> El tipo de regalo es un <strong>pdf</strong> </p>'
-          }
-          es_html += tipo_regalo;
-          es_html += "<p>Nombre : "+ $('#pdf-nombre').val() +"</p>";
-          es_html += "<p>Correo : "+ $('#pdf-email').val() +"</p>";
-          es_html += "<p>Dirección : "+ $('#tarjeta-direccion').val() +"</p>";
-
-          console.log(es_html);
-
-
-          // $("#formulario-regalo").hide();
-          // $('#enviar-regalo').hide();
-          // $("#alerta-regalo").show();
-
-          var message = {
-              "html": es_html,
-              "subject": "Petición de regalo de suite",
-              "from_email": "info@basoasuites.com",
-              "from_name": "basoasuites.com",
-              "to": [{
-                      "email": $('#pdf-email').val(),
-                      "name": "Recipient Name",
-                      "type": "to"
-                  }],
-              "headers": {
-                  "Reply-To": "info@basoasuites.com"
-              }
-          };
-          // mandrill_client.messages.send({"message": message}, function(result) {
-          //     console.log(result);
-          // }, function(e) {
-          //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-          // });
-
-          var message = {
-              "html": $('#confirmacion').val(),
-              "subject": "Basoasuites.com",
-              "from_email": "info@basoasuites.com",
-              "from_name": "basoasuites.com",
-              "to": [{
-                      "email": $('#pdf-email').val(),
-                      "name": "Recipient Name",
-                      "type": "to"
-                  }],
-              "headers": {
-                  "Reply-To": "info@basoasuites.com"
-              }
-          };
-          // mandrill_client.messages.send({"message": message}, function(result) {
-          //     console.log(result);
-          // }, function(e) {
-          //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-          // });
-        });
-
-      });
-      </script>
-
      
 </body>
 </html>

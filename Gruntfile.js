@@ -178,26 +178,6 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/css/**/*.css']
     },
-    htmlmin: {
-      dist: {
-        options: {
-          collapseWhitespace: true,
-          collapseBooleanAttributes: true,
-          removeAttributeQuotes: true,
-          removeRedundantAttributes: true
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>',
-          src: '**/*.html',
-          dest: '<%= yeoman.dist %>'
-        }]
-      }
-    },
-    // Usemin adds files to concat
-    concat: {},
-    // Usemin adds files to uglify
-    uglify: {},
     // Usemin adds files to cssmin
     cssmin: {
       dist: {
@@ -239,9 +219,11 @@ module.exports = function (grunt) {
             // Jekyll processes and moves HTML and text files.
             // Usemin moves CSS and javascript inside of Usemin blocks.
             // Copy moves asset files and directories.
-            'img/**/*',
+            'images/**/*',
             'fonts/**/*',
             'scripts/**/*',
+            'css/**/*',
+            'bower_components/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}'
             // Explicitly add any files your site needs for distribution here.
@@ -364,15 +346,11 @@ module.exports = function (grunt) {
     'jekyll:dist',
     'concurrent:dist',
     'useminPrepare',
-    'concat',
     'autoprefixer:dist',
     'cssmin',
-    'uglify',
     'imagemin',
     'svgmin',
-    'filerev',
     'usemin',
-    'htmlmin'
     ]);
 
   grunt.registerTask('deploy', [
