@@ -370,9 +370,9 @@
       </div>
       <div class="modal-body">
         <!-- Confirmacion -->
-        <div class="alert alert-success" role="alert">{{ i18n.formulario.confirmacion}}</div>
+        <div id="alerta-regalo" class="alert alert-success" style="display:none" role="alert">{{ i18n.formulario.confirmacion}}</div>
         <div class="col-md-push-1 col-md-10">
-          <form class="form-horizontal">
+          <form class="form-horizontal" id="formulario-regalo">
             <fieldset>
                 <input id="confirmacion" type="hidden" name="confirmacion" value="{{i18n.formulario.confirmacion}}">  
                 <h3>{{ i18n.formulario.titulo}}</h3>
@@ -507,7 +507,7 @@
           </form>
       </div>
     </div><!-- fin de col -->
-      <div class="modal-footer">
+      <div class="modal-footer" id="enviar-regalo">
         <!-- Button -->
         <div class="form-group">
           <div class="col-md-push-8 col-md-3">
