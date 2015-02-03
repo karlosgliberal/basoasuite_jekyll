@@ -136,6 +136,10 @@
 
           console.log(es_html);
 
+          $("#formulario-regalo").hide();
+          $('#enviar-regalo').hide();
+          $("#alerta-regalo").show();
+
           var message = {
               "html": es_html,
               "subject": "Petición de regalo de suite",
@@ -147,18 +151,18 @@
                       "type": "to"
                   }],
               "headers": {
-                  "Reply-To": "karlosgliberal@gmail.com"
+                  "Reply-To": "info@basoasuites.com"
               }
           };
-          mandrill_client.messages.send({"message": message}, function(result) {
-              console.log(result);
-          }, function(e) {
-              console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-          });
+          // mandrill_client.messages.send({"message": message}, function(result) {
+          //     console.log(result);
+          // }, function(e) {
+          //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+          // });
 
           var message = {
               "html": $('#confirmacion').val(),
-              "subject": $('#confirmacion').val(),
+              "subject": "Basoasuites.com",
               "from_email": "info@basoasuites.com",
               "from_name": "basoasuites.com",
               "to": [{
@@ -167,14 +171,14 @@
                       "type": "to"
                   }],
               "headers": {
-                  "Reply-To": "karlosgliberal@gmail.com"
+                  "Reply-To": "info@basoasuites.com"
               }
           };
-          mandrill_client.messages.send({"message": message}, function(result) {
-              console.log(result);
-          }, function(e) {
-              console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-          });
+          // mandrill_client.messages.send({"message": message}, function(result) {
+          //     console.log(result);
+          // }, function(e) {
+          //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+          // });
         });
 
       });
