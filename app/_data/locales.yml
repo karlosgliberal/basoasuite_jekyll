@@ -180,6 +180,7 @@ en:
     titulo: Gift card
     texto: |
         To give basoa suites is giving a unique experience. Now we personalize your gift. Here we go. Choose one of our suites:
+    suite_texto: Choose one of our Suites
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -288,6 +289,7 @@ cat:
     titulo: Targeta regal
     texto: |
        Regalar basoa suites és regalar una experiència única. Ara personalitzarem el teu regal. Segur que encertes. som-hi!
+    suite_texto: Tria una de les nostres Suites
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -395,6 +397,7 @@ eu:
     titulo: Opari txartela 
     texto: |
        Basoa suites oparitzea esperientzia berezi bat oparitzea da. Orain, zure oparia pertsonalizatuko dugu. Seguru asmatuko duzula. Aurrera.     
+    suite_texto: Aukeratu gure suite-etako bat
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -483,6 +486,7 @@ fr:
     suites_iconos_amati: amati-iconos-fr.png
     suites_iconos_bedats: bedats-iconos-fr.png
     suites_reservar: Disponibilité et réservation
+    suites_volver: Reviens
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.
