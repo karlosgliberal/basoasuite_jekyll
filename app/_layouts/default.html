@@ -60,6 +60,7 @@
         <script src="/bower_components/fullpage.js/jquery.fullPage.js"></script>
         <script src="/bower_components/jquery.transit/jquery.transit.js"></script>
         <script src="/bower_components/matter-js/build/matter.js"></script>
+        <script src="/bower_components/bootstrap-validator/dist/validator.min.js"></script>
         <script src="/scripts/json2.js"></script>
         <script src="/scripts/mandrill.min.js"></script>
         <script src="/scripts/froogaloop.js"></script>
@@ -88,6 +89,7 @@
       $(document).ready(function() {
 
         mandrill_client = new mandrill.Mandrill('jKVpYZGaJISrpyC23Uj4RQ');
+        $( "#singlebutton" ).prop( "disabled", true );
 
         var allVals = [];
         function updateTextArea() {         
@@ -107,6 +109,12 @@
           $('#bloque-direccion').hide();
           $('#tarjeta-direccion').val('')
         });
+
+        $('#pdf-email').focus(function(){
+          $('#formulario-regalo').validator('validate');
+          $( "#singlebutton" ).prop( "disabled", false );
+        });
+
 
         $('#singlebutton').click(function(){
           var es_html ="<p>Esta es la inforamción del formulario rellenado para regalar una suite</p>";
@@ -136,9 +144,10 @@
 
           console.log(es_html);
 
-          $("#formulario-regalo").hide();
-          $('#enviar-regalo').hide();
-          $("#alerta-regalo").show();
+
+          // $("#formulario-regalo").hide();
+          // $('#enviar-regalo').hide();
+          // $("#alerta-regalo").show();
 
           var message = {
               "html": es_html,
