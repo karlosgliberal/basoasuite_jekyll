@@ -171,8 +171,8 @@ $(document).ready(function() {
 
 
   $('#singlebutton').click(function(){
-    var es_html ="<p>Esta es la inforamción del formulario rellenado para regalar una suite</p>";
-    es_html += "<p> Estas son las suites selecionadas:  <p>";
+    var es_html ="<p>Esta es la información del formulario rellenado para regalar una suite</p>";
+    es_html += "<p> Estas son las suites seleccionadas:  <p>";
     $('#selec-suites :checked').each(function(e) {
       es_html += "<p>"+ $(this).val() + "</p>";
     });
@@ -199,9 +199,9 @@ $(document).ready(function() {
     console.log(es_html);
 
 
-    // $("#formulario-regalo").hide();
-    // $('#enviar-regalo').hide();
-    // $("#alerta-regalo").show();
+    $("#formulario-regalo").hide();
+    $('#enviar-regalo').hide();
+    $("#alerta-regalo").show();
 
     var message = {
         "html": es_html,
@@ -209,7 +209,7 @@ $(document).ready(function() {
         "from_email": "info@basoasuites.com",
         "from_name": "basoasuites.com",
         "to": [{
-                "email": $('#pdf-email').val(),
+                "email": "jero@funtsak.net",
                 "name": "Recipient Name",
                 "type": "to"
             }],
@@ -217,11 +217,11 @@ $(document).ready(function() {
             "Reply-To": "info@basoasuites.com"
         }
     };
-    // mandrill_client.messages.send({"message": message}, function(result) {
-    //     console.log(result);
-    // }, function(e) {
-    //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-    // });
+    mandrill_client.messages.send({"message": message}, function(result) {
+        console.log(result);
+    }, function(e) {
+        console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+    });
 
     var message = {
         "html": $('#confirmacion').val(),
@@ -232,16 +232,25 @@ $(document).ready(function() {
                 "email": $('#pdf-email').val(),
                 "name": "Recipient Name",
                 "type": "to"
-            }],
+            },{
+                "email": 'aitor.rl@gmail.com',
+                "name": "Recipient Name",
+                "type": "to"
+            },{
+                "email": 'karlosgliberal@gmail.com',
+                "name": "Recipient Name",
+                "type": "to"
+            }
+            ],
         "headers": {
             "Reply-To": "info@basoasuites.com"
         }
     };
-    // mandrill_client.messages.send({"message": message}, function(result) {
-    //     console.log(result);
-    // }, function(e) {
-    //     console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
-    // });
+    mandrill_client.messages.send({"message": message}, function(result) {
+        console.log(result);
+    }, function(e) {
+        console.log('A mandrill error occurred: ' + e.name + ' - ' + e.message);
+    });
   });
 
 });
