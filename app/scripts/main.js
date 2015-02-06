@@ -205,11 +205,11 @@ $(document).ready(function() {
 
     var message = {
         "html": es_html,
-        "subject": "Petición de regalo de suite",
+        "subject": "[Basoa suites] Petición de regalo de suite",
         "from_email": "info@basoasuites.com",
         "from_name": "basoasuites.com",
         "to": [{
-                "email": "jero@funtsak.net",
+                "email": "info@basoasuites.com",
                 "name": "Recipient Name",
                 "type": "to"
             }],
@@ -230,14 +230,6 @@ $(document).ready(function() {
         "from_name": "basoasuites.com",
         "to": [{
                 "email": $('#pdf-email').val(),
-                "name": "Recipient Name",
-                "type": "to"
-            },{
-                "email": 'aitor.rl@gmail.com',
-                "name": "Recipient Name",
-                "type": "to"
-            },{
-                "email": 'karlosgliberal@gmail.com',
                 "name": "Recipient Name",
                 "type": "to"
             }
