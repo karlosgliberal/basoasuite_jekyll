@@ -32,7 +32,7 @@ es:
     entorno_texto: |
         El Robledal de Amati es una pequeña joya ecológica y un entorno protegido de especial interés arbóreo y ornitológico. Se trata de un tipo de robledal de humedal de llanura que es exclusivo de algunas zonas concretas de Álava y Navarra.
     entorno_texto_dos: | 
-        Se encuentra en en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía
+        Se encuentra en Lizaso, en pleno corazón del Valle de Ultzama, un hermoso valle de clima suave situado a 30 minutos de Pamplona y 50 minutos de San Sebastián. Un valle de gran belleza que combina tradiciones ancestrales y una naturaleza caracterizada por verdes prados y frondosos bosques. Es, además, conocido por su alto valor micológico y ornitológico y la zona ofrece gran variedad de actividades al aire libre: paisajes, senderismo, paseos a caballo, gastronomía
     entorno_mapa: Ver mapa
     nosotros_titulo: Nosotros
     nosotros_texto: | 
@@ -180,6 +180,7 @@ en:
     titulo: Gift card
     texto: |
         To give basoa suites is giving a unique experience. Now we personalize your gift. Here we go. Choose one of our suites:
+    suite_texto: Choose one of our Suites
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -288,6 +289,7 @@ cat:
     titulo: Targeta regal
     texto: |
        Regalar basoa suites és regalar una experiència única. Ara personalitzarem el teu regal. Segur que encertes. som-hi!
+    suite_texto: Tria una de les nostres Suites
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -342,7 +344,7 @@ eu:
     boton_enviar: Bidali
   seccion:
     principal: Basoa duzu zain
-    principal_dos: storioa zeuk aukeratu
+    principal_dos: istorioa zeuk aukeratu
     principal_video: Bideoa ikusi
     proponemos_titulo: proposatzen dizugu
     proponemos_texto: |
@@ -395,6 +397,7 @@ eu:
     titulo: Opari txartela 
     texto: |
        Basoa suites oparitzea esperientzia berezi bat oparitzea da. Orain, zure oparia pertsonalizatuko dugu. Seguru asmatuko duzula. Aurrera.     
+    suite_texto: Aukeratu gure suite-etako bat
     suite_opcion_1: Belea (120 €)
     suite_opcion_2: Beigorri (110 €)
     suite_opcion_3: Okolin (130 €)
@@ -483,6 +486,7 @@ fr:
     suites_iconos_amati: amati-iconos-fr.png
     suites_iconos_bedats: bedats-iconos-fr.png
     suites_reservar: Disponibilité et réservation
+    suites_volver: Reviens
     suitebelea_titulo: Suite Belea
     suitebelea_texto: | 
        Belle suite pleine de détailles à l’intérieur. Très lumineuse, avec des fenêtres sur chacun des murs pour observer les majestueuses chênes qui entourent la chambre. Elle se distingue par son toit en forme de pagode. C’est celle qui a le plus grand intérieur et la seule où vous pourrez vous loger avec des enfants.
