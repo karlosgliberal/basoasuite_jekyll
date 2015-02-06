@@ -1,7 +1,7 @@
 lab.interzonas.info 
 ===================
 
-Web gestionada con jekellyrb + grunt para la gestión de los proyecto del laboratorio de interzonas
+Web gestionada con jekellyrb + grunt para la gestión de los proyecto del laboratorio de interzonas...
 
 NOTA
 -----
