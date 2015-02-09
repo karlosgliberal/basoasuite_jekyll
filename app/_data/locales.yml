@@ -111,7 +111,7 @@ en:
     proponemos: WE PROPOSE
     ofrecemos: WE OFFER
     entorno: SURROUNDINGS
-    nosotros: WE
+    nosotros: ABOUT US
     compromisos: COMMITMENTS
     suites: LOOK AT SUITES
     reservas: BOOKING
@@ -216,13 +216,13 @@ en:
 cat:
   menu:
     inicio: INICI
-    proponemos: WE PROPOSE
+    proponemos: ET PROPOSEM
     ofrecemos: T'OFERIM
     entorno: ENTORN
     nosotros: NOSALTRES
     compromisos: COMPROMISOS
     suites: VEURE SUITES
-    reservas: BOOKING
+    reservas: RESERVES
     actividades: ACTIVITATS
   lateral:
     texto: Cuna suite a dalt d'un arbre?
@@ -413,10 +413,10 @@ eu:
     extras_cuentanos_opcion: |
        Ez dut gehigarririk nahi, eskerrik asko
     recibir_regalo_texto: Nola jaso nahi duzu zure opari-txartela?
-    recibir_regalo_opcion_1: Bidal iezadazue pdf bat emailez 
+    recibir_regalo_opcion_1: Bidali iezadazue pdf bat emailez 
     recibir_regalo_opcion_1_nombre: Nire izena
     recibir_regalo_opcion_1_mail: Nire helbide elektronikoa
-    recibir_regalo_opcion_2_texto: Bidal iezadazue opari-txartel inprimatua  
+    recibir_regalo_opcion_2_texto: Bidali iezadazue opari-txartel inprimatua  
     recibir_regalo_opcion_2_nombre: Nire izena
     recibir_regalo_opcion_2_mail: Nire helbide elektronikoa
     recibir_regalo_opcion_2_direccion: Nire helbidea
@@ -436,7 +436,7 @@ eu:
 fr:
   menu:
     inicio: DEBUT
-    proponemos: VOUS PROPOSONS
+    proponemos: NOUS VOUS PROPOSONS
     ofrecemos: NOUS VOUS OFFRONS
     entorno: ENVIRONNEMENT
     nosotros: NOUS
